@@ -1,0 +1,506 @@
+{
+  "heroSha256": "b2f7978a5e6835ba20e85bf91456b50287b3f84bfd2cdf8a92ac92c23c1e20ac",
+  "results": [
+    {
+      "frameMode": "30Hz",
+      "name": "right",
+      "position": [
+        13,
+        0,
+        -82
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [
+        {
+          "targetId": "Target01",
+          "actionId": 3,
+          "strike": "blade-0-Target01",
+          "point": [
+            51.44158365581652,
+            56.22302777787325,
+            -69.00191327116575
+          ]
+        }
+      ],
+      "shots": [],
+      "maxFootContactError": 1.6701533345359336e-13
+    },
+    {
+      "frameMode": "30Hz",
+      "name": "combo",
+      "position": [
+        13,
+        0,
+        -82
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [
+        {
+          "targetId": "Target01",
+          "actionId": 3,
+          "strike": "blade-0-Target01",
+          "point": [
+            51.44158365581652,
+            56.22302777787325,
+            -69.00191327116575
+          ]
+        },
+        {
+          "targetId": "Target01",
+          "actionId": 3,
+          "strike": "blade-1-Target01",
+          "point": [
+            51.441584364808335,
+            56.22302760862351,
+            -94.99808673173831
+          ]
+        }
+      ],
+      "shots": [],
+      "maxFootContactError": 1.6701533345359336e-13
+    },
+    {
+      "frameMode": "30Hz",
+      "name": "overhead",
+      "position": [
+        10,
+        0,
+        -72
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [
+        {
+          "targetId": "Target01",
+          "actionId": 3,
+          "strike": "blade-0-Target01",
+          "point": [
+            48,
+            68.75732224684872,
+            -84.50014581375942
+          ]
+        }
+      ],
+      "shots": [],
+      "maxFootContactError": 1.6701533345359336e-13
+    },
+    {
+      "frameMode": "30Hz",
+      "name": "cannon",
+      "position": [
+        0,
+        0,
+        84
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [
+        {
+          "targetId": "Target02",
+          "actionId": 4,
+          "strike": "cannon-R",
+          "point": [
+            109.35000000000001,
+            74.92249985571972,
+            98.72075515130646
+          ]
+        },
+        {
+          "targetId": "Target02",
+          "actionId": 4,
+          "strike": "cannon-L",
+          "point": [
+            109.35000000000001,
+            79.7742373070031,
+            68.8388411535279
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "side": "R",
+          "actionId": 4,
+          "clipTime": 0.39999999999999997,
+          "targetId": "Target02",
+          "start": [
+            5.584354668015038,
+            74.91809853662318,
+            95.10601662514046
+          ],
+          "end": [
+            109.35000000000001,
+            74.92249985571972,
+            98.72075515130646
+          ]
+        },
+        {
+          "side": "L",
+          "actionId": 4,
+          "clipTime": 0.6833333333333338,
+          "targetId": "Target02",
+          "start": [
+            3.888857441709005,
+            75.07292629558638,
+            72.88698721377388
+          ],
+          "end": [
+            109.35000000000001,
+            79.7742373070031,
+            68.8388411535279
+          ]
+        }
+      ],
+      "maxFootContactError": 1.9718679970255404e-13
+    },
+    {
+      "frameMode": "30Hz",
+      "name": "miss",
+      "position": [
+        -50,
+        0,
+        -82
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [],
+      "shots": [],
+      "maxFootContactError": 1.6346344111649587e-13
+    },
+    {
+      "frameMode": "60Hz",
+      "name": "right",
+      "position": [
+        13,
+        0,
+        -82
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [
+        {
+          "targetId": "Target01",
+          "actionId": 3,
+          "strike": "blade-0-Target01",
+          "point": [
+            51.44158365581652,
+            56.22302777787325,
+            -69.00191327116575
+          ]
+        }
+      ],
+      "shots": [],
+      "maxFootContactError": 1.6701533345359336e-13
+    },
+    {
+      "frameMode": "60Hz",
+      "name": "combo",
+      "position": [
+        13,
+        0,
+        -82
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [
+        {
+          "targetId": "Target01",
+          "actionId": 3,
+          "strike": "blade-0-Target01",
+          "point": [
+            51.44158365581652,
+            56.22302777787325,
+            -69.00191327116575
+          ]
+        },
+        {
+          "targetId": "Target01",
+          "actionId": 3,
+          "strike": "blade-1-Target01",
+          "point": [
+            51.441584364808335,
+            56.22302760862351,
+            -94.99808673173831
+          ]
+        }
+      ],
+      "shots": [],
+      "maxFootContactError": 1.6701533345359336e-13
+    },
+    {
+      "frameMode": "60Hz",
+      "name": "overhead",
+      "position": [
+        10,
+        0,
+        -72
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [
+        {
+          "targetId": "Target01",
+          "actionId": 3,
+          "strike": "blade-0-Target01",
+          "point": [
+            48,
+            68.75732224684872,
+            -84.50014581375942
+          ]
+        }
+      ],
+      "shots": [],
+      "maxFootContactError": 1.6701533345359336e-13
+    },
+    {
+      "frameMode": "60Hz",
+      "name": "cannon",
+      "position": [
+        0,
+        0,
+        84
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [
+        {
+          "targetId": "Target02",
+          "actionId": 4,
+          "strike": "cannon-R",
+          "point": [
+            109.35000000000001,
+            74.92249985571972,
+            98.72075515130646
+          ]
+        },
+        {
+          "targetId": "Target02",
+          "actionId": 4,
+          "strike": "cannon-L",
+          "point": [
+            109.35000000000001,
+            79.7742373070031,
+            68.8388411535279
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "side": "R",
+          "actionId": 4,
+          "clipTime": 0.39999999999999997,
+          "targetId": "Target02",
+          "start": [
+            5.584354668015038,
+            74.91809853662318,
+            95.10601662514046
+          ],
+          "end": [
+            109.35000000000001,
+            74.92249985571972,
+            98.72075515130646
+          ]
+        },
+        {
+          "side": "L",
+          "actionId": 4,
+          "clipTime": 0.6833333333333338,
+          "targetId": "Target02",
+          "start": [
+            3.888857441709005,
+            75.07292629558638,
+            72.88698721377388
+          ],
+          "end": [
+            109.35000000000001,
+            79.7742373070031,
+            68.8388411535279
+          ]
+        }
+      ],
+      "maxFootContactError": 1.9718679970255404e-13
+    },
+    {
+      "frameMode": "60Hz",
+      "name": "miss",
+      "position": [
+        -50,
+        0,
+        -82
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [],
+      "shots": [],
+      "maxFootContactError": 1.6346344111649587e-13
+    },
+    {
+      "frameMode": "variable-stall",
+      "name": "right",
+      "position": [
+        13,
+        0,
+        -82
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [
+        {
+          "targetId": "Target01",
+          "actionId": 3,
+          "strike": "blade-0-Target01",
+          "point": [
+            51.44158365581652,
+            56.22302777787325,
+            -69.00191327116575
+          ]
+        }
+      ],
+      "shots": [],
+      "maxFootContactError": 1.6701533345359336e-13
+    },
+    {
+      "frameMode": "variable-stall",
+      "name": "combo",
+      "position": [
+        13,
+        0,
+        -82
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [
+        {
+          "targetId": "Target01",
+          "actionId": 3,
+          "strike": "blade-0-Target01",
+          "point": [
+            51.44158365581652,
+            56.22302777787325,
+            -69.00191327116575
+          ]
+        },
+        {
+          "targetId": "Target01",
+          "actionId": 3,
+          "strike": "blade-1-Target01",
+          "point": [
+            51.441584364808335,
+            56.22302760862351,
+            -94.99808673173831
+          ]
+        }
+      ],
+      "shots": [],
+      "maxFootContactError": 1.6701533345359336e-13
+    },
+    {
+      "frameMode": "variable-stall",
+      "name": "overhead",
+      "position": [
+        10,
+        0,
+        -72
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [
+        {
+          "targetId": "Target01",
+          "actionId": 3,
+          "strike": "blade-0-Target01",
+          "point": [
+            48,
+            68.75732224684872,
+            -84.50014581375942
+          ]
+        }
+      ],
+      "shots": [],
+      "maxFootContactError": 1.6701533345359336e-13
+    },
+    {
+      "frameMode": "variable-stall",
+      "name": "cannon",
+      "position": [
+        0,
+        0,
+        84
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [
+        {
+          "targetId": "Target02",
+          "actionId": 4,
+          "strike": "cannon-R",
+          "point": [
+            109.35000000000001,
+            74.92249985571972,
+            98.72075515130646
+          ]
+        },
+        {
+          "targetId": "Target02",
+          "actionId": 4,
+          "strike": "cannon-L",
+          "point": [
+            109.35000000000001,
+            79.7742373070031,
+            68.8388411535279
+          ]
+        }
+      ],
+      "shots": [
+        {
+          "side": "R",
+          "actionId": 4,
+          "clipTime": 0.39999999999999997,
+          "targetId": "Target02",
+          "start": [
+            5.584354668015038,
+            74.91809853662318,
+            95.10601662514046
+          ],
+          "end": [
+            109.35000000000001,
+            74.92249985571972,
+            98.72075515130646
+          ]
+        },
+        {
+          "side": "L",
+          "actionId": 4,
+          "clipTime": 0.6833333333333338,
+          "targetId": "Target02",
+          "start": [
+            3.888857441709005,
+            75.07292629558638,
+            72.88698721377388
+          ],
+          "end": [
+            109.35000000000001,
+            79.7742373070031,
+            68.8388411535279
+          ]
+        }
+      ],
+      "maxFootContactError": 1.9718679970255404e-13
+    },
+    {
+      "frameMode": "variable-stall",
+      "name": "miss",
+      "position": [
+        -50,
+        0,
+        -82
+      ],
+      "clip": "Idle",
+      "state": "idle",
+      "hits": [],
+      "shots": [],
+      "maxFootContactError": 1.6346344111649587e-13
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "version": "kiln.asset.v1",
+  "assetId": "a_e3e4f113f61f451cafaf0855be6c813a",
+  "revisionId": "r_5ce3378340374d0ea12e83a7cea94423",
+  "name": "Jaeger pilot flight motion helpers",
+  "tags": [],
+  "createdAt": "2026-09-15T05:47:44.385Z",
+  "description": "Four native helper clips. Cruise PBR poses reviewed. Camera-relative flight integration and transitions remain runtime work.",
+  "brief": "Kiln-authored sustained cruise, bank left/right and brake animation helpers for the original articulated Jaeger.",
+  "attribution": {
+    "model": "gpt-6-astra",
+    "harness": "codex"
+  },
+  "editable": true,
+  "files": {
+    "asset.glb": {
+      "sha256": "sha256:92057a5419481f6f3f6b6cc371fdef0e68c09c0c3ffe18bb0a584d3e9887d120",
+      "bytes": 1843452
+    },
+    "source.kiln.js": {
+      "sha256": "sha256:7c7ac1c82a55d6e08db1a5da4608b895f1a7b7a0f39db93318330b660988dc7c",
+      "bytes": 64282
+    },
+    "preview.png": {
+      "sha256": "sha256:155da46f34d3904e2dff8d9f11e717a120000ddf58b33489891159cda090b618",
+      "bytes": 360301
+    }
+  },
+  "build": {
+    "engine": "sha256:fa3bae4f16eba2da609713aee6b8257717a252099cc24370869c43f87e4a18f3",
+    "options": {
+      "optimize": "off",
+      "instance": "auto",
+      "geometryPolicy": "strict",
+      "qaMode": "enforce",
+      "evaluatorMode": "subprocess"
+    },
+    "warnings": [
+      "Mesh_ThoraxInnerFrame: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_ThoraxRearShell: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_LowerThoraxArmor: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_LateralThorax_L: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_LateralThorax_R: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_HelmetShell: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_UpperArmCastArmor_R: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_ForearmMainArmor_R: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_PauldronUndercut_R: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_PauldronRim_R: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_PauldronOuterShell_R: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_PauldronCrownBorder_R: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_PauldronCrownInset_R: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_UpperArmCastArmor_L: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_ForearmMainArmor_L: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_PauldronUndercut_L: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_PauldronRim_L: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_PauldronOuterShell_L: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_PauldronCrownBorder_L: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_PauldronCrownInset_L: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_PelvisCore: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_PelvisBelt: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_AbdominalRing0: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_AbdominalRing1: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_AbdominalRing2: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_AbdominalRing3: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_ThighArmor_L: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_ShinArmor_L: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_FootInstep_L: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_ThighArmor_R: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_ShinArmor_R: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections.",
+      "Mesh_FootInstep_R: LOFT_SELF_INTERSECTION_UNCHECKED Corresponding profiles are connected directly. Caps and closed boundaries do not prove the loft is free of self-intersections."
+    ],
+    "integration": {
+      "schemaVersion": "kiln.integration-manifest.v1",
+      "analyzerVersion": 1,
+      "artifactSha256": "92057a5419481f6f3f6b6cc371fdef0e68c09c0c3ffe18bb0a584d3e9887d120",
+      "units": "m",
+      "axes": {
+        "forward": "+X",
+        "up": "+Y",
+        "right": "+Z"
+      },
+      "bounds": {
+        "min": [
+          -1.4882722111118987,
+          1.6391276391747311e-9,
+          -2.5243382979297073
+        ],
+        "max": [
+          0.9154999997466803,
+          8.121500000186265,
+          2.5243382979297073
+        ],
+        "size": [
+          2.403772210858579,
+          8.121499998547137,
+          5.048676595859415
+        ],
+        "center": [
+          -0.2863861056826092,
+          4.060750000912696,
+          0
+        ]
+      },
+      "pivot": {
+        "convention": "author-origin",
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      "ground": {
+        "groundY": 0,
+        "contactTolerance": 0.02,
+        "minY": 1.6391276391747311e-9,
+        "offsetToGround": -1.6391276391747311e-9,
+        "grounded": true
+      },
+      "defaultScene": {
+        "index": 0,
+        "name": "Jaeger - slate guardian"
+      },
+      "requestedRole": "prop",
+      "renderMetrics": {
+        "triangles": 71620,
+        "drawCalls": 470,
+        "uniqueGeometries": 199,
+        "uniqueMaterials": 14,
+        "textureCount": 8,
+        "transparentMaterials": 0,
+        "skinned": false
+      },
+      "structuralQa": {
+        "hasDefaultScene": true,
+        "finiteBounds": true,
+        "validatorErrors": 0,
+        "validatorWarnings": 0
+      },
+      "visualQa": "not_assessed"
+    },
+    "qa": {
+      "schemaVersion": 1,
+      "category": "prop",
+      "qaProfile": "prop.default",
+      "disposition": "warn",
+      "dimensions": {
+        "exportIntegrity": {
+          "status": "pass",
+          "findings": [],
+          "metrics": {
+            "gltfErrors": 0,
+            "gltfWarnings": 0
+          }
+        },
+        "categoryReadiness": {
+          "status": "pass",
+          "findings": []
+        },
+        "promptAlignment": {
+          "status": "notEvaluated",
+          "findings": []
+        },
+        "visualQuality": {
+          "status": "notEvaluated",
+          "findings": []
+        },
+        "runtimeCost": {
+          "status": "warn",
+          "findings": [
+            {
+              "code": "MATERIAL_IMAGE_COUNT_BUDGET",
+              "disposition": "warn",
+              "dimension": "runtimeCost",
+              "profile": "web.portable.v1.standard",
+              "message": "8 images exceed the 4-image web.portable.v1/standard budget. Reuse approved resource IDs, remove unused images, or atlas compatible same-color-space slots; never atlas normal/data maps into an sRGB image.",
+              "measurement": {
+                "name": "imageCount",
+                "actual": 8,
+                "threshold": 4,
+                "unit": "images"
+              }
+            }
+          ],
+          "metrics": {
+            "instanceabilityGrade": "F",
+            "instanceabilitySummary": "F — 14 mat / 199 geo / 470 draws, opaque",
+            "uniqueGeometries": 199,
+            "uniqueMaterials": 14,
+            "drawCalls": 470,
+            "textureCount": 8,
+            "transparentMaterials": 0,
+            "triangles": 71620,
+            "skinned": false,
+            "materialCount": 14,
+            "opaqueMaterials": 14,
+            "maskedMaterials": 0,
+            "blendedMaterials": 0,
+            "singleSidedMaterials": 14,
+            "doubleSidedMaterials": 0,
+            "texturedMaterials": 11,
+            "materialExtensionCount": 0,
+            "materialExtensionsUsed": "",
+            "imageCount": 8,
+            "maxImageDimension": 512,
+            "decodedImageBytesRgba8": 2146304,
+            "estimatedGpuBytesWithMipmaps": 2861744,
+            "blendedSurfaceAreaRatio": 0
+          }
+        }
+      }
+    },
+    "dependencies": [],
+    "rebuild": "engine-required"
+  },
+  "preview": {
+    "fidelity": {
+      "version": "kiln.view-fidelity.v1",
+      "requested": "full-preferred",
+      "delivered": "full-material",
+      "materialFaithful": true,
+      "exactArtifact": false,
+      "rendererId": "dawn-d3d12:nvidia-geforce-rtx-3070:D3D12 driver version 32.0.16.1074",
+      "inputGlbSha256": "sha256:92057a5419481f6f3f6b6cc371fdef0e68c09c0c3ffe18bb0a584d3e9887d120",
+      "degraded": false,
+      "reasonCodes": [
+        "IN_LOOP_BUILD_NOT_PERSISTED"
+      ]
+    }
+  }
+}

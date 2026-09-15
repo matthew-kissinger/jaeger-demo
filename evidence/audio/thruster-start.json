@@ -1,0 +1,18 @@
+{
+  "id": "thruster-start",
+  "path": "audio/thruster-start.mp3",
+  "provider": "ElevenLabs",
+  "request": {
+    "text": "Twin gigantic plasma lift thrusters ignite: quick hydraulic ignition click, deep clean whoomp and rapidly rising powerful airy jet roar. Controlled cinematic low end, single startup, no music or voices.",
+    "duration_seconds": 2,
+    "loop": false,
+    "prompt_influence": 0.4,
+    "model_id": "eleven_text_to_sound_v2"
+  },
+  "format": "mp3_44100_128",
+  "bytes": 33062,
+  "sha256": "f9e2b43e0c9f6c66e04e7adfd4cb41a34ceec5194fb1648daeac7ab2cb5480a0",
+  "characterCost": "11",
+  "requestId": null,
+  "review": "pending audition and in-scene mix"
+}

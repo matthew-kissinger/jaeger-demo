@@ -1,0 +1,18 @@
+{
+  "id": "footstep",
+  "path": "audio/footstep.mp3",
+  "provider": "ElevenLabs",
+  "request": {
+    "text": "One single enormous armored robot foot plants on a concrete dock. Immediate weighty bass impact, metal suspension compresses and rattles briefly, short concrete grit tail. One impact at the very start, tight controlled transient, no explosion, no music or voices.",
+    "duration_seconds": 1.8,
+    "loop": false,
+    "prompt_influence": 0.4,
+    "model_id": "eleven_text_to_sound_v2"
+  },
+  "format": "mp3_44100_128",
+  "bytes": 29301,
+  "sha256": "04ab29795dc99d4fba3e2351002efe1a692cb9fee84a04d4b978439c2bde3a4c",
+  "characterCost": "10",
+  "requestId": null,
+  "review": "pending audition and in-scene mix"
+}

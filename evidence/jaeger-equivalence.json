@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "sourceSha256": "0cdb3f0a0f7ce13824e19ecd44f23d0f2d7720c4906505ba68341853170f319f",
+  "outputSha256": "745da4f0464e1e7b4a5d5f2c9517f833e4bf96b0efbb35f7bb4a364fd2ec9149",
+  "clips": 16,
+  "poses": 144,
+  "vertexComparisons": 13269744,
+  "maxVertexError": 1.214248998648745e-7,
+  "maxNormalError": 3.824607719303768e-8,
+  "maxJointError": 0,
+  "originalNodes": 564,
+  "images": 8,
+  "inputBytes": 2102188,
+  "outputBytes": 5906848,
+  "inputGzipBytes": 680270,
+  "outputGzipBytes": 1426009,
+  "note": "Real GLTFLoader, decoded PNG textures, all vertices/normals in 144 sampled poses. No sidecar loaded. Renderer/performance and continuous collision acceptance remain separate."
+}

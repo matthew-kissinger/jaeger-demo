@@ -1,0 +1,4 @@
+[
+  {"name":"kiln_list_primitives","arguments":{"names":["pbrMaterial","roundedBoxGeo","createClip","positionTrack","rotationTrack","compilePortableMaterialSpecV2"]},"stem":"environment-catalog"},
+  {"name":"kiln_list_primitives","arguments":{"category":"textures"},"stem":"texture-catalog"}
+]

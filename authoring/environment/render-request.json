@@ -1,0 +1,52 @@
+{
+  "programRef": "p_4e6063d17d40",
+  "capture": {
+    "version": "kiln.capture.v1",
+    "size": 768,
+    "cols": 2,
+    "shots": [
+      {
+        "name": "Coastal site",
+        "camera": {
+          "type": "explicit",
+          "projection": "perspective",
+          "position": [
+            550,
+            410,
+            620
+          ],
+          "target": [
+            -90,
+            15,
+            0
+          ],
+          "framing": "explicit",
+          "fovDeg": 48,
+          "near": 1,
+          "far": 3000
+        }
+      },
+      {
+        "name": "Release cradle",
+        "camera": {
+          "type": "explicit",
+          "projection": "perspective",
+          "position": [
+            -45,
+            67,
+            115
+          ],
+          "target": [
+            -169,
+            48,
+            0
+          ],
+          "framing": "explicit",
+          "fovDeg": 52,
+          "near": 0.2,
+          "far": 1600
+        }
+      }
+    ]
+  }
+}

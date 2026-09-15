@@ -1,0 +1,5 @@
+[
+ {"name":"kiln_screenshot_animation","arguments":{"programRef":"p_2ce67959b777","clip":"CradleRelease","frameTimes":[0,0.35,0.5],"shot":{"subject":{"name":"Joint_Cradle"},"visibility":"isolate","camera":{"type":"orbit","azimuthDeg":20,"elevationDeg":6,"padding":1.2}}},"stem":"cradle-release"},
+ {"name":"kiln_screenshot_animation","arguments":{"programRef":"p_f393b2223363","clip":"PilotWalk","frameTimes":[0,0.2,0.4,0.6,0.8,1],"camera":"right"},"stem":"pilot-walk"},
+ {"name":"kiln_screenshot_animation","arguments":{"programRef":"p_7c7ac1c82a55","clip":"PilotCruise","frameTimes":[0,0.5,1],"camera":"three-quarter"},"stem":"pilot-cruise"}
+]

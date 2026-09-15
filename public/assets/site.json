@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "seed": 203,
+  "units": "metres",
+  "deck": {
+    "min": [
+      -240,
+      -6,
+      -180
+    ],
+    "max": [
+      240,
+      0,
+      180
+    ]
+  },
+  "pilotBounds": {
+    "min": [
+      -145,
+      0,
+      -148
+    ],
+    "max": [
+      210,
+      58,
+      148
+    ]
+  },
+  "dock": [
+    -155,
+    0,
+    0
+  ],
+  "startSourceDisplacement": [
+    3.2,
+    0,
+    0
+  ],
+  "cradleClip": "CradleRelease",
+  "cradleEvents": [
+    {
+      "time": 0.8,
+      "name": "activate"
+    },
+    {
+      "time": 3,
+      "name": "brace-release"
+    },
+    {
+      "time": 4.2,
+      "name": "connector-release"
+    },
+    {
+      "time": 6,
+      "name": "exit-clear"
+    }
+  ],
+  "targets": [
+    {
+      "id": "Target01",
+      "position": [
+        50,
+        0,
+        -82
+      ],
+      "center": [
+        50,
+        56,
+        -82
+      ],
+      "radius": 13,
+      "height": 69,
+      "halfDepth": 3.85,
+      "kind": "blade"
+    },
+    {
+      "id": "Target02",
+      "position": [
+        112,
+        0,
+        84
+      ],
+      "center": [
+        112,
+        75,
+        84
+      ],
+      "radius": 20,
+      "height": 95,
+      "halfDepth": 3.85,
+      "kind": "cannon"
+    },
+    {
+      "id": "Target03",
+      "position": [
+        193,
+        0,
+        -22
+      ],
+      "center": [
+        193,
+        75,
+        -22
+      ],
+      "radius": 20,
+      "height": 95,
+      "halfDepth": 3.85,
+      "kind": "cannon"
+    }
+  ],
+  "obstacles": [
+    {
+      "id": "hangar",
+      "min": [
+        -231,
+        0,
+        -101
+      ],
+      "max": [
+        -201,
+        104,
+        101
+      ]
+    },
+    {
+      "id": "gantry-left",
+      "min": [
+        -181,
+        0,
+        -44
+      ],
+      "max": [
+        -162,
+        103,
+        -26
+      ]
+    },
+    {
+      "id": "gantry-right",
+      "min": [
+        -181,
+        0,
+        26
+      ],
+      "max": [
+        -162,
+        103,
+        44
+      ]
+    },
+    {
+      "id": "truck",
+      "min": [
+        -114,
+        0,
+        48
+      ],
+      "max": [
+        -108,
+        3,
+        51
+      ]
+    },
+    {
+      "id": "stores",
+      "min": [
+        -120,
+        0,
+        58
+      ],
+      "max": [
+        -110,
+        4,
+        64
+      ]
+    }
+  ],
+  "scaleReferences": {
+    "truckLength": 5.6,
+    "serviceDoorHeight": 2.1,
+    "railingHeight": 1.05
+  },
+  "motionRoots": [
+    "Joint_Brace_L",
+    "Joint_Brace_R",
+    "Joint_ServiceConnector"
+  ],
+  "targetRoots": [
+    "Joint_Target01",
+    "Joint_Target02",
+    "Joint_Target03"
+  ],
+  "familyRoots": [
+    "Joint_Deck",
+    "Joint_Cradle",
+    "Joint_Hangar",
+    "Joint_Shore",
+    "Joint_Truck",
+    "Joint_Stores",
+    "Joint_Fixtures",
+    "Joint_Target01",
+    "Joint_Target02",
+    "Joint_Target03"
+  ],
+  "materials": [
+    "site.concrete",
+    "site.steel",
+    "site.dark",
+    "site.silver",
+    "site.ochre",
+    "site.white",
+    "site.glass",
+    "site.rock",
+    "site.cyan",
+    "site.amber"
+  ],
+  "waterY": -7.5
+}

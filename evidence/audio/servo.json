@@ -1,0 +1,18 @@
+{
+  "id": "servo",
+  "path": "audio/servo.mp3",
+  "provider": "ElevenLabs",
+  "request": {
+    "text": "Smooth massive industrial hydraulic joint moving under load. Subdued layered electric servo whine with low machinery rumble, seamless loop with no distinct impacts. Close mechanical sound, no music or voices.",
+    "duration_seconds": 2.4,
+    "loop": true,
+    "prompt_influence": 0.4,
+    "model_id": "eleven_text_to_sound_v2"
+  },
+  "format": "mp3_44100_128",
+  "bytes": 41839,
+  "sha256": "0328e9b79016ee98b2b517465fc8707a7610a67316d0d3e44d4aa896b0841e72",
+  "characterCost": "13",
+  "requestId": null,
+  "review": "pending audition and in-scene mix"
+}

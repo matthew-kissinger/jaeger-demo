@@ -1,0 +1,180 @@
+[
+  {
+    "backend": "webgpu",
+    "asset": "canonical",
+    "readyMs": 2950,
+    "stats": {
+      "backend": "WebGPU",
+      "calls": 942,
+      "triangles": 143241,
+      "fps": 144.00921658984888,
+      "p95": 7.099999999627471,
+      "p99": 7.100000001490116,
+      "frames": 600,
+      "memory": {
+        "attributes": 630,
+        "attributesSize": 4721548,
+        "geometries": 198,
+        "indexAttributes": 13,
+        "indexAttributesSize": 36768,
+        "indirectStorageAttributes": 0,
+        "indirectStorageAttributesSize": 0,
+        "programs": 16,
+        "programsSize": 159441,
+        "readbackBuffers": 0,
+        "readbackBuffersSize": 0,
+        "renderTargets": 3,
+        "storageAttributes": 0,
+        "storageAttributesSize": 0,
+        "textures": 15,
+        "texturesSize": 70736864,
+        "uniformBuffers": 959,
+        "uniformBuffersSize": 214208,
+        "total": 75868829
+      }
+    },
+    "adapter": {
+      "vendor": "nvidia",
+      "architecture": "ampere",
+      "device": "",
+      "description": "",
+      "fallback": false
+    },
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "note": "1920x1080 headless Chrome dev harness; idle five-second sample, not full-scene or mobile acceptance."
+  },
+  {
+    "backend": "webgpu",
+    "asset": "optimized",
+    "readyMs": 1354,
+    "stats": {
+      "backend": "WebGPU",
+      "calls": 280,
+      "triangles": 143241,
+      "fps": 144.00921658984888,
+      "p95": 7.099999999627471,
+      "p99": 7.100000001490116,
+      "frames": 600,
+      "memory": {
+        "attributes": 541,
+        "attributesSize": 4396596,
+        "geometries": 141,
+        "indexAttributes": 139,
+        "indexAttributesSize": 859440,
+        "indirectStorageAttributes": 0,
+        "indirectStorageAttributesSize": 0,
+        "programs": 14,
+        "programsSize": 122045,
+        "readbackBuffers": 0,
+        "readbackBuffersSize": 0,
+        "renderTargets": 3,
+        "storageAttributes": 0,
+        "storageAttributesSize": 0,
+        "textures": 15,
+        "texturesSize": 70736864,
+        "uniformBuffers": 287,
+        "uniformBuffersSize": 66656,
+        "total": 76181601
+      }
+    },
+    "adapter": {
+      "vendor": "nvidia",
+      "architecture": "ampere",
+      "device": "",
+      "description": "",
+      "fallback": false
+    },
+    "errors": [],
+    "note": "1920x1080 headless Chrome dev harness; idle five-second sample, not full-scene or mobile acceptance."
+  },
+  {
+    "backend": "webgl",
+    "asset": "canonical",
+    "readyMs": 2489,
+    "stats": {
+      "backend": "WebGL2",
+      "calls": 942,
+      "triangles": 143241,
+      "fps": 144.00921658984888,
+      "p95": 7.099999999627471,
+      "p99": 7.099999999627471,
+      "frames": 600,
+      "memory": {
+        "attributes": 630,
+        "attributesSize": 4721548,
+        "geometries": 198,
+        "indexAttributes": 13,
+        "indexAttributesSize": 18384,
+        "indirectStorageAttributes": 0,
+        "indirectStorageAttributesSize": 0,
+        "programs": 16,
+        "programsSize": 149773,
+        "readbackBuffers": 0,
+        "readbackBuffersSize": 0,
+        "renderTargets": 3,
+        "storageAttributes": 0,
+        "storageAttributesSize": 0,
+        "textures": 15,
+        "texturesSize": 70736864,
+        "uniformBuffers": 959,
+        "uniformBuffersSize": 238800,
+        "total": 75865369
+      }
+    },
+    "adapter": {
+      "vendor": "nvidia",
+      "architecture": "ampere",
+      "device": "",
+      "description": "",
+      "fallback": false
+    },
+    "errors": [],
+    "note": "1920x1080 headless Chrome dev harness; idle five-second sample, not full-scene or mobile acceptance."
+  },
+  {
+    "backend": "webgl",
+    "asset": "optimized",
+    "readyMs": 922,
+    "stats": {
+      "backend": "WebGL2",
+      "calls": 280,
+      "triangles": 143241,
+      "fps": 144.01958666379915,
+      "p95": 7.099999999627471,
+      "p99": 7.100000001490116,
+      "frames": 600,
+      "memory": {
+        "attributes": 541,
+        "attributesSize": 4396596,
+        "geometries": 141,
+        "indexAttributes": 139,
+        "indexAttributesSize": 859440,
+        "indirectStorageAttributes": 0,
+        "indirectStorageAttributesSize": 0,
+        "programs": 14,
+        "programsSize": 115420,
+        "readbackBuffers": 0,
+        "readbackBuffersSize": 0,
+        "renderTargets": 3,
+        "storageAttributes": 0,
+        "storageAttributesSize": 0,
+        "textures": 15,
+        "texturesSize": 70736864,
+        "uniformBuffers": 287,
+        "uniformBuffersSize": 74144,
+        "total": 76182464
+      }
+    },
+    "adapter": {
+      "vendor": "nvidia",
+      "architecture": "ampere",
+      "device": "",
+      "description": "",
+      "fallback": false
+    },
+    "errors": [],
+    "note": "1920x1080 headless Chrome dev harness; idle five-second sample, not full-scene or mobile acceptance."
+  }
+]

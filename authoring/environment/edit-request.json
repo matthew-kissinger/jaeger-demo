@@ -1,0 +1,1 @@
+{"programRef":"p_17ce8af11763","edits":[{"oldString":"part('EquipmentCase', crateGeo, steel, p, stores);","newString":"part('EquipmentCase', projected(crateGeo, 2), steel, p, stores);"}],"render":false}

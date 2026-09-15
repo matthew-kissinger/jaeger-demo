@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.kiln/
+.codex/
+.claude/
+.agents/
+output/
+test-results/
+playwright-report/
+.env*
+*.log

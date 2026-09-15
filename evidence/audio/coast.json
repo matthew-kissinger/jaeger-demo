@@ -1,0 +1,18 @@
+{
+  "id": "coast",
+  "path": "audio/coast.mp3",
+  "provider": "ElevenLabs",
+  "request": {
+    "text": "A quiet industrial sea harbor at dawn, steady soft ocean surf against a concrete seawall and broad cold coastal wind. Distant low ventilation rumble. Seamless ambient loop, understated, no music, no voices, no birds, no abrupt impacts.",
+    "duration_seconds": 16,
+    "loop": true,
+    "prompt_influence": 0.4,
+    "model_id": "eleven_text_to_sound_v2"
+  },
+  "format": "mp3_44100_128",
+  "bytes": 257088,
+  "sha256": "ee859b3b939d5085ea931bbeb4ff640ec3d85fac105fbe34ea437d23f94d00c3",
+  "characterCost": "88",
+  "requestId": null,
+  "review": "pending audition and in-scene mix"
+}

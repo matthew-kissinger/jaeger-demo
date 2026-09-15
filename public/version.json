@@ -1,0 +1,24 @@
+{
+  "name": "jaeger-demo",
+  "version": "0.1.0",
+  "license": "MIT",
+  "openSource": true,
+  "builtAt": "2026-09-15T07:35:00Z",
+  "engine": "Three.js r186 (WebGPU/WebGL2)",
+  "authoring": "Kiln procedural 3D compiler",
+  "character": {
+    "name": "Jaeger Pilot",
+    "heightMeters": 79.25,
+    "triangles": 71620,
+    "batches": 139,
+    "clips": 25,
+    "downloadUrl": "assets/jaeger-pilot.glb",
+    "canonicalV4DownloadUrl": "downloads/jaeger-complete-v4.glb"
+  },
+  "environment": {
+    "name": "Coastal Proving Ground",
+    "triangles": 37148,
+    "batches": 62,
+    "downloadUrl": "assets/environment.glb"
+  }
+}

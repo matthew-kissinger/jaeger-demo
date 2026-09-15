@@ -1,0 +1,19 @@
+{"programRef":"p_2ce67959b777","render":false,"edits":[
+{"oldString":"pilotBounds: { min: [-125, 0, -148]","newString":"pilotBounds: { min: [-145, 0, -148]"},
+{"oldString":"start: [-108, 0, 0]","newString":"startSourceDisplacement: [3.2, 0, 0]"},
+{"oldString":"center: [50, 43, -82], radius: 13, height: 56","newString":"center: [50, 56, -82], radius: 13, height: 69, halfDepth: 3.85, kind: 'blade'"},
+{"oldString":"center: [112, 51, 84], radius: 13, height: 64","newString":"center: [112, 75, 84], radius: 20, height: 95, halfDepth: 3.85, kind: 'cannon'"},
+{"oldString":"center: [193, 48, -22], radius: 13, height: 61","newString":"center: [193, 75, -22], radius: 20, height: 95, halfDepth: 3.85, kind: 'cannon'"},
+{"oldString":"0x637078, 0x839096, 12, 203","newString":"0x424d50, 0x4a5356, 12, 203"},
+{"oldString":"0x39464a, 0x727971, 5, 62","newString":"0x303a3b, 0x555c56, 5, 62"},
+{"oldString":"0x263e4a, 0x365362, 25, 91","newString":"0x21323d, 0x253843, 25, 91"},
+{"oldString":"    const brace = createPivot('Brace_' + (sign === 1 ? 'R' : 'L'), [0, 0, 0], cradle);","newString":"    // Fixed cantilever rails support the carriage throughout its 20m release travel.\n    box('CarriageRail', [8, 0.8, 34], [-7, 46.6, sign * 43], dark, cradle);\n    beam('RailCantilever', [-16, 40, sign * 35], [-7, 46.6, sign * 53], 1.8, 1.8, steel, cradle);\n    beam('RailBrace', [-16, 43, sign * 35], [-7, 46.6, sign * 28], 1.2, 1.2, steel, cradle);\n    const brace = createPivot('Brace_' + (sign === 1 ? 'R' : 'L'), [0, 0, 0], cradle);"},
+{"oldString":"const t = createPivot(target.id, target.position, root), h = target.center[1];","newString":"const t = createPivot(target.id, target.position, root), h = target.center[1], r = target.radius, s = r / 13;"},
+{"oldString":"cylinder('TargetShield', 13, 4","newString":"cylinder('TargetShield', r, 4"},
+{"oldString":"cylinder('TargetPlate', 11.6, 0.6","newString":"cylinder('TargetPlate', 11.6 * s, 0.6"},
+{"oldString":"cylinder('TargetRing', 7.4, 0.64","newString":"cylinder('TargetRing', 7.4 * s, 0.64"},
+{"oldString":"cylinder('TargetInset', 6.3, 0.7","newString":"cylinder('TargetInset', 6.3 * s, 0.7"},
+{"oldString":"cylinder('TargetCore', 2.1, 0.74","newString":"cylinder('TargetCore', 2.1 * s, 0.74"},
+{"oldString":"[-2.7, h + sign * 9.5, 0]","newString":"[-2.7, h + sign * 9.5 * s, 0]"},
+{"oldString":"[-2.7, h, sign * 9.5]","newString":"[-2.7, h, sign * 9.5 * s]"}
+]}

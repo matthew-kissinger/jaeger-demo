@@ -1,0 +1,37 @@
+{
+  "sourceSha256": "2c6f0d3979931240d23b932beb1169c95e9c3c9c4d607218d8ea7e2ebcfd9581",
+  "posesChecked": 721,
+  "maxRailGapMetres": 5.960465898624534e-9,
+  "minimumSupportOverlapMetres": 7.5,
+  "errors": [],
+  "stats": {
+    "backend": "WebGPU",
+    "calls": 373,
+    "triangles": 223437,
+    "fps": 138.53227443727428,
+    "p95": 7.100000001490116,
+    "p99": 16.300000000745058,
+    "memory": {
+      "attributes": 673,
+      "attributesSize": 6049052,
+      "geometries": 205,
+      "indexAttributes": 204,
+      "indexAttributesSize": 1405992,
+      "indirectStorageAttributes": 0,
+      "indirectStorageAttributesSize": 0,
+      "programs": 22,
+      "programsSize": 231419,
+      "readbackBuffers": 0,
+      "readbackBuffersSize": 0,
+      "renderTargets": 3,
+      "storageAttributes": 0,
+      "storageAttributesSize": 0,
+      "textures": 21,
+      "texturesSize": 58512404,
+      "uniformBuffers": 399,
+      "uniformBuffersSize": 109952,
+      "total": 66308819
+    }
+  },
+  "note": "Actual served scene assets and lighting; camera and timeline held only for inspection."
+}

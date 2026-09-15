@@ -1,0 +1,24 @@
+{
+  "name": "jaeger-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5186 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4186 --strictPort",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "test:browser": "playwright test",
+    "assets:optimize": "node scripts/optimize-jaeger.mjs",
+    "assets:verify": "node scripts/verify-optimized.mjs"
+  },
+  "dependencies": { "three": "0.186.0" },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/three": "0.186.0",
+    "sharp": "0.35.4",
+    "typescript": "7.0.2",
+    "vite": "8.3.0"
+  }
+}

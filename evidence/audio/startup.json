@@ -1,0 +1,18 @@
+{
+  "id": "startup",
+  "path": "audio/startup.mp3",
+  "provider": "ElevenLabs",
+  "request": {
+    "text": "An eighty meter industrial robot powering on. Massive low electric turbine spins up, two solid relay clunks, rising smooth resonant servo tone settling into a stable low hum. Detailed mechanical sound effect, controlled bass, no music or voices.",
+    "duration_seconds": 4,
+    "loop": false,
+    "prompt_influence": 0.4,
+    "model_id": "eleven_text_to_sound_v2"
+  },
+  "format": "mp3_44100_128",
+  "bytes": 65245,
+  "sha256": "9af344651653237e79827ef5c95be2806c4c3c7443676cf937b64b0e173ca32a",
+  "characterCost": "22",
+  "requestId": null,
+  "review": "pending audition and in-scene mix"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "release",
+  "path": "audio/release.mp3",
+  "provider": "ElevenLabs",
+  "request": {
+    "text": "A massive maintenance cradle releases a giant robot: a heavy locking latch disengages with one deep metal clunk, then powerful hydraulic pistons retract with a short pressurized air hiss. Close detailed industrial sound, no alarm, no music, no voices.",
+    "duration_seconds": 3,
+    "loop": false,
+    "prompt_influence": 0.4,
+    "model_id": "eleven_text_to_sound_v2"
+  },
+  "format": "mp3_44100_128",
+  "bytes": 48945,
+  "sha256": "0979ab89528c5cafcc9e92d0c3a7e1eb8453accc5ade3171b16c322efabecb1c",
+  "characterCost": "16",
+  "requestId": null,
+  "review": "pending audition and in-scene mix"
+}

@@ -1,0 +1,114 @@
+{
+  "backend": "webgpu",
+  "errors": [],
+  "slash": {
+    "snapshot": {
+      "state": "attack",
+      "position": [
+        13,
+        0,
+        -82
+      ],
+      "scale": 9.758049617364895,
+      "clip": "SlashRight",
+      "introTime": 12,
+      "paused": true,
+      "ik": {
+        "maxCorrection": 0.010789794058321927,
+        "maxReachError": 0,
+        "worstReach": null
+      }
+    },
+    "shots": [],
+    "hits": [
+      {
+        "targetId": "Target01",
+        "actionId": 4,
+        "strike": "blade-0-Target01",
+        "point": [
+          51.44158365581652,
+          56.22302777787325,
+          -69.00191327116575
+        ]
+      }
+    ]
+  },
+  "cannon": {
+    "snapshot": {
+      "state": "fire",
+      "position": [
+        0,
+        0,
+        84
+      ],
+      "scale": 9.758049617364895,
+      "clip": "CannonFire",
+      "introTime": 12,
+      "paused": true,
+      "ik": {
+        "maxCorrection": 0.01176645240735085,
+        "maxReachError": 0,
+        "worstReach": null
+      }
+    },
+    "shots": [
+      {
+        "side": "R",
+        "actionId": 7,
+        "clipTime": 0.39999999999999997,
+        "targetId": "Target02",
+        "start": [
+          5.584354668015038,
+          74.91809853662318,
+          95.10601662514046
+        ],
+        "end": [
+          109.35000000000001,
+          74.92249985571972,
+          98.72075515130646
+        ]
+      }
+    ],
+    "hits": [
+      {
+        "targetId": "Target02",
+        "actionId": 7,
+        "strike": "cannon-R",
+        "point": [
+          109.35000000000001,
+          74.92249985571972,
+          98.72075515130646
+        ]
+      }
+    ],
+    "stats": {
+      "backend": "WebGPU",
+      "calls": 375,
+      "triangles": 222621,
+      "fps": 138.2982726828565,
+      "p95": 8.300000000745058,
+      "p99": 15.199999999254942,
+      "memory": {
+        "attributes": 704,
+        "attributesSize": 6103804,
+        "geometries": 208,
+        "indexAttributes": 207,
+        "indexAttributesSize": 1407048,
+        "indirectStorageAttributes": 0,
+        "indirectStorageAttributesSize": 0,
+        "programs": 26,
+        "programsSize": 242108,
+        "readbackBuffers": 0,
+        "readbackBuffersSize": 0,
+        "renderTargets": 3,
+        "storageAttributes": 0,
+        "storageAttributesSize": 0,
+        "textures": 21,
+        "texturesSize": 60072404,
+        "uniformBuffers": 427,
+        "uniformBuffersSize": 116416,
+        "total": 67941780
+      }
+    }
+  }
+}

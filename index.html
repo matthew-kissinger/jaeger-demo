@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#111b20" />
+    <meta name="description" content="Coastal Proving Ground. An interactive Jaeger showcase built with Kiln assets." />
+    <title>Jaeger · Coastal Proving Ground</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23101d25'/%3E%3Cpath d='M9 6h14v13l-7 8-7-8z' fill='%23e8b775'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <main id="app">
+      <canvas id="scene" aria-label="Interactive Jaeger scene" tabindex="0"></canvas>
+      <div id="aim-r" class="aim-marker" hidden></div><div id="aim-l" class="aim-marker" hidden></div><span id="aim-label" hidden></span>
+      <header class="masthead"><a href="#" class="wordmark">JAEGER<span>COASTAL PROVING GROUND</span></a><span class="kiln-credit">ASSETS FORGED WITH <b>KILN</b></span></header>
+      <section id="loading" role="status"><span class="eyebrow">SYSTEM INITIALIZATION</span><h1>Bringing the giant online.</h1><p id="load-status">Preparing renderer</p><div class="load-track"><i></i></div></section>
+      <section id="welcome" hidden><span class="eyebrow">COASTAL SECTOR 02 / SYSTEMS READY</span><h1>Bring the giant<br>to life.</h1><p>A 79.25 metre machine.<br>Every solid asset and mechanical animation authored with Kiln. Open source MIT.</p><div class="row"><button class="primary" data-action="start">Deploy Jaeger</button><button data-action="pilot">Skip to controls</button><a href="./assets/jaeger-pilot.glb" download="jaeger-pilot.glb" class="download-btn pc-only" title="Open Source: Download the 3D GLB model">Download GLB ⤓</a></div><small>WASD to move · Drag to look · Q slash · E cannon<br>Tap Space to hop. Hold to fly. Release to land.</small></section>
+      <div id="fallback" hidden><a href="?backend=webgl">Try WebGL2</a><a href="./downloads/jaeger-complete-v4.glb" download>Download the GLB</a></div>
+      <div id="hud" hidden><nav class="toolbar"><button id="pause" data-action="menu">Menu</button><button data-action="inspect">Animations</button><button id="mute" data-action="mute">Sound on</button><a href="./assets/jaeger-pilot.glb" download="jaeger-pilot.glb" class="download-btn pc-only" title="Open Source: Download the 3D GLB model">Download GLB ⤓</a></nav><div class="telemetry"><span id="state">STANDBY</span><b id="altitude">0 M</b><small>ALTITUDE ABOVE DECK</small></div><button id="skip" data-action="skip">Skip intro →</button><p id="notice" role="status"></p></div>
+      <div id="pilot-controls" hidden><div class="desktop-help">W A S D <span>MOVE</span> &nbsp; Q <span>SLASH</span> &nbsp; E <span>CANNON</span> &nbsp; SPACE <span>HOP / HOLD TO FLY</span></div><div id="joystick" aria-label="Movement joystick"><i></i></div><div class="action-buttons"><button data-action="slash">Slash</button><button data-action="cannon">Cannon</button><button data-action="hop">Hop</button><button id="boost" data-action="toggle-boost">Boost</button><button data-action="brake">Brake</button></div></div>
+      <aside id="inspector" hidden><span class="eyebrow">KILN ANIMATION LIBRARY</span><h2>Motion inspection</h2><label>Animation<select id="clip"></select></label><label>Time<input id="scrub" type="range" min="0" max="1" step="0.001" value="0" /></label><div class="row"><button id="play">Play clip</button><button id="return-pilot">Return to pilot</button></div><label><input id="wireframe" type="checkbox" /> Wireframe</label><div class="row"><button data-action="combo">Combo</button><button data-action="overhead">Overhead</button></div><pre id="stats"></pre></aside>
+      <section id="menu" hidden><span class="eyebrow">SIMULATION PAUSED</span><h2>Coastal Proving Ground</h2><div class="row"><button data-action="resume">Resume</button><button data-action="reset">Reset</button><button data-action="replay">Replay intro</button></div><label>Quality<select id="quality"><option value="high">High</option><option value="medium">Balanced</option><option value="low">Low</option></select></label><p>Move: WASD / left joystick. Look: drag / right swipe.<br>Q: slash · E: cannon · Space: hop or hold for flight.<br>Fly toward the camera heading and pitch. Release to land.</p><div class="row"><button data-action="combo">Blade combo</button><button data-action="overhead">Overhead strike</button><button data-action="recovery">Recovery</button></div><a class="download" href="./downloads/jaeger-complete-v4.glb" download>Original Jaeger GLB ↗</a><a class="download" href="./assets/jaeger-pilot.glb" download>Optimized GLB + pilot animations ↗</a><a class="download" href="./downloads/jaeger-complete-v4.zip" download>Original Kiln source bundle ↗</a><p>Built with Kiln · Three.js r186 · ElevenLabs sound</p></section>
+      <footer class="statusbar"><span>COASTAL SECTOR / 02</span><span id="backend">79.25 M · KILN-AUTHORED</span></footer>
+    </main>
+    <script type="module" src="/src/demo.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,5692 @@
+{
+  "version": 1,
+  "sourceSha256": "0cdb3f0a0f7ce13824e19ecd44f23d0f2d7720c4906505ba68341853170f319f",
+  "outputSha256": "745da4f0464e1e7b4a5d5f2c9517f833e4bf96b0efbb35f7bb4a364fd2ec9149",
+  "inputBytes": 2102188,
+  "outputBytes": 5906848,
+  "inputInstances": 470,
+  "outputInstances": 139,
+  "triangles": 71620,
+  "protectedNodes": [
+    1,
+    2,
+    3,
+    55,
+    242,
+    243,
+    395,
+    396,
+    454,
+    467,
+    485,
+    496,
+    509,
+    522,
+    540,
+    551,
+    135,
+    288,
+    120,
+    227,
+    273,
+    380,
+    121,
+    163,
+    169,
+    182,
+    195,
+    208,
+    322,
+    335,
+    348,
+    361,
+    274,
+    316,
+    252,
+    405,
+    0
+  ],
+  "originalNodesPreserved": true,
+  "textureBytesPreserved": true,
+  "groups": [
+    {
+      "anchor": 3,
+      "anchorName": "Joint_Torso",
+      "node": 564,
+      "name": "Batch_Joint_Torso_0_0",
+      "mesh": 0,
+      "material": 0,
+      "members": [
+        {
+          "node": 4,
+          "name": "Mesh_ThoraxInnerFrame",
+          "sourceMesh": 0,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 341,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 11,
+          "name": "Mesh_VentVoid_L",
+          "sourceMesh": 6,
+          "primitive": 0,
+          "vertexStart": 341,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 22,
+          "name": "Mesh_ShoulderSocket_L",
+          "sourceMesh": 10,
+          "primitive": 0,
+          "vertexStart": 473,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 28,
+          "name": "Mesh_VentVoid_R",
+          "sourceMesh": 6,
+          "primitive": 0,
+          "vertexStart": 717,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 39,
+          "name": "Mesh_ShoulderSocket_R",
+          "sourceMesh": 10,
+          "primitive": 0,
+          "vertexStart": 849,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 41,
+          "name": "Mesh_ReactorBlackHousing",
+          "sourceMesh": 14,
+          "primitive": 0,
+          "vertexStart": 1093,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 52,
+          "name": "Mesh_NeckSeal",
+          "sourceMesh": 24,
+          "primitive": 0,
+          "vertexStart": 1337,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 72,
+          "name": "Mesh_BackVent_L0",
+          "sourceMesh": 40,
+          "primitive": 0,
+          "vertexStart": 1778,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 73,
+          "name": "Mesh_BackVent_L1",
+          "sourceMesh": 40,
+          "primitive": 0,
+          "vertexStart": 1910,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 74,
+          "name": "Mesh_BackVent_L2",
+          "sourceMesh": 40,
+          "primitive": 0,
+          "vertexStart": 2042,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 75,
+          "name": "Mesh_BackVent_L3",
+          "sourceMesh": 40,
+          "primitive": 0,
+          "vertexStart": 2174,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 76,
+          "name": "Mesh_BackVent_L4",
+          "sourceMesh": 40,
+          "primitive": 0,
+          "vertexStart": 2306,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 79,
+          "name": "Mesh_DorsalFinVent_L0",
+          "sourceMesh": 42,
+          "primitive": 0,
+          "vertexStart": 2438,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 80,
+          "name": "Mesh_DorsalFinVent_L1",
+          "sourceMesh": 42,
+          "primitive": 0,
+          "vertexStart": 2570,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 81,
+          "name": "Mesh_DorsalFinVent_L2",
+          "sourceMesh": 42,
+          "primitive": 0,
+          "vertexStart": 2702,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 82,
+          "name": "Mesh_DorsalFinVent_L3",
+          "sourceMesh": 42,
+          "primitive": 0,
+          "vertexStart": 2834,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 83,
+          "name": "Mesh_DorsalFinVent_L4",
+          "sourceMesh": 42,
+          "primitive": 0,
+          "vertexStart": 2966,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 84,
+          "name": "Mesh_DorsalFinVent_L5",
+          "sourceMesh": 42,
+          "primitive": 0,
+          "vertexStart": 3098,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 91,
+          "name": "Mesh_ThrusterNozzleDark_L",
+          "sourceMesh": 48,
+          "primitive": 0,
+          "vertexStart": 3230,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 93,
+          "name": "Mesh_ThrusterCore_L",
+          "sourceMesh": 50,
+          "primitive": 0,
+          "vertexStart": 3474,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 96,
+          "name": "Mesh_BackVent_R0",
+          "sourceMesh": 40,
+          "primitive": 0,
+          "vertexStart": 3718,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 97,
+          "name": "Mesh_BackVent_R1",
+          "sourceMesh": 40,
+          "primitive": 0,
+          "vertexStart": 3850,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 98,
+          "name": "Mesh_BackVent_R2",
+          "sourceMesh": 40,
+          "primitive": 0,
+          "vertexStart": 3982,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 99,
+          "name": "Mesh_BackVent_R3",
+          "sourceMesh": 40,
+          "primitive": 0,
+          "vertexStart": 4114,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 100,
+          "name": "Mesh_BackVent_R4",
+          "sourceMesh": 40,
+          "primitive": 0,
+          "vertexStart": 4246,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 103,
+          "name": "Mesh_DorsalFinVent_R0",
+          "sourceMesh": 42,
+          "primitive": 0,
+          "vertexStart": 4378,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 104,
+          "name": "Mesh_DorsalFinVent_R1",
+          "sourceMesh": 42,
+          "primitive": 0,
+          "vertexStart": 4510,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 105,
+          "name": "Mesh_DorsalFinVent_R2",
+          "sourceMesh": 42,
+          "primitive": 0,
+          "vertexStart": 4642,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 106,
+          "name": "Mesh_DorsalFinVent_R3",
+          "sourceMesh": 42,
+          "primitive": 0,
+          "vertexStart": 4774,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 107,
+          "name": "Mesh_DorsalFinVent_R4",
+          "sourceMesh": 42,
+          "primitive": 0,
+          "vertexStart": 4906,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 108,
+          "name": "Mesh_DorsalFinVent_R5",
+          "sourceMesh": 42,
+          "primitive": 0,
+          "vertexStart": 5038,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 115,
+          "name": "Mesh_ThrusterNozzleDark_R",
+          "sourceMesh": 48,
+          "primitive": 0,
+          "vertexStart": 5170,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 117,
+          "name": "Mesh_ThrusterCore_R",
+          "sourceMesh": 50,
+          "primitive": 0,
+          "vertexStart": 5414,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 119,
+          "name": "Mesh_ShoulderAxle_R",
+          "sourceMesh": 51,
+          "primitive": 0,
+          "vertexStart": 5658,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 238,
+          "name": "Mesh_CannonBackpackSupport_R",
+          "sourceMesh": 122,
+          "primitive": 0,
+          "vertexStart": 5902,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 272,
+          "name": "Mesh_ShoulderAxle_L",
+          "sourceMesh": 51,
+          "primitive": 0,
+          "vertexStart": 6034,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 391,
+          "name": "Mesh_CannonBackpackSupport_L",
+          "sourceMesh": 122,
+          "primitive": 0,
+          "vertexStart": 6278,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 3,
+      "anchorName": "Joint_Torso",
+      "node": 565,
+      "name": "Batch_Joint_Torso_1_1",
+      "mesh": 1,
+      "material": 1,
+      "members": [
+        {
+          "node": 5,
+          "name": "Mesh_ThoraxRearShell",
+          "sourceMesh": 1,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 6,
+          "name": "Mesh_LowerThoraxArmor",
+          "sourceMesh": 2,
+          "primitive": 0,
+          "vertexStart": 292,
+          "vertexCount": 341,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 24,
+          "name": "Mesh_ChestArmor_R",
+          "sourceMesh": 12,
+          "primitive": 0,
+          "vertexStart": 633,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 70,
+          "name": "Mesh_BackpackCentralArmor",
+          "sourceMesh": 38,
+          "primitive": 0,
+          "vertexStart": 765,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 71,
+          "name": "Mesh_BackpackSideArmor_L",
+          "sourceMesh": 39,
+          "primitive": 0,
+          "vertexStart": 897,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 78,
+          "name": "Mesh_DorsalFinArmor_L",
+          "sourceMesh": 41,
+          "primitive": 0,
+          "vertexStart": 1029,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 86,
+          "name": "Mesh_ThrusterHousing_L",
+          "sourceMesh": 43,
+          "primitive": 0,
+          "vertexStart": 1137,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 95,
+          "name": "Mesh_BackpackSideArmor_R",
+          "sourceMesh": 39,
+          "primitive": 0,
+          "vertexStart": 1429,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 102,
+          "name": "Mesh_DorsalFinArmor_R",
+          "sourceMesh": 41,
+          "primitive": 0,
+          "vertexStart": 1561,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 110,
+          "name": "Mesh_ThrusterHousing_R",
+          "sourceMesh": 43,
+          "primitive": 0,
+          "vertexStart": 1669,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 240,
+          "name": "Mesh_PylonFrontPlate_R",
+          "sourceMesh": 124,
+          "primitive": 0,
+          "vertexStart": 1961,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 393,
+          "name": "Mesh_PylonFrontPlate_L",
+          "sourceMesh": 124,
+          "primitive": 0,
+          "vertexStart": 2093,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 3,
+      "anchorName": "Joint_Torso",
+      "node": 566,
+      "name": "Batch_Joint_Torso_2_2",
+      "mesh": 2,
+      "material": 2,
+      "members": [
+        {
+          "node": 7,
+          "name": "Mesh_ChestArmor_L",
+          "sourceMesh": 3,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 3,
+      "anchorName": "Joint_Torso",
+      "node": 567,
+      "name": "Batch_Joint_Torso_3_3",
+      "mesh": 3,
+      "material": 3,
+      "members": [
+        {
+          "node": 8,
+          "name": "Mesh_ClavicleTrim_L",
+          "sourceMesh": 4,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 25,
+          "name": "Mesh_ClavicleTrim_R",
+          "sourceMesh": 13,
+          "primitive": 0,
+          "vertexStart": 108,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 53,
+          "name": "Mesh_Collar_-1",
+          "sourceMesh": 25,
+          "primitive": 0,
+          "vertexStart": 216,
+          "vertexCount": 84,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 54,
+          "name": "Mesh_Collar_1",
+          "sourceMesh": 26,
+          "primitive": 0,
+          "vertexStart": 300,
+          "vertexCount": 84,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 3,
+      "anchorName": "Joint_Torso",
+      "node": 568,
+      "name": "Batch_Joint_Torso_4_4",
+      "mesh": 4,
+      "material": 4,
+      "members": [
+        {
+          "node": 10,
+          "name": "Mesh_VentHousing_L",
+          "sourceMesh": 5,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 21,
+          "name": "Mesh_LateralThorax_L",
+          "sourceMesh": 9,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 27,
+          "name": "Mesh_VentHousing_R",
+          "sourceMesh": 5,
+          "primitive": 0,
+          "vertexStart": 424,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 38,
+          "name": "Mesh_LateralThorax_R",
+          "sourceMesh": 9,
+          "primitive": 0,
+          "vertexStart": 556,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 43,
+          "name": "Mesh_ReactorInnerRecess",
+          "sourceMesh": 16,
+          "primitive": 0,
+          "vertexStart": 848,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 69,
+          "name": "Mesh_BackpackFrame",
+          "sourceMesh": 37,
+          "primitive": 0,
+          "vertexStart": 1092,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 87,
+          "name": "Mesh_ThrusterHeatShield_L",
+          "sourceMesh": 44,
+          "primitive": 0,
+          "vertexStart": 1224,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 111,
+          "name": "Mesh_ThrusterHeatShield_R",
+          "sourceMesh": 44,
+          "primitive": 0,
+          "vertexStart": 1468,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 239,
+          "name": "Mesh_CannonPylon_R",
+          "sourceMesh": 123,
+          "primitive": 0,
+          "vertexStart": 1712,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 392,
+          "name": "Mesh_CannonPylon_L",
+          "sourceMesh": 123,
+          "primitive": 0,
+          "vertexStart": 1844,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 3,
+      "anchorName": "Joint_Torso",
+      "node": 569,
+      "name": "Batch_Joint_Torso_5_5",
+      "mesh": 5,
+      "material": 5,
+      "members": [
+        {
+          "node": 12,
+          "name": "Mesh_VentSlat_L0",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 13,
+          "name": "Mesh_VentSlat_L1",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 24,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 14,
+          "name": "Mesh_VentSlat_L2",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 48,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 15,
+          "name": "Mesh_VentSlat_L3",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 72,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 16,
+          "name": "Mesh_VentSlat_L4",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 96,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 17,
+          "name": "Mesh_VentSlat_L5",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 120,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 18,
+          "name": "Mesh_VentSlat_L6",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 144,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 29,
+          "name": "Mesh_VentSlat_R0",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 168,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 30,
+          "name": "Mesh_VentSlat_R1",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 192,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 31,
+          "name": "Mesh_VentSlat_R2",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 216,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 32,
+          "name": "Mesh_VentSlat_R3",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 240,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 33,
+          "name": "Mesh_VentSlat_R4",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 34,
+          "name": "Mesh_VentSlat_R5",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 288,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 35,
+          "name": "Mesh_VentSlat_R6",
+          "sourceMesh": 7,
+          "primitive": 0,
+          "vertexStart": 312,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 3,
+      "anchorName": "Joint_Torso",
+      "node": 570,
+      "name": "Batch_Joint_Torso_6_6",
+      "mesh": 6,
+      "material": 6,
+      "members": [
+        {
+          "node": 19,
+          "name": "Mesh_ChestFastener_L1.48",
+          "sourceMesh": 8,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 20,
+          "name": "Mesh_ChestFastener_L1.06",
+          "sourceMesh": 8,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 36,
+          "name": "Mesh_ChestFastener_R1.48",
+          "sourceMesh": 8,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 37,
+          "name": "Mesh_ChestFastener_R1.06",
+          "sourceMesh": 8,
+          "primitive": 0,
+          "vertexStart": 732,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 48,
+          "name": "Mesh_ReactorBolt0",
+          "sourceMesh": 21,
+          "primitive": 0,
+          "vertexStart": 976,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 49,
+          "name": "Mesh_ReactorBolt1",
+          "sourceMesh": 22,
+          "primitive": 0,
+          "vertexStart": 1220,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 50,
+          "name": "Mesh_ReactorBolt2",
+          "sourceMesh": 22,
+          "primitive": 0,
+          "vertexStart": 1464,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 3,
+      "anchorName": "Joint_Torso",
+      "node": 571,
+      "name": "Batch_Joint_Torso_7_7",
+      "mesh": 7,
+      "material": 7,
+      "members": [
+        {
+          "node": 23,
+          "name": "Mesh_ShoulderSocketSeal_L",
+          "sourceMesh": 11,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 40,
+          "name": "Mesh_ShoulderSocketSeal_R",
+          "sourceMesh": 11,
+          "primitive": 0,
+          "vertexStart": 441,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 44,
+          "name": "Mesh_ReactorOuterRing",
+          "sourceMesh": 17,
+          "primitive": 0,
+          "vertexStart": 882,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 51,
+          "name": "Mesh_NeckBearing",
+          "sourceMesh": 23,
+          "primitive": 0,
+          "vertexStart": 1323,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 90,
+          "name": "Mesh_ThrusterRim_L",
+          "sourceMesh": 47,
+          "primitive": 0,
+          "vertexStart": 1567,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 114,
+          "name": "Mesh_ThrusterRim_R",
+          "sourceMesh": 47,
+          "primitive": 0,
+          "vertexStart": 2008,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 241,
+          "name": "Mesh_LowerPylonPivot_R",
+          "sourceMesh": 125,
+          "primitive": 0,
+          "vertexStart": 2449,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 394,
+          "name": "Mesh_LowerPylonPivot_L",
+          "sourceMesh": 125,
+          "primitive": 0,
+          "vertexStart": 2693,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 3,
+      "anchorName": "Joint_Torso",
+      "node": 572,
+      "name": "Batch_Joint_Torso_8_8",
+      "mesh": 8,
+      "material": 8,
+      "members": [
+        {
+          "node": 42,
+          "name": "Mesh_ReactorBezel",
+          "sourceMesh": 15,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 45,
+          "name": "Mesh_ReactorInnerRing",
+          "sourceMesh": 18,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 47,
+          "name": "Mesh_ReactorCore",
+          "sourceMesh": 20,
+          "primitive": 0,
+          "vertexStart": 685,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 3,
+      "anchorName": "Joint_Torso",
+      "node": 573,
+      "name": "Batch_Joint_Torso_9_9",
+      "mesh": 9,
+      "material": 9,
+      "members": [
+        {
+          "node": 46,
+          "name": "Mesh_ReactorGlass",
+          "sourceMesh": 19,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 55,
+      "anchorName": "Joint_Head",
+      "node": 574,
+      "name": "Batch_Joint_Head_1_10",
+      "mesh": 10,
+      "material": 1,
+      "members": [
+        {
+          "node": 56,
+          "name": "Mesh_HelmetShell",
+          "sourceMesh": 27,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 390,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 60,
+          "name": "Mesh_HelmetBrowSpine",
+          "sourceMesh": 31,
+          "primitive": 0,
+          "vertexStart": 390,
+          "vertexCount": 84,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 64,
+          "name": "Mesh_HelmetCheek_-1",
+          "sourceMesh": 35,
+          "primitive": 0,
+          "vertexStart": 474,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 67,
+          "name": "Mesh_HelmetCheek_1",
+          "sourceMesh": 36,
+          "primitive": 0,
+          "vertexStart": 582,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 55,
+      "anchorName": "Joint_Head",
+      "node": 575,
+      "name": "Batch_Joint_Head_0_11",
+      "mesh": 11,
+      "material": 0,
+      "members": [
+        {
+          "node": 57,
+          "name": "Mesh_HelmetFaceRecess",
+          "sourceMesh": 28,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 55,
+      "anchorName": "Joint_Head",
+      "node": 576,
+      "name": "Batch_Joint_Head_10_12",
+      "mesh": 12,
+      "material": 10,
+      "members": [
+        {
+          "node": 58,
+          "name": "Mesh_GoldenVisor",
+          "sourceMesh": 29,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 55,
+      "anchorName": "Joint_Head",
+      "node": 577,
+      "name": "Batch_Joint_Head_3_13",
+      "mesh": 13,
+      "material": 3,
+      "members": [
+        {
+          "node": 59,
+          "name": "Mesh_HelmetBrow",
+          "sourceMesh": 30,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 61,
+          "name": "Mesh_HelmetJawGuard",
+          "sourceMesh": 32,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 63,
+          "name": "Mesh_HelmetEarCover_-1",
+          "sourceMesh": 34,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 66,
+          "name": "Mesh_HelmetEarCover_1",
+          "sourceMesh": 34,
+          "primitive": 0,
+          "vertexStart": 508,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 55,
+      "anchorName": "Joint_Head",
+      "node": 578,
+      "name": "Batch_Joint_Head_4_14",
+      "mesh": 14,
+      "material": 4,
+      "members": [
+        {
+          "node": 62,
+          "name": "Mesh_HelmetEar_-1",
+          "sourceMesh": 33,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 65,
+          "name": "Mesh_HelmetEar_1",
+          "sourceMesh": 33,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 3,
+      "anchorName": "Joint_Torso",
+      "node": 579,
+      "name": "Batch_Joint_Torso_11_15",
+      "mesh": 15,
+      "material": 11,
+      "members": [
+        {
+          "node": 88,
+          "name": "Mesh_ThrusterHeatBlue_L",
+          "sourceMesh": 45,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 112,
+          "name": "Mesh_ThrusterHeatBlue_R",
+          "sourceMesh": 45,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 3,
+      "anchorName": "Joint_Torso",
+      "node": 580,
+      "name": "Batch_Joint_Torso_12_16",
+      "mesh": 16,
+      "material": 12,
+      "members": [
+        {
+          "node": 89,
+          "name": "Mesh_ThrusterHeatWarm_L",
+          "sourceMesh": 46,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 113,
+          "name": "Mesh_ThrusterHeatWarm_R",
+          "sourceMesh": 46,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 3,
+      "anchorName": "Joint_Torso",
+      "node": 581,
+      "name": "Batch_Joint_Torso_13_17",
+      "mesh": 17,
+      "material": 13,
+      "members": [
+        {
+          "node": 92,
+          "name": "Mesh_ThrusterInnerRing_L",
+          "sourceMesh": 49,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 116,
+          "name": "Mesh_ThrusterInnerRing_R",
+          "sourceMesh": 49,
+          "primitive": 0,
+          "vertexStart": 441,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 121,
+      "anchorName": "Joint_UpperArmTwist_R",
+      "node": 582,
+      "name": "Batch_Joint_UpperArmTwist_R_0_18",
+      "mesh": 18,
+      "material": 0,
+      "members": [
+        {
+          "node": 122,
+          "name": "Mesh_ShoulderBearing_R",
+          "sourceMesh": 52,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 125,
+          "name": "Mesh_ShoulderSeal_R",
+          "sourceMesh": 55,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 126,
+          "name": "Mesh_UpperArmSpine_R",
+          "sourceMesh": 56,
+          "primitive": 0,
+          "vertexStart": 685,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 121,
+      "anchorName": "Joint_UpperArmTwist_R",
+      "node": 583,
+      "name": "Batch_Joint_UpperArmTwist_R_7_19",
+      "mesh": 19,
+      "material": 7,
+      "members": [
+        {
+          "node": 123,
+          "name": "Mesh_ShoulderBearingFace_R",
+          "sourceMesh": 53,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 130,
+          "name": "Mesh_UpperLink0_R",
+          "sourceMesh": 60,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 132,
+          "name": "Mesh_UpperLink1_R",
+          "sourceMesh": 60,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 121,
+      "anchorName": "Joint_UpperArmTwist_R",
+      "node": 584,
+      "name": "Batch_Joint_UpperArmTwist_R_4_20",
+      "mesh": 20,
+      "material": 4,
+      "members": [
+        {
+          "node": 124,
+          "name": "Mesh_ShoulderHub_R",
+          "sourceMesh": 54,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 129,
+          "name": "Mesh_BicepInset_R",
+          "sourceMesh": 59,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 131,
+          "name": "Mesh_UpperLinkCollar0_R",
+          "sourceMesh": 61,
+          "primitive": 0,
+          "vertexStart": 376,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 133,
+          "name": "Mesh_UpperLinkCollar1_R",
+          "sourceMesh": 61,
+          "primitive": 0,
+          "vertexStart": 620,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 134,
+          "name": "Mesh_ElbowUpperYoke_R",
+          "sourceMesh": 62,
+          "primitive": 0,
+          "vertexStart": 864,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 121,
+      "anchorName": "Joint_UpperArmTwist_R",
+      "node": 585,
+      "name": "Batch_Joint_UpperArmTwist_R_1_21",
+      "mesh": 21,
+      "material": 1,
+      "members": [
+        {
+          "node": 127,
+          "name": "Mesh_UpperArmCastArmor_R",
+          "sourceMesh": 57,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 121,
+      "anchorName": "Joint_UpperArmTwist_R",
+      "node": 586,
+      "name": "Batch_Joint_UpperArmTwist_R_3_22",
+      "mesh": 22,
+      "material": 3,
+      "members": [
+        {
+          "node": 128,
+          "name": "Mesh_BicepFace_R",
+          "sourceMesh": 58,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 135,
+      "anchorName": "Joint_Elbow_R",
+      "node": 587,
+      "name": "Batch_Joint_Elbow_R_0_23",
+      "mesh": 23,
+      "material": 0,
+      "members": [
+        {
+          "node": 136,
+          "name": "Mesh_ElbowAxle_R",
+          "sourceMesh": 63,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 139,
+          "name": "Mesh_ElbowGroove0_R",
+          "sourceMesh": 66,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 142,
+          "name": "Mesh_ElbowGroove1_R",
+          "sourceMesh": 66,
+          "primitive": 0,
+          "vertexStart": 685,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 144,
+          "name": "Mesh_ForearmChassis_R",
+          "sourceMesh": 67,
+          "primitive": 0,
+          "vertexStart": 1126,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 149,
+          "name": "Mesh_ForearmVent0_R",
+          "sourceMesh": 72,
+          "primitive": 0,
+          "vertexStart": 1258,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 150,
+          "name": "Mesh_ForearmVent1_R",
+          "sourceMesh": 72,
+          "primitive": 0,
+          "vertexStart": 1390,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 151,
+          "name": "Mesh_ForearmVent2_R",
+          "sourceMesh": 72,
+          "primitive": 0,
+          "vertexStart": 1522,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 154,
+          "name": "Mesh_BladeMountInset_R",
+          "sourceMesh": 75,
+          "primitive": 0,
+          "vertexStart": 1654,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 135,
+      "anchorName": "Joint_Elbow_R",
+      "node": 588,
+      "name": "Batch_Joint_Elbow_R_7_24",
+      "mesh": 24,
+      "material": 7,
+      "members": [
+        {
+          "node": 137,
+          "name": "Mesh_ElbowDisk0_R",
+          "sourceMesh": 64,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 140,
+          "name": "Mesh_ElbowDisk1_R",
+          "sourceMesh": 64,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 153,
+          "name": "Mesh_BladeMountTrim_R",
+          "sourceMesh": 74,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 135,
+      "anchorName": "Joint_Elbow_R",
+      "node": 589,
+      "name": "Batch_Joint_Elbow_R_4_25",
+      "mesh": 25,
+      "material": 4,
+      "members": [
+        {
+          "node": 138,
+          "name": "Mesh_ElbowCenter0_R",
+          "sourceMesh": 65,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 141,
+          "name": "Mesh_ElbowCenter1_R",
+          "sourceMesh": 65,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 146,
+          "name": "Mesh_ForearmPanelRecess_R",
+          "sourceMesh": 69,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 152,
+          "name": "Mesh_BladeMountBearing_R",
+          "sourceMesh": 73,
+          "primitive": 0,
+          "vertexStart": 620,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 156,
+          "name": "Mesh_BladeRailSupport0_R",
+          "sourceMesh": 77,
+          "primitive": 0,
+          "vertexStart": 864,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 157,
+          "name": "Mesh_BladeRailSupport1_R",
+          "sourceMesh": 77,
+          "primitive": 0,
+          "vertexStart": 996,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 135,
+      "anchorName": "Joint_Elbow_R",
+      "node": 590,
+      "name": "Batch_Joint_Elbow_R_1_26",
+      "mesh": 26,
+      "material": 1,
+      "members": [
+        {
+          "node": 145,
+          "name": "Mesh_ForearmMainArmor_R",
+          "sourceMesh": 68,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 341,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 148,
+          "name": "Mesh_ForearmSpine_R",
+          "sourceMesh": 71,
+          "primitive": 0,
+          "vertexStart": 341,
+          "vertexCount": 84,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 158,
+          "name": "Mesh_BladeRail_R",
+          "sourceMesh": 78,
+          "primitive": 0,
+          "vertexStart": 425,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 135,
+      "anchorName": "Joint_Elbow_R",
+      "node": 591,
+      "name": "Batch_Joint_Elbow_R_3_27",
+      "mesh": 27,
+      "material": 3,
+      "members": [
+        {
+          "node": 147,
+          "name": "Mesh_ForearmFrontPlate_R",
+          "sourceMesh": 70,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 135,
+      "anchorName": "Joint_Elbow_R",
+      "node": 592,
+      "name": "Batch_Joint_Elbow_R_9_28",
+      "mesh": 28,
+      "material": 9,
+      "members": [
+        {
+          "node": 155,
+          "name": "Mesh_BladeMountCyan_R",
+          "sourceMesh": 76,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 135,
+      "anchorName": "Joint_Elbow_R",
+      "node": 593,
+      "name": "Batch_Joint_Elbow_R_13_29",
+      "mesh": 29,
+      "material": 13,
+      "members": [
+        {
+          "node": 160,
+          "name": "Mesh_BladeBody_R",
+          "sourceMesh": 79,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 135,
+      "anchorName": "Joint_Elbow_R",
+      "node": 594,
+      "name": "Batch_Joint_Elbow_R_9_30",
+      "mesh": 30,
+      "material": 9,
+      "members": [
+        {
+          "node": 161,
+          "name": "Mesh_BladeEdge_R",
+          "sourceMesh": 80,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 16,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 163,
+      "anchorName": "Joint_Wrist_R",
+      "node": 595,
+      "name": "Batch_Joint_Wrist_R_7_31",
+      "mesh": 31,
+      "material": 7,
+      "members": [
+        {
+          "node": 164,
+          "name": "Mesh_WristGimbal_R",
+          "sourceMesh": 81,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 222,
+          "name": "Mesh_ThumbPin_R",
+          "sourceMesh": 110,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 225,
+          "name": "Mesh_ThumbDistalPin_R",
+          "sourceMesh": 112,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 226,
+          "name": "Mesh_ThumbDistal_R",
+          "sourceMesh": 113,
+          "primitive": 0,
+          "vertexStart": 732,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 163,
+      "anchorName": "Joint_Wrist_R",
+      "node": 596,
+      "name": "Batch_Joint_Wrist_R_4_32",
+      "mesh": 32,
+      "material": 4,
+      "members": [
+        {
+          "node": 165,
+          "name": "Mesh_WristCuff_R",
+          "sourceMesh": 82,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 166,
+          "name": "Mesh_HandPalm_R",
+          "sourceMesh": 83,
+          "primitive": 0,
+          "vertexStart": 441,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 163,
+      "anchorName": "Joint_Wrist_R",
+      "node": 597,
+      "name": "Batch_Joint_Wrist_R_1_33",
+      "mesh": 33,
+      "material": 1,
+      "members": [
+        {
+          "node": 167,
+          "name": "Mesh_HandBackPlate_R",
+          "sourceMesh": 84,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 223,
+          "name": "Mesh_ThumbBaseArmor_R",
+          "sourceMesh": 111,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 169,
+      "anchorName": "Joint_Finger0_R",
+      "node": 598,
+      "name": "Batch_Joint_Finger0_R_7_34",
+      "mesh": 34,
+      "material": 7,
+      "members": [
+        {
+          "node": 170,
+          "name": "Mesh_FingerPin00_R",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 171,
+          "name": "Mesh_FingerSegment00_R",
+          "sourceMesh": 86,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 174,
+          "name": "Mesh_FingerPin01_R",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 376,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 175,
+          "name": "Mesh_FingerSegment01_R",
+          "sourceMesh": 88,
+          "primitive": 0,
+          "vertexStart": 620,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 178,
+          "name": "Mesh_FingerPin02_R",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 752,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 179,
+          "name": "Mesh_FingerSegment02_R",
+          "sourceMesh": 90,
+          "primitive": 0,
+          "vertexStart": 996,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 169,
+      "anchorName": "Joint_Finger0_R",
+      "node": 599,
+      "name": "Batch_Joint_Finger0_R_1_35",
+      "mesh": 35,
+      "material": 1,
+      "members": [
+        {
+          "node": 172,
+          "name": "Mesh_FingerDorsal00_R",
+          "sourceMesh": 87,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 176,
+          "name": "Mesh_FingerDorsal01_R",
+          "sourceMesh": 89,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 180,
+          "name": "Mesh_FingerDorsal02_R",
+          "sourceMesh": 91,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 182,
+      "anchorName": "Joint_Finger1_R",
+      "node": 600,
+      "name": "Batch_Joint_Finger1_R_7_36",
+      "mesh": 36,
+      "material": 7,
+      "members": [
+        {
+          "node": 183,
+          "name": "Mesh_FingerPin10_R",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 184,
+          "name": "Mesh_FingerSegment10_R",
+          "sourceMesh": 92,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 187,
+          "name": "Mesh_FingerPin11_R",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 376,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 188,
+          "name": "Mesh_FingerSegment11_R",
+          "sourceMesh": 94,
+          "primitive": 0,
+          "vertexStart": 620,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 191,
+          "name": "Mesh_FingerPin12_R",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 752,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 192,
+          "name": "Mesh_FingerSegment12_R",
+          "sourceMesh": 96,
+          "primitive": 0,
+          "vertexStart": 996,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 182,
+      "anchorName": "Joint_Finger1_R",
+      "node": 601,
+      "name": "Batch_Joint_Finger1_R_1_37",
+      "mesh": 37,
+      "material": 1,
+      "members": [
+        {
+          "node": 185,
+          "name": "Mesh_FingerDorsal10_R",
+          "sourceMesh": 93,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 189,
+          "name": "Mesh_FingerDorsal11_R",
+          "sourceMesh": 95,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 193,
+          "name": "Mesh_FingerDorsal12_R",
+          "sourceMesh": 97,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 195,
+      "anchorName": "Joint_Finger2_R",
+      "node": 602,
+      "name": "Batch_Joint_Finger2_R_7_38",
+      "mesh": 38,
+      "material": 7,
+      "members": [
+        {
+          "node": 196,
+          "name": "Mesh_FingerPin20_R",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 197,
+          "name": "Mesh_FingerSegment20_R",
+          "sourceMesh": 98,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 200,
+          "name": "Mesh_FingerPin21_R",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 376,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 201,
+          "name": "Mesh_FingerSegment21_R",
+          "sourceMesh": 100,
+          "primitive": 0,
+          "vertexStart": 620,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 204,
+          "name": "Mesh_FingerPin22_R",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 752,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 205,
+          "name": "Mesh_FingerSegment22_R",
+          "sourceMesh": 102,
+          "primitive": 0,
+          "vertexStart": 996,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 195,
+      "anchorName": "Joint_Finger2_R",
+      "node": 603,
+      "name": "Batch_Joint_Finger2_R_1_39",
+      "mesh": 39,
+      "material": 1,
+      "members": [
+        {
+          "node": 198,
+          "name": "Mesh_FingerDorsal20_R",
+          "sourceMesh": 99,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 202,
+          "name": "Mesh_FingerDorsal21_R",
+          "sourceMesh": 101,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 206,
+          "name": "Mesh_FingerDorsal22_R",
+          "sourceMesh": 103,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 208,
+      "anchorName": "Joint_Finger3_R",
+      "node": 604,
+      "name": "Batch_Joint_Finger3_R_7_40",
+      "mesh": 40,
+      "material": 7,
+      "members": [
+        {
+          "node": 209,
+          "name": "Mesh_FingerPin30_R",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 210,
+          "name": "Mesh_FingerSegment30_R",
+          "sourceMesh": 104,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 213,
+          "name": "Mesh_FingerPin31_R",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 376,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 214,
+          "name": "Mesh_FingerSegment31_R",
+          "sourceMesh": 106,
+          "primitive": 0,
+          "vertexStart": 620,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 217,
+          "name": "Mesh_FingerPin32_R",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 752,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 218,
+          "name": "Mesh_FingerSegment32_R",
+          "sourceMesh": 108,
+          "primitive": 0,
+          "vertexStart": 996,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 208,
+      "anchorName": "Joint_Finger3_R",
+      "node": 605,
+      "name": "Batch_Joint_Finger3_R_1_41",
+      "mesh": 41,
+      "material": 1,
+      "members": [
+        {
+          "node": 211,
+          "name": "Mesh_FingerDorsal30_R",
+          "sourceMesh": 105,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 215,
+          "name": "Mesh_FingerDorsal31_R",
+          "sourceMesh": 107,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 219,
+          "name": "Mesh_FingerDorsal32_R",
+          "sourceMesh": 109,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 227,
+      "anchorName": "Joint_ShoulderCap_R",
+      "node": 606,
+      "name": "Batch_Joint_ShoulderCap_R_0_42",
+      "mesh": 42,
+      "material": 0,
+      "members": [
+        {
+          "node": 229,
+          "name": "Mesh_PauldronUndercut_R",
+          "sourceMesh": 114,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 227,
+      "anchorName": "Joint_ShoulderCap_R",
+      "node": 607,
+      "name": "Batch_Joint_ShoulderCap_R_4_43",
+      "mesh": 43,
+      "material": 4,
+      "members": [
+        {
+          "node": 230,
+          "name": "Mesh_PauldronRim_R",
+          "sourceMesh": 115,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 232,
+          "name": "Mesh_PauldronCrownBorder_R",
+          "sourceMesh": 117,
+          "primitive": 0,
+          "vertexStart": 292,
+          "vertexCount": 243,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 227,
+      "anchorName": "Joint_ShoulderCap_R",
+      "node": 608,
+      "name": "Batch_Joint_ShoulderCap_R_1_44",
+      "mesh": 44,
+      "material": 1,
+      "members": [
+        {
+          "node": 231,
+          "name": "Mesh_PauldronOuterShell_R",
+          "sourceMesh": 116,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 390,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 227,
+      "anchorName": "Joint_ShoulderCap_R",
+      "node": 609,
+      "name": "Batch_Joint_ShoulderCap_R_3_45",
+      "mesh": 45,
+      "material": 3,
+      "members": [
+        {
+          "node": 233,
+          "name": "Mesh_PauldronCrownInset_R",
+          "sourceMesh": 118,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 227,
+      "anchorName": "Joint_ShoulderCap_R",
+      "node": 610,
+      "name": "Batch_Joint_ShoulderCap_R_6_46",
+      "mesh": 46,
+      "material": 6,
+      "members": [
+        {
+          "node": 234,
+          "name": "Mesh_PauldronFastener0_R",
+          "sourceMesh": 119,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 235,
+          "name": "Mesh_PauldronFastener1_R",
+          "sourceMesh": 120,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 227,
+      "anchorName": "Joint_ShoulderCap_R",
+      "node": 611,
+      "name": "Batch_Joint_ShoulderCap_R_7_47",
+      "mesh": 47,
+      "material": 7,
+      "members": [
+        {
+          "node": 236,
+          "name": "Mesh_PauldronFrontTrim_R",
+          "sourceMesh": 121,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 243,
+      "anchorName": "Joint_CannonPitch_R",
+      "node": 612,
+      "name": "Batch_Joint_CannonPitch_R_0_48",
+      "mesh": 48,
+      "material": 0,
+      "members": [
+        {
+          "node": 244,
+          "name": "Mesh_CannonTrunnion_R",
+          "sourceMesh": 126,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 247,
+          "name": "Mesh_CannonHingeSeal0_R",
+          "sourceMesh": 129,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 250,
+          "name": "Mesh_CannonHingeSeal1_R",
+          "sourceMesh": 129,
+          "primitive": 0,
+          "vertexStart": 685,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 269,
+          "name": "Mesh_RecoilCollar0_R",
+          "sourceMesh": 141,
+          "primitive": 0,
+          "vertexStart": 1126,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 271,
+          "name": "Mesh_RecoilCollar1_R",
+          "sourceMesh": 141,
+          "primitive": 0,
+          "vertexStart": 1370,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 243,
+      "anchorName": "Joint_CannonPitch_R",
+      "node": 613,
+      "name": "Batch_Joint_CannonPitch_R_7_49",
+      "mesh": 49,
+      "material": 7,
+      "members": [
+        {
+          "node": 245,
+          "name": "Mesh_CannonHingeFace0_R",
+          "sourceMesh": 127,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 248,
+          "name": "Mesh_CannonHingeFace1_R",
+          "sourceMesh": 127,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 268,
+          "name": "Mesh_RecoilRod0_R",
+          "sourceMesh": 140,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 270,
+          "name": "Mesh_RecoilRod1_R",
+          "sourceMesh": 140,
+          "primitive": 0,
+          "vertexStart": 732,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 243,
+      "anchorName": "Joint_CannonPitch_R",
+      "node": 614,
+      "name": "Batch_Joint_CannonPitch_R_1_50",
+      "mesh": 50,
+      "material": 1,
+      "members": [
+        {
+          "node": 246,
+          "name": "Mesh_CannonHingeInset0_R",
+          "sourceMesh": 128,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 249,
+          "name": "Mesh_CannonHingeInset1_R",
+          "sourceMesh": 128,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 243,
+      "anchorName": "Joint_CannonPitch_R",
+      "node": 615,
+      "name": "Batch_Joint_CannonPitch_R_4_51",
+      "mesh": 51,
+      "material": 4,
+      "members": [
+        {
+          "node": 251,
+          "name": "Mesh_CannonRecoilCradle_R",
+          "sourceMesh": 130,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 252,
+      "anchorName": "Joint_CannonSlide_R",
+      "node": 616,
+      "name": "Batch_Joint_CannonSlide_R_1_52",
+      "mesh": 52,
+      "material": 1,
+      "members": [
+        {
+          "node": 253,
+          "name": "Mesh_CannonBody_R",
+          "sourceMesh": 131,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 262,
+          "name": "Mesh_CannonSideArmor0_R",
+          "sourceMesh": 138,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 265,
+          "name": "Mesh_CannonSideArmor1_R",
+          "sourceMesh": 138,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 252,
+      "anchorName": "Joint_CannonSlide_R",
+      "node": 617,
+      "name": "Batch_Joint_CannonSlide_R_3_53",
+      "mesh": 53,
+      "material": 3,
+      "members": [
+        {
+          "node": 254,
+          "name": "Mesh_CannonTopInset_R",
+          "sourceMesh": 132,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 252,
+      "anchorName": "Joint_CannonSlide_R",
+      "node": 618,
+      "name": "Batch_Joint_CannonSlide_R_4_54",
+      "mesh": 54,
+      "material": 4,
+      "members": [
+        {
+          "node": 255,
+          "name": "Mesh_CannonRearCap_R",
+          "sourceMesh": 133,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 261,
+          "name": "Mesh_CannonSideInset0_R",
+          "sourceMesh": 137,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 264,
+          "name": "Mesh_CannonSideInset1_R",
+          "sourceMesh": 137,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 252,
+      "anchorName": "Joint_CannonSlide_R",
+      "node": 619,
+      "name": "Batch_Joint_CannonSlide_R_7_55",
+      "mesh": 55,
+      "material": 7,
+      "members": [
+        {
+          "node": 256,
+          "name": "Mesh_MuzzleHorizontal0_R",
+          "sourceMesh": 134,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 257,
+          "name": "Mesh_MuzzleHorizontal1_R",
+          "sourceMesh": 134,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 258,
+          "name": "Mesh_MuzzleVertical0_R",
+          "sourceMesh": 135,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 259,
+          "name": "Mesh_MuzzleVertical1_R",
+          "sourceMesh": 135,
+          "primitive": 0,
+          "vertexStart": 396,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 252,
+      "anchorName": "Joint_CannonSlide_R",
+      "node": 620,
+      "name": "Batch_Joint_CannonSlide_R_0_56",
+      "mesh": 56,
+      "material": 0,
+      "members": [
+        {
+          "node": 260,
+          "name": "Mesh_MuzzleRecess_R",
+          "sourceMesh": 136,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 252,
+      "anchorName": "Joint_CannonSlide_R",
+      "node": 621,
+      "name": "Batch_Joint_CannonSlide_R_9_57",
+      "mesh": 57,
+      "material": 9,
+      "members": [
+        {
+          "node": 263,
+          "name": "Mesh_CannonStatus0_R",
+          "sourceMesh": 139,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 266,
+          "name": "Mesh_CannonStatus1_R",
+          "sourceMesh": 139,
+          "primitive": 0,
+          "vertexStart": 24,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 274,
+      "anchorName": "Joint_UpperArmTwist_L",
+      "node": 622,
+      "name": "Batch_Joint_UpperArmTwist_L_0_58",
+      "mesh": 58,
+      "material": 0,
+      "members": [
+        {
+          "node": 275,
+          "name": "Mesh_ShoulderBearing_L",
+          "sourceMesh": 52,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 278,
+          "name": "Mesh_ShoulderSeal_L",
+          "sourceMesh": 55,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 279,
+          "name": "Mesh_UpperArmSpine_L",
+          "sourceMesh": 56,
+          "primitive": 0,
+          "vertexStart": 685,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 274,
+      "anchorName": "Joint_UpperArmTwist_L",
+      "node": 623,
+      "name": "Batch_Joint_UpperArmTwist_L_7_59",
+      "mesh": 59,
+      "material": 7,
+      "members": [
+        {
+          "node": 276,
+          "name": "Mesh_ShoulderBearingFace_L",
+          "sourceMesh": 53,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 283,
+          "name": "Mesh_UpperLink0_L",
+          "sourceMesh": 60,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 285,
+          "name": "Mesh_UpperLink1_L",
+          "sourceMesh": 60,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 274,
+      "anchorName": "Joint_UpperArmTwist_L",
+      "node": 624,
+      "name": "Batch_Joint_UpperArmTwist_L_4_60",
+      "mesh": 60,
+      "material": 4,
+      "members": [
+        {
+          "node": 277,
+          "name": "Mesh_ShoulderHub_L",
+          "sourceMesh": 54,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 282,
+          "name": "Mesh_BicepInset_L",
+          "sourceMesh": 59,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 284,
+          "name": "Mesh_UpperLinkCollar0_L",
+          "sourceMesh": 61,
+          "primitive": 0,
+          "vertexStart": 376,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 286,
+          "name": "Mesh_UpperLinkCollar1_L",
+          "sourceMesh": 61,
+          "primitive": 0,
+          "vertexStart": 620,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 287,
+          "name": "Mesh_ElbowUpperYoke_L",
+          "sourceMesh": 62,
+          "primitive": 0,
+          "vertexStart": 864,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 274,
+      "anchorName": "Joint_UpperArmTwist_L",
+      "node": 625,
+      "name": "Batch_Joint_UpperArmTwist_L_1_61",
+      "mesh": 61,
+      "material": 1,
+      "members": [
+        {
+          "node": 280,
+          "name": "Mesh_UpperArmCastArmor_L",
+          "sourceMesh": 57,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 274,
+      "anchorName": "Joint_UpperArmTwist_L",
+      "node": 626,
+      "name": "Batch_Joint_UpperArmTwist_L_3_62",
+      "mesh": 62,
+      "material": 3,
+      "members": [
+        {
+          "node": 281,
+          "name": "Mesh_BicepFace_L",
+          "sourceMesh": 142,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 288,
+      "anchorName": "Joint_Elbow_L",
+      "node": 627,
+      "name": "Batch_Joint_Elbow_L_0_63",
+      "mesh": 63,
+      "material": 0,
+      "members": [
+        {
+          "node": 289,
+          "name": "Mesh_ElbowAxle_L",
+          "sourceMesh": 63,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 292,
+          "name": "Mesh_ElbowGroove0_L",
+          "sourceMesh": 66,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 295,
+          "name": "Mesh_ElbowGroove1_L",
+          "sourceMesh": 66,
+          "primitive": 0,
+          "vertexStart": 685,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 297,
+          "name": "Mesh_ForearmChassis_L",
+          "sourceMesh": 67,
+          "primitive": 0,
+          "vertexStart": 1126,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 302,
+          "name": "Mesh_ForearmVent0_L",
+          "sourceMesh": 72,
+          "primitive": 0,
+          "vertexStart": 1258,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 303,
+          "name": "Mesh_ForearmVent1_L",
+          "sourceMesh": 72,
+          "primitive": 0,
+          "vertexStart": 1390,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 304,
+          "name": "Mesh_ForearmVent2_L",
+          "sourceMesh": 72,
+          "primitive": 0,
+          "vertexStart": 1522,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 307,
+          "name": "Mesh_BladeMountInset_L",
+          "sourceMesh": 75,
+          "primitive": 0,
+          "vertexStart": 1654,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 288,
+      "anchorName": "Joint_Elbow_L",
+      "node": 628,
+      "name": "Batch_Joint_Elbow_L_7_64",
+      "mesh": 64,
+      "material": 7,
+      "members": [
+        {
+          "node": 290,
+          "name": "Mesh_ElbowDisk0_L",
+          "sourceMesh": 64,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 293,
+          "name": "Mesh_ElbowDisk1_L",
+          "sourceMesh": 64,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 306,
+          "name": "Mesh_BladeMountTrim_L",
+          "sourceMesh": 74,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 288,
+      "anchorName": "Joint_Elbow_L",
+      "node": 629,
+      "name": "Batch_Joint_Elbow_L_4_65",
+      "mesh": 65,
+      "material": 4,
+      "members": [
+        {
+          "node": 291,
+          "name": "Mesh_ElbowCenter0_L",
+          "sourceMesh": 65,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 294,
+          "name": "Mesh_ElbowCenter1_L",
+          "sourceMesh": 65,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 299,
+          "name": "Mesh_ForearmPanelRecess_L",
+          "sourceMesh": 143,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 305,
+          "name": "Mesh_BladeMountBearing_L",
+          "sourceMesh": 73,
+          "primitive": 0,
+          "vertexStart": 620,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 309,
+          "name": "Mesh_BladeRailSupport0_L",
+          "sourceMesh": 77,
+          "primitive": 0,
+          "vertexStart": 864,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 310,
+          "name": "Mesh_BladeRailSupport1_L",
+          "sourceMesh": 77,
+          "primitive": 0,
+          "vertexStart": 996,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 288,
+      "anchorName": "Joint_Elbow_L",
+      "node": 630,
+      "name": "Batch_Joint_Elbow_L_1_66",
+      "mesh": 66,
+      "material": 1,
+      "members": [
+        {
+          "node": 298,
+          "name": "Mesh_ForearmMainArmor_L",
+          "sourceMesh": 68,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 341,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 301,
+          "name": "Mesh_ForearmSpine_L",
+          "sourceMesh": 145,
+          "primitive": 0,
+          "vertexStart": 341,
+          "vertexCount": 84,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 311,
+          "name": "Mesh_BladeRail_L",
+          "sourceMesh": 78,
+          "primitive": 0,
+          "vertexStart": 425,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 288,
+      "anchorName": "Joint_Elbow_L",
+      "node": 631,
+      "name": "Batch_Joint_Elbow_L_3_67",
+      "mesh": 67,
+      "material": 3,
+      "members": [
+        {
+          "node": 300,
+          "name": "Mesh_ForearmFrontPlate_L",
+          "sourceMesh": 144,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 288,
+      "anchorName": "Joint_Elbow_L",
+      "node": 632,
+      "name": "Batch_Joint_Elbow_L_9_68",
+      "mesh": 68,
+      "material": 9,
+      "members": [
+        {
+          "node": 308,
+          "name": "Mesh_BladeMountCyan_L",
+          "sourceMesh": 76,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 288,
+      "anchorName": "Joint_Elbow_L",
+      "node": 633,
+      "name": "Batch_Joint_Elbow_L_13_69",
+      "mesh": 69,
+      "material": 13,
+      "members": [
+        {
+          "node": 313,
+          "name": "Mesh_BladeBody_L",
+          "sourceMesh": 146,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 288,
+      "anchorName": "Joint_Elbow_L",
+      "node": 634,
+      "name": "Batch_Joint_Elbow_L_9_70",
+      "mesh": 70,
+      "material": 9,
+      "members": [
+        {
+          "node": 314,
+          "name": "Mesh_BladeEdge_L",
+          "sourceMesh": 147,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 16,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 316,
+      "anchorName": "Joint_Wrist_L",
+      "node": 635,
+      "name": "Batch_Joint_Wrist_L_7_71",
+      "mesh": 71,
+      "material": 7,
+      "members": [
+        {
+          "node": 317,
+          "name": "Mesh_WristGimbal_L",
+          "sourceMesh": 81,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 375,
+          "name": "Mesh_ThumbPin_L",
+          "sourceMesh": 110,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 378,
+          "name": "Mesh_ThumbDistalPin_L",
+          "sourceMesh": 112,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 379,
+          "name": "Mesh_ThumbDistal_L",
+          "sourceMesh": 113,
+          "primitive": 0,
+          "vertexStart": 732,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 316,
+      "anchorName": "Joint_Wrist_L",
+      "node": 636,
+      "name": "Batch_Joint_Wrist_L_4_72",
+      "mesh": 72,
+      "material": 4,
+      "members": [
+        {
+          "node": 318,
+          "name": "Mesh_WristCuff_L",
+          "sourceMesh": 82,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 319,
+          "name": "Mesh_HandPalm_L",
+          "sourceMesh": 83,
+          "primitive": 0,
+          "vertexStart": 441,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 316,
+      "anchorName": "Joint_Wrist_L",
+      "node": 637,
+      "name": "Batch_Joint_Wrist_L_1_73",
+      "mesh": 73,
+      "material": 1,
+      "members": [
+        {
+          "node": 320,
+          "name": "Mesh_HandBackPlate_L",
+          "sourceMesh": 84,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 376,
+          "name": "Mesh_ThumbBaseArmor_L",
+          "sourceMesh": 111,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 322,
+      "anchorName": "Joint_Finger0_L",
+      "node": 638,
+      "name": "Batch_Joint_Finger0_L_7_74",
+      "mesh": 74,
+      "material": 7,
+      "members": [
+        {
+          "node": 323,
+          "name": "Mesh_FingerPin00_L",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 324,
+          "name": "Mesh_FingerSegment00_L",
+          "sourceMesh": 86,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 327,
+          "name": "Mesh_FingerPin01_L",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 376,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 328,
+          "name": "Mesh_FingerSegment01_L",
+          "sourceMesh": 88,
+          "primitive": 0,
+          "vertexStart": 620,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 331,
+          "name": "Mesh_FingerPin02_L",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 752,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 332,
+          "name": "Mesh_FingerSegment02_L",
+          "sourceMesh": 90,
+          "primitive": 0,
+          "vertexStart": 996,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 322,
+      "anchorName": "Joint_Finger0_L",
+      "node": 639,
+      "name": "Batch_Joint_Finger0_L_1_75",
+      "mesh": 75,
+      "material": 1,
+      "members": [
+        {
+          "node": 325,
+          "name": "Mesh_FingerDorsal00_L",
+          "sourceMesh": 87,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 329,
+          "name": "Mesh_FingerDorsal01_L",
+          "sourceMesh": 89,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 333,
+          "name": "Mesh_FingerDorsal02_L",
+          "sourceMesh": 91,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 335,
+      "anchorName": "Joint_Finger1_L",
+      "node": 640,
+      "name": "Batch_Joint_Finger1_L_7_76",
+      "mesh": 76,
+      "material": 7,
+      "members": [
+        {
+          "node": 336,
+          "name": "Mesh_FingerPin10_L",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 337,
+          "name": "Mesh_FingerSegment10_L",
+          "sourceMesh": 92,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 340,
+          "name": "Mesh_FingerPin11_L",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 376,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 341,
+          "name": "Mesh_FingerSegment11_L",
+          "sourceMesh": 94,
+          "primitive": 0,
+          "vertexStart": 620,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 344,
+          "name": "Mesh_FingerPin12_L",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 752,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 345,
+          "name": "Mesh_FingerSegment12_L",
+          "sourceMesh": 96,
+          "primitive": 0,
+          "vertexStart": 996,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 335,
+      "anchorName": "Joint_Finger1_L",
+      "node": 641,
+      "name": "Batch_Joint_Finger1_L_1_77",
+      "mesh": 77,
+      "material": 1,
+      "members": [
+        {
+          "node": 338,
+          "name": "Mesh_FingerDorsal10_L",
+          "sourceMesh": 93,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 342,
+          "name": "Mesh_FingerDorsal11_L",
+          "sourceMesh": 95,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 346,
+          "name": "Mesh_FingerDorsal12_L",
+          "sourceMesh": 97,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 348,
+      "anchorName": "Joint_Finger2_L",
+      "node": 642,
+      "name": "Batch_Joint_Finger2_L_7_78",
+      "mesh": 78,
+      "material": 7,
+      "members": [
+        {
+          "node": 349,
+          "name": "Mesh_FingerPin20_L",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 350,
+          "name": "Mesh_FingerSegment20_L",
+          "sourceMesh": 98,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 353,
+          "name": "Mesh_FingerPin21_L",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 376,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 354,
+          "name": "Mesh_FingerSegment21_L",
+          "sourceMesh": 100,
+          "primitive": 0,
+          "vertexStart": 620,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 357,
+          "name": "Mesh_FingerPin22_L",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 752,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 358,
+          "name": "Mesh_FingerSegment22_L",
+          "sourceMesh": 102,
+          "primitive": 0,
+          "vertexStart": 996,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 348,
+      "anchorName": "Joint_Finger2_L",
+      "node": 643,
+      "name": "Batch_Joint_Finger2_L_1_79",
+      "mesh": 79,
+      "material": 1,
+      "members": [
+        {
+          "node": 351,
+          "name": "Mesh_FingerDorsal20_L",
+          "sourceMesh": 99,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 355,
+          "name": "Mesh_FingerDorsal21_L",
+          "sourceMesh": 101,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 359,
+          "name": "Mesh_FingerDorsal22_L",
+          "sourceMesh": 103,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 361,
+      "anchorName": "Joint_Finger3_L",
+      "node": 644,
+      "name": "Batch_Joint_Finger3_L_7_80",
+      "mesh": 80,
+      "material": 7,
+      "members": [
+        {
+          "node": 362,
+          "name": "Mesh_FingerPin30_L",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 363,
+          "name": "Mesh_FingerSegment30_L",
+          "sourceMesh": 104,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 366,
+          "name": "Mesh_FingerPin31_L",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 376,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 367,
+          "name": "Mesh_FingerSegment31_L",
+          "sourceMesh": 106,
+          "primitive": 0,
+          "vertexStart": 620,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 370,
+          "name": "Mesh_FingerPin32_L",
+          "sourceMesh": 85,
+          "primitive": 0,
+          "vertexStart": 752,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 371,
+          "name": "Mesh_FingerSegment32_L",
+          "sourceMesh": 108,
+          "primitive": 0,
+          "vertexStart": 996,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 361,
+      "anchorName": "Joint_Finger3_L",
+      "node": 645,
+      "name": "Batch_Joint_Finger3_L_1_81",
+      "mesh": 81,
+      "material": 1,
+      "members": [
+        {
+          "node": 364,
+          "name": "Mesh_FingerDorsal30_L",
+          "sourceMesh": 105,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 368,
+          "name": "Mesh_FingerDorsal31_L",
+          "sourceMesh": 107,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 372,
+          "name": "Mesh_FingerDorsal32_L",
+          "sourceMesh": 109,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 380,
+      "anchorName": "Joint_ShoulderCap_L",
+      "node": 646,
+      "name": "Batch_Joint_ShoulderCap_L_0_82",
+      "mesh": 82,
+      "material": 0,
+      "members": [
+        {
+          "node": 382,
+          "name": "Mesh_PauldronUndercut_L",
+          "sourceMesh": 114,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 380,
+      "anchorName": "Joint_ShoulderCap_L",
+      "node": 647,
+      "name": "Batch_Joint_ShoulderCap_L_4_83",
+      "mesh": 83,
+      "material": 4,
+      "members": [
+        {
+          "node": 383,
+          "name": "Mesh_PauldronRim_L",
+          "sourceMesh": 115,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 385,
+          "name": "Mesh_PauldronCrownBorder_L",
+          "sourceMesh": 117,
+          "primitive": 0,
+          "vertexStart": 292,
+          "vertexCount": 243,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 380,
+      "anchorName": "Joint_ShoulderCap_L",
+      "node": 648,
+      "name": "Batch_Joint_ShoulderCap_L_1_84",
+      "mesh": 84,
+      "material": 1,
+      "members": [
+        {
+          "node": 384,
+          "name": "Mesh_PauldronOuterShell_L",
+          "sourceMesh": 116,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 390,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 380,
+      "anchorName": "Joint_ShoulderCap_L",
+      "node": 649,
+      "name": "Batch_Joint_ShoulderCap_L_3_85",
+      "mesh": 85,
+      "material": 3,
+      "members": [
+        {
+          "node": 386,
+          "name": "Mesh_PauldronCrownInset_L",
+          "sourceMesh": 118,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 380,
+      "anchorName": "Joint_ShoulderCap_L",
+      "node": 650,
+      "name": "Batch_Joint_ShoulderCap_L_6_86",
+      "mesh": 86,
+      "material": 6,
+      "members": [
+        {
+          "node": 387,
+          "name": "Mesh_PauldronFastener0_L",
+          "sourceMesh": 120,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 388,
+          "name": "Mesh_PauldronFastener1_L",
+          "sourceMesh": 120,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 380,
+      "anchorName": "Joint_ShoulderCap_L",
+      "node": 651,
+      "name": "Batch_Joint_ShoulderCap_L_7_87",
+      "mesh": 87,
+      "material": 7,
+      "members": [
+        {
+          "node": 389,
+          "name": "Mesh_PauldronFrontTrim_L",
+          "sourceMesh": 121,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 396,
+      "anchorName": "Joint_CannonPitch_L",
+      "node": 652,
+      "name": "Batch_Joint_CannonPitch_L_0_88",
+      "mesh": 88,
+      "material": 0,
+      "members": [
+        {
+          "node": 397,
+          "name": "Mesh_CannonTrunnion_L",
+          "sourceMesh": 126,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 400,
+          "name": "Mesh_CannonHingeSeal0_L",
+          "sourceMesh": 129,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 403,
+          "name": "Mesh_CannonHingeSeal1_L",
+          "sourceMesh": 129,
+          "primitive": 0,
+          "vertexStart": 685,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 422,
+          "name": "Mesh_RecoilCollar0_L",
+          "sourceMesh": 141,
+          "primitive": 0,
+          "vertexStart": 1126,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 424,
+          "name": "Mesh_RecoilCollar1_L",
+          "sourceMesh": 141,
+          "primitive": 0,
+          "vertexStart": 1370,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 396,
+      "anchorName": "Joint_CannonPitch_L",
+      "node": 653,
+      "name": "Batch_Joint_CannonPitch_L_7_89",
+      "mesh": 89,
+      "material": 7,
+      "members": [
+        {
+          "node": 398,
+          "name": "Mesh_CannonHingeFace0_L",
+          "sourceMesh": 127,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 401,
+          "name": "Mesh_CannonHingeFace1_L",
+          "sourceMesh": 127,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 421,
+          "name": "Mesh_RecoilRod0_L",
+          "sourceMesh": 140,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 423,
+          "name": "Mesh_RecoilRod1_L",
+          "sourceMesh": 140,
+          "primitive": 0,
+          "vertexStart": 732,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 396,
+      "anchorName": "Joint_CannonPitch_L",
+      "node": 654,
+      "name": "Batch_Joint_CannonPitch_L_1_90",
+      "mesh": 90,
+      "material": 1,
+      "members": [
+        {
+          "node": 399,
+          "name": "Mesh_CannonHingeInset0_L",
+          "sourceMesh": 128,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 402,
+          "name": "Mesh_CannonHingeInset1_L",
+          "sourceMesh": 128,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 396,
+      "anchorName": "Joint_CannonPitch_L",
+      "node": 655,
+      "name": "Batch_Joint_CannonPitch_L_4_91",
+      "mesh": 91,
+      "material": 4,
+      "members": [
+        {
+          "node": 404,
+          "name": "Mesh_CannonRecoilCradle_L",
+          "sourceMesh": 130,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 405,
+      "anchorName": "Joint_CannonSlide_L",
+      "node": 656,
+      "name": "Batch_Joint_CannonSlide_L_1_92",
+      "mesh": 92,
+      "material": 1,
+      "members": [
+        {
+          "node": 406,
+          "name": "Mesh_CannonBody_L",
+          "sourceMesh": 131,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 415,
+          "name": "Mesh_CannonSideArmor0_L",
+          "sourceMesh": 138,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 418,
+          "name": "Mesh_CannonSideArmor1_L",
+          "sourceMesh": 138,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 405,
+      "anchorName": "Joint_CannonSlide_L",
+      "node": 657,
+      "name": "Batch_Joint_CannonSlide_L_3_93",
+      "mesh": 93,
+      "material": 3,
+      "members": [
+        {
+          "node": 407,
+          "name": "Mesh_CannonTopInset_L",
+          "sourceMesh": 132,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 405,
+      "anchorName": "Joint_CannonSlide_L",
+      "node": 658,
+      "name": "Batch_Joint_CannonSlide_L_4_94",
+      "mesh": 94,
+      "material": 4,
+      "members": [
+        {
+          "node": 408,
+          "name": "Mesh_CannonRearCap_L",
+          "sourceMesh": 133,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 414,
+          "name": "Mesh_CannonSideInset0_L",
+          "sourceMesh": 137,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 417,
+          "name": "Mesh_CannonSideInset1_L",
+          "sourceMesh": 137,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 405,
+      "anchorName": "Joint_CannonSlide_L",
+      "node": 659,
+      "name": "Batch_Joint_CannonSlide_L_7_95",
+      "mesh": 95,
+      "material": 7,
+      "members": [
+        {
+          "node": 409,
+          "name": "Mesh_MuzzleHorizontal0_L",
+          "sourceMesh": 134,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 410,
+          "name": "Mesh_MuzzleHorizontal1_L",
+          "sourceMesh": 134,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 411,
+          "name": "Mesh_MuzzleVertical0_L",
+          "sourceMesh": 135,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 412,
+          "name": "Mesh_MuzzleVertical1_L",
+          "sourceMesh": 135,
+          "primitive": 0,
+          "vertexStart": 396,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 405,
+      "anchorName": "Joint_CannonSlide_L",
+      "node": 660,
+      "name": "Batch_Joint_CannonSlide_L_0_96",
+      "mesh": 96,
+      "material": 0,
+      "members": [
+        {
+          "node": 413,
+          "name": "Mesh_MuzzleRecess_L",
+          "sourceMesh": 136,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 405,
+      "anchorName": "Joint_CannonSlide_L",
+      "node": 661,
+      "name": "Batch_Joint_CannonSlide_L_9_97",
+      "mesh": 97,
+      "material": 9,
+      "members": [
+        {
+          "node": 416,
+          "name": "Mesh_CannonStatus0_L",
+          "sourceMesh": 139,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 419,
+          "name": "Mesh_CannonStatus1_L",
+          "sourceMesh": 139,
+          "primitive": 0,
+          "vertexStart": 24,
+          "vertexCount": 24,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 2,
+      "anchorName": "Joint_Pelvis",
+      "node": 662,
+      "name": "Batch_Joint_Pelvis_0_98",
+      "mesh": 98,
+      "material": 0,
+      "members": [
+        {
+          "node": 425,
+          "name": "Mesh_PelvisCore",
+          "sourceMesh": 148,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 430,
+          "name": "Mesh_HipSeal_L",
+          "sourceMesh": 153,
+          "primitive": 0,
+          "vertexStart": 292,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 434,
+          "name": "Mesh_HipSeal_R",
+          "sourceMesh": 153,
+          "primitive": 0,
+          "vertexStart": 733,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 437,
+          "name": "Mesh_WaistBearing",
+          "sourceMesh": 158,
+          "primitive": 0,
+          "vertexStart": 1174,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 438,
+          "name": "Mesh_AbdominalRing0",
+          "sourceMesh": 159,
+          "primitive": 0,
+          "vertexStart": 1418,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 444,
+          "name": "Mesh_AbdominalRing2",
+          "sourceMesh": 162,
+          "primitive": 0,
+          "vertexStart": 1710,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 2,
+      "anchorName": "Joint_Pelvis",
+      "node": 663,
+      "name": "Batch_Joint_Pelvis_1_99",
+      "mesh": 99,
+      "material": 1,
+      "members": [
+        {
+          "node": 426,
+          "name": "Mesh_PelvisBelt",
+          "sourceMesh": 149,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 427,
+          "name": "Mesh_HipArmor_L",
+          "sourceMesh": 150,
+          "primitive": 0,
+          "vertexStart": 292,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 431,
+          "name": "Mesh_HipArmor_R",
+          "sourceMesh": 154,
+          "primitive": 0,
+          "vertexStart": 400,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 436,
+          "name": "Mesh_PelvisGuardInset",
+          "sourceMesh": 157,
+          "primitive": 0,
+          "vertexStart": 508,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 2,
+      "anchorName": "Joint_Pelvis",
+      "node": 664,
+      "name": "Batch_Joint_Pelvis_3_100",
+      "mesh": 100,
+      "material": 3,
+      "members": [
+        {
+          "node": 428,
+          "name": "Mesh_HipArmorInset_L",
+          "sourceMesh": 151,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 84,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 432,
+          "name": "Mesh_HipArmorInset_R",
+          "sourceMesh": 155,
+          "primitive": 0,
+          "vertexStart": 84,
+          "vertexCount": 84,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 435,
+          "name": "Mesh_PelvisCentralGuard",
+          "sourceMesh": 156,
+          "primitive": 0,
+          "vertexStart": 168,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 2,
+      "anchorName": "Joint_Pelvis",
+      "node": 665,
+      "name": "Batch_Joint_Pelvis_7_101",
+      "mesh": 101,
+      "material": 7,
+      "members": [
+        {
+          "node": 429,
+          "name": "Mesh_HipRotor_L",
+          "sourceMesh": 152,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 433,
+          "name": "Mesh_HipRotor_R",
+          "sourceMesh": 152,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 439,
+          "name": "Mesh_AbdominalRib0-1",
+          "sourceMesh": 160,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 440,
+          "name": "Mesh_AbdominalRib01",
+          "sourceMesh": 160,
+          "primitive": 0,
+          "vertexStart": 620,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 442,
+          "name": "Mesh_AbdominalRib1-1",
+          "sourceMesh": 160,
+          "primitive": 0,
+          "vertexStart": 752,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 443,
+          "name": "Mesh_AbdominalRib11",
+          "sourceMesh": 160,
+          "primitive": 0,
+          "vertexStart": 884,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 445,
+          "name": "Mesh_AbdominalRib2-1",
+          "sourceMesh": 160,
+          "primitive": 0,
+          "vertexStart": 1016,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 446,
+          "name": "Mesh_AbdominalRib21",
+          "sourceMesh": 160,
+          "primitive": 0,
+          "vertexStart": 1148,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 448,
+          "name": "Mesh_AbdominalRib3-1",
+          "sourceMesh": 160,
+          "primitive": 0,
+          "vertexStart": 1280,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 449,
+          "name": "Mesh_AbdominalRib31",
+          "sourceMesh": 160,
+          "primitive": 0,
+          "vertexStart": 1412,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 450,
+          "name": "Mesh_LumbarPiston-1",
+          "sourceMesh": 164,
+          "primitive": 0,
+          "vertexStart": 1544,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 452,
+          "name": "Mesh_LumbarPiston1",
+          "sourceMesh": 164,
+          "primitive": 0,
+          "vertexStart": 1788,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 2,
+      "anchorName": "Joint_Pelvis",
+      "node": 666,
+      "name": "Batch_Joint_Pelvis_4_102",
+      "mesh": 102,
+      "material": 4,
+      "members": [
+        {
+          "node": 441,
+          "name": "Mesh_AbdominalRing1",
+          "sourceMesh": 161,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 447,
+          "name": "Mesh_AbdominalRing3",
+          "sourceMesh": 163,
+          "primitive": 0,
+          "vertexStart": 292,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 451,
+          "name": "Mesh_LumbarSleeve-1",
+          "sourceMesh": 165,
+          "primitive": 0,
+          "vertexStart": 584,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 453,
+          "name": "Mesh_LumbarSleeve1",
+          "sourceMesh": 165,
+          "primitive": 0,
+          "vertexStart": 828,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 454,
+      "anchorName": "Joint_Hip_L",
+      "node": 667,
+      "name": "Batch_Joint_Hip_L_0_103",
+      "mesh": 103,
+      "material": 0,
+      "members": [
+        {
+          "node": 455,
+          "name": "Mesh_HipBearing_L",
+          "sourceMesh": 166,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 457,
+          "name": "Mesh_FemurCore_L",
+          "sourceMesh": 168,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 454,
+      "anchorName": "Joint_Hip_L",
+      "node": 668,
+      "name": "Batch_Joint_Hip_L_7_104",
+      "mesh": 104,
+      "material": 7,
+      "members": [
+        {
+          "node": 456,
+          "name": "Mesh_HipBearingInset_L",
+          "sourceMesh": 167,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 462,
+          "name": "Mesh_ThighOuterDiskInset_L",
+          "sourceMesh": 173,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 463,
+          "name": "Mesh_HamstringRod_L-0.25",
+          "sourceMesh": 174,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 465,
+          "name": "Mesh_HamstringRod_L0.25",
+          "sourceMesh": 174,
+          "primitive": 0,
+          "vertexStart": 732,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 454,
+      "anchorName": "Joint_Hip_L",
+      "node": 669,
+      "name": "Batch_Joint_Hip_L_1_105",
+      "mesh": 105,
+      "material": 1,
+      "members": [
+        {
+          "node": 458,
+          "name": "Mesh_ThighArmor_L",
+          "sourceMesh": 169,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 341,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 460,
+          "name": "Mesh_ThighInset_L",
+          "sourceMesh": 171,
+          "primitive": 0,
+          "vertexStart": 341,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 454,
+      "anchorName": "Joint_Hip_L",
+      "node": 670,
+      "name": "Batch_Joint_Hip_L_3_106",
+      "mesh": 106,
+      "material": 3,
+      "members": [
+        {
+          "node": 459,
+          "name": "Mesh_ThighFrontPanel_L",
+          "sourceMesh": 170,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 156,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 454,
+      "anchorName": "Joint_Hip_L",
+      "node": 671,
+      "name": "Batch_Joint_Hip_L_4_107",
+      "mesh": 107,
+      "material": 4,
+      "members": [
+        {
+          "node": 461,
+          "name": "Mesh_ThighOuterDisk_L",
+          "sourceMesh": 172,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 464,
+          "name": "Mesh_HamstringSleeve_L-0.25",
+          "sourceMesh": 175,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 466,
+          "name": "Mesh_HamstringSleeve_L0.25",
+          "sourceMesh": 175,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 467,
+      "anchorName": "Joint_Knee_L",
+      "node": 672,
+      "name": "Batch_Joint_Knee_L_0_108",
+      "mesh": 108,
+      "material": 0,
+      "members": [
+        {
+          "node": 468,
+          "name": "Mesh_KneeAxle_L",
+          "sourceMesh": 176,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 471,
+          "name": "Mesh_KneeSeal_L-0.345",
+          "sourceMesh": 179,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 474,
+          "name": "Mesh_KneeSeal_L0.345",
+          "sourceMesh": 179,
+          "primitive": 0,
+          "vertexStart": 685,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 477,
+          "name": "Mesh_TibiaCore_L",
+          "sourceMesh": 182,
+          "primitive": 0,
+          "vertexStart": 1126,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 467,
+      "anchorName": "Joint_Knee_L",
+      "node": 673,
+      "name": "Batch_Joint_Knee_L_7_109",
+      "mesh": 109,
+      "material": 7,
+      "members": [
+        {
+          "node": 469,
+          "name": "Mesh_KneeCover_L-0.345",
+          "sourceMesh": 177,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 472,
+          "name": "Mesh_KneeCover_L0.345",
+          "sourceMesh": 177,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 481,
+          "name": "Mesh_CalfPiston_L-0.2",
+          "sourceMesh": 186,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 483,
+          "name": "Mesh_CalfPiston_L0.2",
+          "sourceMesh": 186,
+          "primitive": 0,
+          "vertexStart": 732,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 467,
+      "anchorName": "Joint_Knee_L",
+      "node": 674,
+      "name": "Batch_Joint_Knee_L_4_110",
+      "mesh": 110,
+      "material": 4,
+      "members": [
+        {
+          "node": 470,
+          "name": "Mesh_KneeInset_L-0.345",
+          "sourceMesh": 178,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 473,
+          "name": "Mesh_KneeInset_L0.345",
+          "sourceMesh": 178,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 482,
+          "name": "Mesh_CalfPistonSleeve_L-0.2",
+          "sourceMesh": 187,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 484,
+          "name": "Mesh_CalfPistonSleeve_L0.2",
+          "sourceMesh": 187,
+          "primitive": 0,
+          "vertexStart": 732,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 467,
+      "anchorName": "Joint_Knee_L",
+      "node": 675,
+      "name": "Batch_Joint_Knee_L_1_111",
+      "mesh": 111,
+      "material": 1,
+      "members": [
+        {
+          "node": 475,
+          "name": "Mesh_Patella_L",
+          "sourceMesh": 180,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 478,
+          "name": "Mesh_ShinArmor_L",
+          "sourceMesh": 183,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 341,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 480,
+          "name": "Mesh_ShinCenterRidge_L",
+          "sourceMesh": 185,
+          "primitive": 0,
+          "vertexStart": 473,
+          "vertexCount": 84,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 467,
+      "anchorName": "Joint_Knee_L",
+      "node": 676,
+      "name": "Batch_Joint_Knee_L_3_112",
+      "mesh": 112,
+      "material": 3,
+      "members": [
+        {
+          "node": 476,
+          "name": "Mesh_KneeHighlight_L",
+          "sourceMesh": 181,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 84,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 479,
+          "name": "Mesh_ShinFrontPlate_L",
+          "sourceMesh": 184,
+          "primitive": 0,
+          "vertexStart": 84,
+          "vertexCount": 156,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 485,
+      "anchorName": "Joint_Ankle_L",
+      "node": 677,
+      "name": "Batch_Joint_Ankle_L_0_113",
+      "mesh": 113,
+      "material": 0,
+      "members": [
+        {
+          "node": 486,
+          "name": "Mesh_AnkleAxle_L",
+          "sourceMesh": 188,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 491,
+          "name": "Mesh_HeelSole_L",
+          "sourceMesh": 191,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 485,
+      "anchorName": "Joint_Ankle_L",
+      "node": 678,
+      "name": "Batch_Joint_Ankle_L_7_114",
+      "mesh": 114,
+      "material": 7,
+      "members": [
+        {
+          "node": 487,
+          "name": "Mesh_AnkleBearing_L-0.3",
+          "sourceMesh": 189,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 489,
+          "name": "Mesh_AnkleBearing_L0.3",
+          "sourceMesh": 189,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 485,
+      "anchorName": "Joint_Ankle_L",
+      "node": 679,
+      "name": "Batch_Joint_Ankle_L_4_115",
+      "mesh": 115,
+      "material": 4,
+      "members": [
+        {
+          "node": 488,
+          "name": "Mesh_AnkleBearingInset_L-0.3",
+          "sourceMesh": 190,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 490,
+          "name": "Mesh_AnkleBearingInset_L0.3",
+          "sourceMesh": 190,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 493,
+          "name": "Mesh_FootBridge_L",
+          "sourceMesh": 193,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 485,
+      "anchorName": "Joint_Ankle_L",
+      "node": 680,
+      "name": "Batch_Joint_Ankle_L_1_116",
+      "mesh": 116,
+      "material": 1,
+      "members": [
+        {
+          "node": 492,
+          "name": "Mesh_HeelArmor_L",
+          "sourceMesh": 192,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 494,
+          "name": "Mesh_FootInstep_L",
+          "sourceMesh": 194,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 485,
+      "anchorName": "Joint_Ankle_L",
+      "node": 681,
+      "name": "Batch_Joint_Ankle_L_3_117",
+      "mesh": 117,
+      "material": 3,
+      "members": [
+        {
+          "node": 495,
+          "name": "Mesh_InstepPlate_L",
+          "sourceMesh": 195,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 496,
+      "anchorName": "Joint_Toe_L",
+      "node": 682,
+      "name": "Batch_Joint_Toe_L_0_118",
+      "mesh": 118,
+      "material": 0,
+      "members": [
+        {
+          "node": 497,
+          "name": "Mesh_ToeSole_L0",
+          "sourceMesh": 196,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 500,
+          "name": "Mesh_ToeSole_L1",
+          "sourceMesh": 196,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 503,
+          "name": "Mesh_ToeSole_L2",
+          "sourceMesh": 196,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 496,
+      "anchorName": "Joint_Toe_L",
+      "node": 683,
+      "name": "Batch_Joint_Toe_L_1_119",
+      "mesh": 119,
+      "material": 1,
+      "members": [
+        {
+          "node": 498,
+          "name": "Mesh_ToeArmor_L0",
+          "sourceMesh": 197,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 501,
+          "name": "Mesh_ToeArmor_L1",
+          "sourceMesh": 197,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 504,
+          "name": "Mesh_ToeArmor_L2",
+          "sourceMesh": 197,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 496,
+      "anchorName": "Joint_Toe_L",
+      "node": 684,
+      "name": "Batch_Joint_Toe_L_3_120",
+      "mesh": 120,
+      "material": 3,
+      "members": [
+        {
+          "node": 499,
+          "name": "Mesh_ToeTip_L0",
+          "sourceMesh": 198,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 502,
+          "name": "Mesh_ToeTip_L1",
+          "sourceMesh": 198,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 505,
+          "name": "Mesh_ToeTip_L2",
+          "sourceMesh": 198,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 509,
+      "anchorName": "Joint_Hip_R",
+      "node": 685,
+      "name": "Batch_Joint_Hip_R_0_121",
+      "mesh": 121,
+      "material": 0,
+      "members": [
+        {
+          "node": 510,
+          "name": "Mesh_HipBearing_R",
+          "sourceMesh": 166,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 512,
+          "name": "Mesh_FemurCore_R",
+          "sourceMesh": 168,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 509,
+      "anchorName": "Joint_Hip_R",
+      "node": 686,
+      "name": "Batch_Joint_Hip_R_7_122",
+      "mesh": 122,
+      "material": 7,
+      "members": [
+        {
+          "node": 511,
+          "name": "Mesh_HipBearingInset_R",
+          "sourceMesh": 167,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 517,
+          "name": "Mesh_ThighOuterDiskInset_R",
+          "sourceMesh": 173,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 518,
+          "name": "Mesh_HamstringRod_R-0.25",
+          "sourceMesh": 174,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 520,
+          "name": "Mesh_HamstringRod_R0.25",
+          "sourceMesh": 174,
+          "primitive": 0,
+          "vertexStart": 732,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 509,
+      "anchorName": "Joint_Hip_R",
+      "node": 687,
+      "name": "Batch_Joint_Hip_R_1_123",
+      "mesh": 123,
+      "material": 1,
+      "members": [
+        {
+          "node": 513,
+          "name": "Mesh_ThighArmor_R",
+          "sourceMesh": 169,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 341,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 515,
+          "name": "Mesh_ThighInset_R",
+          "sourceMesh": 171,
+          "primitive": 0,
+          "vertexStart": 341,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 509,
+      "anchorName": "Joint_Hip_R",
+      "node": 688,
+      "name": "Batch_Joint_Hip_R_3_124",
+      "mesh": 124,
+      "material": 3,
+      "members": [
+        {
+          "node": 514,
+          "name": "Mesh_ThighFrontPanel_R",
+          "sourceMesh": 170,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 156,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 509,
+      "anchorName": "Joint_Hip_R",
+      "node": 689,
+      "name": "Batch_Joint_Hip_R_4_125",
+      "mesh": 125,
+      "material": 4,
+      "members": [
+        {
+          "node": 516,
+          "name": "Mesh_ThighOuterDisk_R",
+          "sourceMesh": 172,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 519,
+          "name": "Mesh_HamstringSleeve_R-0.25",
+          "sourceMesh": 175,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 521,
+          "name": "Mesh_HamstringSleeve_R0.25",
+          "sourceMesh": 175,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 522,
+      "anchorName": "Joint_Knee_R",
+      "node": 690,
+      "name": "Batch_Joint_Knee_R_0_126",
+      "mesh": 126,
+      "material": 0,
+      "members": [
+        {
+          "node": 523,
+          "name": "Mesh_KneeAxle_R",
+          "sourceMesh": 176,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 526,
+          "name": "Mesh_KneeSeal_R-0.345",
+          "sourceMesh": 179,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 529,
+          "name": "Mesh_KneeSeal_R0.345",
+          "sourceMesh": 179,
+          "primitive": 0,
+          "vertexStart": 685,
+          "vertexCount": 441,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 532,
+          "name": "Mesh_TibiaCore_R",
+          "sourceMesh": 182,
+          "primitive": 0,
+          "vertexStart": 1126,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 522,
+      "anchorName": "Joint_Knee_R",
+      "node": 691,
+      "name": "Batch_Joint_Knee_R_7_127",
+      "mesh": 127,
+      "material": 7,
+      "members": [
+        {
+          "node": 524,
+          "name": "Mesh_KneeCover_R-0.345",
+          "sourceMesh": 177,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 527,
+          "name": "Mesh_KneeCover_R0.345",
+          "sourceMesh": 177,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 536,
+          "name": "Mesh_CalfPiston_R-0.2",
+          "sourceMesh": 186,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 538,
+          "name": "Mesh_CalfPiston_R0.2",
+          "sourceMesh": 186,
+          "primitive": 0,
+          "vertexStart": 732,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 522,
+      "anchorName": "Joint_Knee_R",
+      "node": 692,
+      "name": "Batch_Joint_Knee_R_4_128",
+      "mesh": 128,
+      "material": 4,
+      "members": [
+        {
+          "node": 525,
+          "name": "Mesh_KneeInset_R-0.345",
+          "sourceMesh": 178,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 528,
+          "name": "Mesh_KneeInset_R0.345",
+          "sourceMesh": 178,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 537,
+          "name": "Mesh_CalfPistonSleeve_R-0.2",
+          "sourceMesh": 187,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 539,
+          "name": "Mesh_CalfPistonSleeve_R0.2",
+          "sourceMesh": 187,
+          "primitive": 0,
+          "vertexStart": 732,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 522,
+      "anchorName": "Joint_Knee_R",
+      "node": 693,
+      "name": "Batch_Joint_Knee_R_1_129",
+      "mesh": 129,
+      "material": 1,
+      "members": [
+        {
+          "node": 530,
+          "name": "Mesh_Patella_R",
+          "sourceMesh": 180,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 533,
+          "name": "Mesh_ShinArmor_R",
+          "sourceMesh": 183,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 341,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 535,
+          "name": "Mesh_ShinCenterRidge_R",
+          "sourceMesh": 185,
+          "primitive": 0,
+          "vertexStart": 473,
+          "vertexCount": 84,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 522,
+      "anchorName": "Joint_Knee_R",
+      "node": 694,
+      "name": "Batch_Joint_Knee_R_3_130",
+      "mesh": 130,
+      "material": 3,
+      "members": [
+        {
+          "node": 531,
+          "name": "Mesh_KneeHighlight_R",
+          "sourceMesh": 181,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 84,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 534,
+          "name": "Mesh_ShinFrontPlate_R",
+          "sourceMesh": 184,
+          "primitive": 0,
+          "vertexStart": 84,
+          "vertexCount": 156,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 540,
+      "anchorName": "Joint_Ankle_R",
+      "node": 695,
+      "name": "Batch_Joint_Ankle_R_0_131",
+      "mesh": 131,
+      "material": 0,
+      "members": [
+        {
+          "node": 541,
+          "name": "Mesh_AnkleAxle_R",
+          "sourceMesh": 188,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 546,
+          "name": "Mesh_HeelSole_R",
+          "sourceMesh": 191,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 540,
+      "anchorName": "Joint_Ankle_R",
+      "node": 696,
+      "name": "Batch_Joint_Ankle_R_7_132",
+      "mesh": 132,
+      "material": 7,
+      "members": [
+        {
+          "node": 542,
+          "name": "Mesh_AnkleBearing_R-0.3",
+          "sourceMesh": 189,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 544,
+          "name": "Mesh_AnkleBearing_R0.3",
+          "sourceMesh": 189,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 540,
+      "anchorName": "Joint_Ankle_R",
+      "node": 697,
+      "name": "Batch_Joint_Ankle_R_4_133",
+      "mesh": 133,
+      "material": 4,
+      "members": [
+        {
+          "node": 543,
+          "name": "Mesh_AnkleBearingInset_R-0.3",
+          "sourceMesh": 190,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 545,
+          "name": "Mesh_AnkleBearingInset_R0.3",
+          "sourceMesh": 190,
+          "primitive": 0,
+          "vertexStart": 244,
+          "vertexCount": 244,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 548,
+          "name": "Mesh_FootBridge_R",
+          "sourceMesh": 193,
+          "primitive": 0,
+          "vertexStart": 488,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 540,
+      "anchorName": "Joint_Ankle_R",
+      "node": 698,
+      "name": "Batch_Joint_Ankle_R_1_134",
+      "mesh": 134,
+      "material": 1,
+      "members": [
+        {
+          "node": 547,
+          "name": "Mesh_HeelArmor_R",
+          "sourceMesh": 192,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 549,
+          "name": "Mesh_FootInstep_R",
+          "sourceMesh": 194,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 292,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 540,
+      "anchorName": "Joint_Ankle_R",
+      "node": 699,
+      "name": "Batch_Joint_Ankle_R_3_135",
+      "mesh": 135,
+      "material": 3,
+      "members": [
+        {
+          "node": 550,
+          "name": "Mesh_InstepPlate_R",
+          "sourceMesh": 195,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 108,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 551,
+      "anchorName": "Joint_Toe_R",
+      "node": 700,
+      "name": "Batch_Joint_Toe_R_0_136",
+      "mesh": 136,
+      "material": 0,
+      "members": [
+        {
+          "node": 552,
+          "name": "Mesh_ToeSole_R0",
+          "sourceMesh": 196,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 555,
+          "name": "Mesh_ToeSole_R1",
+          "sourceMesh": 196,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 558,
+          "name": "Mesh_ToeSole_R2",
+          "sourceMesh": 196,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 551,
+      "anchorName": "Joint_Toe_R",
+      "node": 701,
+      "name": "Batch_Joint_Toe_R_1_137",
+      "mesh": 137,
+      "material": 1,
+      "members": [
+        {
+          "node": 553,
+          "name": "Mesh_ToeArmor_R0",
+          "sourceMesh": 197,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 556,
+          "name": "Mesh_ToeArmor_R1",
+          "sourceMesh": 197,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 559,
+          "name": "Mesh_ToeArmor_R2",
+          "sourceMesh": 197,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    },
+    {
+      "anchor": 551,
+      "anchorName": "Joint_Toe_R",
+      "node": 702,
+      "name": "Batch_Joint_Toe_R_3_138",
+      "mesh": 138,
+      "material": 3,
+      "members": [
+        {
+          "node": 554,
+          "name": "Mesh_ToeTip_R0",
+          "sourceMesh": 198,
+          "primitive": 0,
+          "vertexStart": 0,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 557,
+          "name": "Mesh_ToeTip_R1",
+          "sourceMesh": 198,
+          "primitive": 0,
+          "vertexStart": 132,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        },
+        {
+          "node": 560,
+          "name": "Mesh_ToeTip_R2",
+          "sourceMesh": 198,
+          "primitive": 0,
+          "vertexStart": 264,
+          "vertexCount": 132,
+          "crossedProtectedNodes": []
+        }
+      ]
+    }
+  ],
+  "method": "Static transforms baked below animation targets and declared runtime/IK-controlled joints; all original nodes and PNG bytes retained. Unanimated static joints require rebatching before new motion can affect their previously merged geometry.",
+  "runtimeDrivenJoints": [
+    "Joint_MotionRoot",
+    "Joint_Pelvis",
+    "Joint_Torso",
+    "Joint_Head",
+    "Joint_Hip_L",
+    "Joint_Knee_L",
+    "Joint_Ankle_L",
+    "Joint_Toe_L",
+    "Joint_CannonYaw_L",
+    "Joint_CannonPitch_L",
+    "Joint_Hip_R",
+    "Joint_Knee_R",
+    "Joint_Ankle_R",
+    "Joint_Toe_R",
+    "Joint_CannonYaw_R",
+    "Joint_CannonPitch_R"
+  ]
+}

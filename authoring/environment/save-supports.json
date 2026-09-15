@@ -1,0 +1,10 @@
+{
+  "programRef": "p_6f8a05f2f517",
+  "name": "Coastal Proving Ground",
+  "collection": "project",
+  "assetId": "a_e348aa8d82c14985805662d29868fd5b",
+  "parentRevision": "r_c8011ce63c8246bcadc76cdb2402e60b",
+  "brief": "Kiln-authored coastal proving ground for the 79.25 metre Jaeger. Fixed tower-connected cantilever rails support both cradle carriages throughout release. Preserve all environment families and the CradleRelease clip. Fit intact targets to measured blade and cannon heights and export the authored site contract.",
+  "description": "Adds fixed carriage guides and diagonal tower braces, aligns target dimensions and pilot bounds with the integrated Jaeger, and reduces painted steel and concrete texture contrast. PBR cradle views reviewed at docked and retracted poses.",
+  "attribution": { "model": "gpt-6-astra", "harness": "codex" }
+}

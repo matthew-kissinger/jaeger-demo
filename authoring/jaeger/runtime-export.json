@@ -1,0 +1,23 @@
+{
+  "schema": "jaeger.runtime-export-proof.v1",
+  "passed": true,
+  "engineCommit": "23c87c5d9c690c28db5575ee22e04c8c53ed4d63",
+  "engineCliSha256": "74c0958a0fd4a0f2062d13dc204307fc6edfd27308dbb525039b0e19d1ba2ce6",
+  "canonical": {
+    "file": "jaeger-complete-v4.glb",
+    "sha256": "14155efa3ebef47839b70632c0b185557d743abcb99d00e2fa093ba75e3553e0",
+    "bytes": 3771340
+  },
+  "runtime": {
+    "file": "jaeger-complete-v4-runtime.glb",
+    "sha256": "0cdb3f0a0f7ce13824e19ecd44f23d0f2d7720c4906505ba68341853170f319f",
+    "bytes": 2102188
+  },
+  "metadata": {
+    "file": "jaeger-complete-v4-runtime.kiln-metadata.json",
+    "sha256": "a00ee636a2dcffcfb637efc3bb2ca1a5d5d7c6a89322d4b22ceb39cc7442db7f",
+    "bytes": 1669629
+  },
+  "checks": "226 existing export/material/motion checks passed on the runtime GLB; all 16 clips sampled over 1,335 frames; metadata filename/hash and canonical source hash verified.",
+  "limitation": "Opt-in candidate from an unmerged engine PR. Metadata slimming does not batch meshes or establish scene FPS."
+}

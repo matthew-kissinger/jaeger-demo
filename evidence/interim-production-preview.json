@@ -1,0 +1,50 @@
+{
+  "base": "http://127.0.0.1:4186/jaeger-demo/",
+  "readiness": "interim local playtest; full spec acceptance unfinished",
+  "input": {
+    "state": "attack",
+    "position": [
+      -123.77424122443233,
+      0,
+      0
+    ],
+    "scale": 9.758049617364895,
+    "clip": "SlashRight",
+    "introTime": 12,
+    "paused": false,
+    "ik": {
+      "maxCorrection": 0.00044565978212409243,
+      "maxReachError": 0,
+      "worstReach": null
+    }
+  },
+  "files": [
+    {
+      "path": "assets/jaeger-pilot.glb",
+      "bytes": 5997832,
+      "sha256": "b5df0d282aad67d949dce93d5af82a5b42a11db995a993e8d9b484431d0fd862"
+    },
+    {
+      "path": "assets/environment.glb",
+      "bytes": 2515128,
+      "sha256": "db978e63c35abe2cbcfcec1becd318a00262ccceb56e5ce25b94da0d17242887"
+    },
+    {
+      "path": "assets/interaction.json",
+      "status": 200
+    },
+    {
+      "path": "audio/manifest.json",
+      "status": 200
+    },
+    {
+      "path": "downloads/jaeger-complete-v4.glb",
+      "status": 200
+    },
+    {
+      "path": "downloads/coastal-proving-ground-supported-source.zip",
+      "status": 200
+    }
+  ],
+  "errors": []
+}

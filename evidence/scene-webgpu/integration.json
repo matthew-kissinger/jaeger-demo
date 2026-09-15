@@ -1,0 +1,51 @@
+{
+  "ready": true,
+  "phase": "scene-development",
+  "state": {
+    "state": "idle",
+    "position": [
+      -95.1657360817186,
+      0,
+      -43.571567492578765
+    ],
+    "scale": 9.758049617364895,
+    "clip": "Idle",
+    "introTime": 12,
+    "paused": false,
+    "ik": {
+      "maxCorrection": 3.8721642727776655,
+      "maxReachError": 0,
+      "worstReach": null
+    }
+  },
+  "stats": {
+    "backend": "WebGPU",
+    "calls": 382,
+    "triangles": 224545,
+    "fps": 144.00748838935763,
+    "p95": 7.100000001490116,
+    "p99": 7.600000001490116,
+    "memory": {
+      "attributes": 689,
+      "attributesSize": 6077740,
+      "geometries": 205,
+      "indexAttributes": 204,
+      "indexAttributesSize": 1405992,
+      "indirectStorageAttributes": 0,
+      "indirectStorageAttributesSize": 0,
+      "programs": 22,
+      "programsSize": 231419,
+      "readbackBuffers": 0,
+      "readbackBuffersSize": 0,
+      "renderTargets": 3,
+      "storageAttributes": 0,
+      "storageAttributesSize": 0,
+      "textures": 21,
+      "texturesSize": 60072404,
+      "uniformBuffers": 412,
+      "uniformBuffersSize": 113568,
+      "total": 67901123
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,310 @@
+{
+  "version": "kiln.asset.v1",
+  "assetId": "a_e348aa8d82c14985805662d29868fd5b",
+  "revisionId": "r_c8011ce63c8246bcadc76cdb2402e60b",
+  "name": "Coastal Proving Ground - environment and release cradle",
+  "tags": [],
+  "createdAt": "2026-09-15T05:47:40.790Z",
+  "description": "Initial complete asset kit. Material-faithful family views and three release phases reviewed. Destination placement, hero clearance and final scene lighting remain integration work.",
+  "brief": "Kiln-authored coastal deck, uneven shore, hangar, animated mechanical cradle, human scale truck, props and intact targets for the 79.25 metre Jaeger demo.",
+  "attribution": {
+    "model": "gpt-6-astra",
+    "harness": "codex"
+  },
+  "editable": true,
+  "files": {
+    "asset.glb": {
+      "sha256": "sha256:debab9520dc43c8510928a7f68647da2cd248a0bc3a600af8dee43b43f27821e",
+      "bytes": 1151896
+    },
+    "source.kiln.js": {
+      "sha256": "sha256:2ce67959b777530ec073432e2c2cc0e3e3542fe417052fbf67c8bf22ff5fa21a",
+      "bytes": 17081
+    },
+    "preview.png": {
+      "sha256": "sha256:f0dd61aaf2ef2e26faeeadb4a07a01596c141a8d2cc84f07bea16170b68639eb",
+      "bytes": 197794
+    }
+  },
+  "build": {
+    "engine": "sha256:fa3bae4f16eba2da609713aee6b8257717a252099cc24370869c43f87e4a18f3",
+    "options": {
+      "optimize": "off",
+      "instance": "auto",
+      "geometryPolicy": "strict",
+      "qaMode": "enforce",
+      "evaluatorMode": "subprocess"
+    },
+    "warnings": [],
+    "integration": {
+      "schemaVersion": "kiln.integration-manifest.v1",
+      "analyzerVersion": 1,
+      "artifactSha256": "debab9520dc43c8510928a7f68647da2cd248a0bc3a600af8dee43b43f27821e",
+      "units": "m",
+      "axes": {
+        "forward": "+X",
+        "up": "+Y",
+        "right": "+Z"
+      },
+      "bounds": {
+        "min": [
+          -750,
+          -35,
+          -590
+        ],
+        "max": [
+          241,
+          103.31529615597425,
+          590
+        ],
+        "size": [
+          991,
+          138.31529615597424,
+          1180
+        ],
+        "center": [
+          -254.5,
+          34.157648077987126,
+          0
+        ]
+      },
+      "pivot": {
+        "convention": "author-origin",
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      "ground": {
+        "groundY": 0,
+        "contactTolerance": 0.02,
+        "minY": -35,
+        "offsetToGround": 35,
+        "grounded": false
+      },
+      "defaultScene": {
+        "index": 0,
+        "name": "Coastal Proving Ground"
+      },
+      "requestedRole": "ground",
+      "renderMetrics": {
+        "triangles": 37268,
+        "drawCalls": 967,
+        "uniqueGeometries": 135,
+        "uniqueMaterials": 10,
+        "textureCount": 6,
+        "transparentMaterials": 0,
+        "skinned": false
+      },
+      "structuralQa": {
+        "hasDefaultScene": true,
+        "finiteBounds": true,
+        "validatorErrors": 0,
+        "validatorWarnings": 0
+      },
+      "visualQa": "not_assessed"
+    },
+    "qa": {
+      "schemaVersion": 1,
+      "category": "prop",
+      "qaProfile": "prop.default",
+      "disposition": "warn",
+      "dimensions": {
+        "exportIntegrity": {
+          "status": "pass",
+          "findings": [],
+          "metrics": {
+            "gltfErrors": 0,
+            "gltfWarnings": 0
+          }
+        },
+        "categoryReadiness": {
+          "status": "pass",
+          "findings": []
+        },
+        "promptAlignment": {
+          "status": "notEvaluated",
+          "findings": []
+        },
+        "visualQuality": {
+          "status": "pass",
+          "findings": [
+            {
+              "code": "GEO_PART_CONNECTIVITY",
+              "disposition": "observe",
+              "dimension": "visualQuality",
+              "profile": "geometry.partConnectivity",
+              "message": "A group of 8 parts (\"Mesh_TargetPlate_414\", \"Mesh_TargetRing_415\", \"Mesh_TargetInset_416\", \"Mesh_TargetCore_417\", \"Mesh_TargetTick_418\", \"Mesh_TargetTick_419\", \"Mesh_TargetTick_420\", \"Mesh_TargetTick_421\") is not attached to the main body — the nearest gap is 0.050 m. These parts touch each other but nothing else, so one join is missing rather than several parts being misplaced.",
+              "affected": {
+                "node": "Mesh_TargetPlate_414"
+              },
+              "measurement": {
+                "name": "gapToMainComponent",
+                "actual": 0.05,
+                "expected": 0.02
+              },
+              "repairText": "Attach it with snapTo(\"Mesh_TargetPlate_414\"Part, hostPart), or reposition the group so it contacts the body. If it is meant to stand apart, say so in the part name (foliage, card, decal) so this check skips it."
+            },
+            {
+              "code": "GEO_PART_CONNECTIVITY",
+              "disposition": "observe",
+              "dimension": "visualQuality",
+              "profile": "geometry.partConnectivity",
+              "message": "A group of 8 parts (\"Mesh_TargetPlate_427\", \"Mesh_TargetRing_428\", \"Mesh_TargetInset_429\", \"Mesh_TargetCore_430\", \"Mesh_TargetTick_431\", \"Mesh_TargetTick_432\", \"Mesh_TargetTick_433\", \"Mesh_TargetTick_434\") is not attached to the main body — the nearest gap is 0.050 m. These parts touch each other but nothing else, so one join is missing rather than several parts being misplaced.",
+              "affected": {
+                "node": "Mesh_TargetPlate_427"
+              },
+              "measurement": {
+                "name": "gapToMainComponent",
+                "actual": 0.05,
+                "expected": 0.02
+              },
+              "repairText": "Attach it with snapTo(\"Mesh_TargetPlate_427\"Part, hostPart), or reposition the group so it contacts the body. If it is meant to stand apart, say so in the part name (foliage, card, decal) so this check skips it."
+            },
+            {
+              "code": "GEO_PART_CONNECTIVITY",
+              "disposition": "observe",
+              "dimension": "visualQuality",
+              "profile": "geometry.partConnectivity",
+              "message": "A group of 8 parts (\"Mesh_TargetPlate_440\", \"Mesh_TargetRing_441\", \"Mesh_TargetInset_442\", \"Mesh_TargetCore_443\", \"Mesh_TargetTick_444\", \"Mesh_TargetTick_445\", \"Mesh_TargetTick_446\", \"Mesh_TargetTick_447\") is not attached to the main body — the nearest gap is 0.050 m. These parts touch each other but nothing else, so one join is missing rather than several parts being misplaced.",
+              "affected": {
+                "node": "Mesh_TargetPlate_440"
+              },
+              "measurement": {
+                "name": "gapToMainComponent",
+                "actual": 0.05,
+                "expected": 0.02
+              },
+              "repairText": "Attach it with snapTo(\"Mesh_TargetPlate_440\"Part, hostPart), or reposition the group so it contacts the body. If it is meant to stand apart, say so in the part name (foliage, card, decal) so this check skips it."
+            },
+            {
+              "code": "GEO_PART_CONNECTIVITY",
+              "disposition": "observe",
+              "dimension": "visualQuality",
+              "profile": "geometry.partConnectivity",
+              "message": "A group of 6 parts (\"Mesh_BraceCarrier_336\", \"Mesh_HydraulicSleeve_337\", \"Mesh_HydraulicPiston_338\", \"Mesh_SupportJaw_339\", \"Mesh_RubberPad_340\", \"Mesh_JawStatus_341\") is not attached to the main body — the nearest gap is 0.175 m. These parts touch each other but nothing else, so one join is missing rather than several parts being misplaced.",
+              "affected": {
+                "node": "Mesh_BraceCarrier_336"
+              },
+              "measurement": {
+                "name": "gapToMainComponent",
+                "actual": 0.175,
+                "expected": 0.02
+              },
+              "repairText": "Attach it with snapTo(\"Mesh_BraceCarrier_336\"Part, hostPart), or reposition the group so it contacts the body. If it is meant to stand apart, say so in the part name (foliage, card, decal) so this check skips it."
+            },
+            {
+              "code": "GEO_PART_CONNECTIVITY",
+              "disposition": "observe",
+              "dimension": "visualQuality",
+              "profile": "geometry.partConnectivity",
+              "message": "A group of 6 parts (\"Mesh_BraceCarrier_393\", \"Mesh_HydraulicSleeve_394\", \"Mesh_HydraulicPiston_395\", \"Mesh_SupportJaw_396\", \"Mesh_RubberPad_397\", \"Mesh_JawStatus_398\") is not attached to the main body — the nearest gap is 0.175 m. These parts touch each other but nothing else, so one join is missing rather than several parts being misplaced.",
+              "affected": {
+                "node": "Mesh_BraceCarrier_393"
+              },
+              "measurement": {
+                "name": "gapToMainComponent",
+                "actual": 0.175,
+                "expected": 0.02
+              },
+              "repairText": "Attach it with snapTo(\"Mesh_BraceCarrier_393\"Part, hostPart), or reposition the group so it contacts the body. If it is meant to stand apart, say so in the part name (foliage, card, decal) so this check skips it."
+            },
+            {
+              "code": "GEO_PART_CONNECTIVITY",
+              "disposition": "observe",
+              "dimension": "visualQuality",
+              "profile": "geometry.partConnectivity",
+              "message": "A group of 4 parts (\"Mesh_EquipmentCase_486\", \"Mesh_CaseBand_487\", \"Mesh_CaseBand_488\", \"Mesh_CasePanel_489\") is not attached to the main body — the nearest gap is 0.388 m. These parts touch each other but nothing else, so one join is missing rather than several parts being misplaced.",
+              "affected": {
+                "node": "Mesh_EquipmentCase_486"
+              },
+              "measurement": {
+                "name": "gapToMainComponent",
+                "actual": 0.38833,
+                "expected": 0.02
+              },
+              "repairText": "Attach it with snapTo(\"Mesh_EquipmentCase_486\"Part, hostPart), or reposition the group so it contacts the body. If it is meant to stand apart, say so in the part name (foliage, card, decal) so this check skips it."
+            },
+            {
+              "code": "GEO_PART_CONNECTIVITY",
+              "disposition": "observe",
+              "dimension": "visualQuality",
+              "profile": "geometry.partConnectivity",
+              "message": "A group of 4 parts (\"Mesh_EquipmentCase_490\", \"Mesh_CaseBand_491\", \"Mesh_CaseBand_492\", \"Mesh_CasePanel_493\") is not attached to the main body — the nearest gap is 0.388 m. These parts touch each other but nothing else, so one join is missing rather than several parts being misplaced.",
+              "affected": {
+                "node": "Mesh_EquipmentCase_490"
+              },
+              "measurement": {
+                "name": "gapToMainComponent",
+                "actual": 0.38833,
+                "expected": 0.02
+              },
+              "repairText": "Attach it with snapTo(\"Mesh_EquipmentCase_490\"Part, hostPart), or reposition the group so it contacts the body. If it is meant to stand apart, say so in the part name (foliage, card, decal) so this check skips it."
+            }
+          ]
+        },
+        "runtimeCost": {
+          "status": "warn",
+          "findings": [
+            {
+              "code": "MATERIAL_IMAGE_COUNT_BUDGET",
+              "disposition": "warn",
+              "dimension": "runtimeCost",
+              "profile": "web.portable.v1.standard",
+              "message": "6 images exceed the 4-image web.portable.v1/standard budget. Reuse approved resource IDs, remove unused images, or atlas compatible same-color-space slots; never atlas normal/data maps into an sRGB image.",
+              "measurement": {
+                "name": "imageCount",
+                "actual": 6,
+                "threshold": 4,
+                "unit": "images"
+              }
+            }
+          ],
+          "metrics": {
+            "instanceabilityGrade": "D",
+            "instanceabilitySummary": "D — 10 mat / 135 geo / 967 draws, opaque",
+            "uniqueGeometries": 135,
+            "uniqueMaterials": 10,
+            "drawCalls": 967,
+            "textureCount": 6,
+            "transparentMaterials": 0,
+            "triangles": 37268,
+            "skinned": false,
+            "materialCount": 10,
+            "opaqueMaterials": 10,
+            "maskedMaterials": 0,
+            "blendedMaterials": 0,
+            "singleSidedMaterials": 10,
+            "doubleSidedMaterials": 0,
+            "texturedMaterials": 3,
+            "materialExtensionCount": 0,
+            "materialExtensionsUsed": "",
+            "imageCount": 6,
+            "maxImageDimension": 256,
+            "decodedImageBytesRgba8": 1572864,
+            "estimatedGpuBytesWithMipmaps": 2097156,
+            "blendedSurfaceAreaRatio": 0
+          }
+        }
+      }
+    },
+    "dependencies": [],
+    "rebuild": "engine-required"
+  },
+  "preview": {
+    "fidelity": {
+      "version": "kiln.view-fidelity.v1",
+      "requested": "full-preferred",
+      "delivered": "full-material",
+      "materialFaithful": true,
+      "exactArtifact": false,
+      "rendererId": "dawn-d3d12:nvidia-geforce-rtx-3070:D3D12 driver version 32.0.16.1074",
+      "inputGlbSha256": "sha256:debab9520dc43c8510928a7f68647da2cd248a0bc3a600af8dee43b43f27821e",
+      "degraded": false,
+      "reasonCodes": [
+        "IN_LOOP_BUILD_NOT_PERSISTED"
+      ]
+    }
+  }
+}

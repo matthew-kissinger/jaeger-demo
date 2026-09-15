@@ -1,0 +1,18 @@
+{
+  "id": "blade",
+  "path": "audio/blade.mp3",
+  "provider": "ElevenLabs",
+  "request": {
+    "text": "One immense sharpened steel robot blade slashes through air: a fast heavy metallic swish with a bright cutting edge and brief resonant metal tail. Single swift attack begins immediately. Dry detailed cinematic foley, no voices or music.",
+    "duration_seconds": 1.2,
+    "loop": false,
+    "prompt_influence": 0.4,
+    "model_id": "eleven_text_to_sound_v2"
+  },
+  "format": "mp3_44100_128",
+  "bytes": 20106,
+  "sha256": "ea6af664017f207d460f61f00ed465722aace93a9cbaaf65450e06ce16c9569e",
+  "characterCost": "7",
+  "requestId": null,
+  "review": "pending audition and in-scene mix"
+}

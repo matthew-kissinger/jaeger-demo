@@ -1,0 +1,11 @@
+{"programRef":"p_4e6063d17d40","render":false,"edits":[
+{"oldString":"[13.6, 47, z]","newString":"[13.55, 47, z]"},
+{"oldString":"[11.3, 2.2, sign * 58]","newString":"[11.25, 2.15, sign * 58]"},
+{"oldString":"[-11.3, y + 0.4, sign * 35]","newString":"[-11.4, y + 0.27, sign * 35]"},
+{"oldString":"[-3.44, h + sign * 9.5, 0]","newString":"[-2.7, h + sign * 9.5, 0]"},
+{"oldString":"[-3.44, h, sign * 9.5]","newString":"[-2.7, h, sign * 9.5]"},
+{"oldString":"[0.92, 1.65, s * 1.15]","newString":"[0.92, 1.65, s * 1.115]"},
+{"oldString":"box('Mirror', [0.12, 0.25, 0.1], [2.15, 2.15, s * 1.38], dark, truck);","newString":"box('Mirror', [0.12, 0.25, 0.1], [2.15, 2.15, s * 1.38], dark, truck);\n    box('MirrorArm', [0.05, 0.05, 0.32], [2.15, 2.08, s * 1.23], silver, truck);"},
+{"oldString":"[2.42, 1.45, s * 0.7]","newString":"[2.395, 1.45, s * 0.7]"},
+{"oldString":"return -7 + inland * end * (35 + Math.abs(ridge)) + 2 * inland * Math.sin(x * 0.093 + z * 0.075);","newString":"const farEdge = Math.max(0, Math.min(1, (x + 750) / 135));\n    return -9 + farEdge * inland * end * (35 + Math.abs(ridge)) + 2 * farEdge * inland * Math.sin(x * 0.093 + z * 0.075);"}
+]}

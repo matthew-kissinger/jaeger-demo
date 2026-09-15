@@ -1,0 +1,18 @@
+{
+  "id": "cannon",
+  "path": "audio/cannon.mp3",
+  "provider": "ElevenLabs",
+  "request": {
+    "text": "One giant electromagnetic shoulder cannon fires a concentrated energy bolt. Immediate sharp electrical crack and punchy deep mechanical report, short sizzling ionized tail, heavy but clean cinematic science fiction weapon. Single shot starts immediately, no music, no voice, no debris explosion.",
+    "duration_seconds": 2.2,
+    "loop": false,
+    "prompt_influence": 0.4,
+    "model_id": "eleven_text_to_sound_v2"
+  },
+  "format": "mp3_44100_128",
+  "bytes": 36406,
+  "sha256": "246ec6d634418cc8754b735acf4caa39556ab340e0b8e63e0c05eeaa1d2b86ac",
+  "characterCost": "12",
+  "requestId": null,
+  "review": "pending audition and in-scene mix"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "landing",
+  "path": "audio/landing.mp3",
+  "provider": "ElevenLabs",
+  "request": {
+    "text": "An enormous armored robot lands firmly on a reinforced concrete deck. Immediate deep two-foot impact, heavy hydraulic suspension absorbs the weight, short air pressure release, fading metallic resonance. Intact concrete, no destruction, no music, no voices.",
+    "duration_seconds": 2.8,
+    "loop": false,
+    "prompt_influence": 0.4,
+    "model_id": "eleven_text_to_sound_v2"
+  },
+  "format": "mp3_44100_128",
+  "bytes": 45183,
+  "sha256": "874c21a97614639d40bfa25f679351aaa3d8200b8ae903bf6a213037125fdd0e",
+  "characterCost": "15",
+  "requestId": null,
+  "review": "pending audition and in-scene mix"
+}

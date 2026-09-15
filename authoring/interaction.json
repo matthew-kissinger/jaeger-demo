@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "units": "metres",
+  "source": "coastal-proving-ground-v4.kiln.js target cylinders and jaeger/parts/animations.js strike schedules",
+  "targetMaterial": "steel",
+  "feedbackCooldown": 0.08,
+  "targetDiscs": [
+    { "offsetX": 0, "halfDepth": 2, "radiusAt13": 13 },
+    { "offsetX": -2.35, "halfDepth": 0.3, "radiusAt13": 11.6 },
+    { "offsetX": -2.7, "halfDepth": 0.32, "radiusAt13": 7.4 },
+    { "offsetX": -3.06, "halfDepth": 0.35, "radiusAt13": 6.3 },
+    { "offsetX": -3.45, "halfDepth": 0.37, "radiusAt13": 2.1 }
+  ],
+  "weapons": {
+    "cannonRange": 650,
+    "bladeRadius": 0.6,
+    "cannonEvents": [{ "time": 0.4, "side": "R" }, { "time": 0.67, "side": "L" }],
+    "bladeWindows": {
+      "SlashRight": [{ "start": 0.73, "end": 1.22, "sound": 0.82, "sides": ["R"] }],
+      "SlashLeft": [{ "start": 0.73, "end": 1.22, "sound": 0.82, "sides": ["L"] }],
+      "SlashCombo": [{ "start": 0.73, "end": 1.22, "sound": 0.82, "sides": ["R"] }, { "start": 1.93, "end": 2.42, "sound": 2.02, "sides": ["L"] }],
+      "OverheadStrike": [{ "start": 1.38, "end": 1.91, "sound": 1.45, "sides": ["R", "L"] }]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "targetHeight": 79.25,
+  "author": "gpt-6-astra",
+  "harness": "codex",
+  "hero": {
+    "path": "assets/jaeger-pilot.glb",
+    "sha256": "b2f7978a5e6835ba20e85bf91456b50287b3f84bfd2cdf8a92ac92c23c1e20ac",
+    "bytes": 6298884,
+    "gzipBytes": 1517206,
+    "triangles": 71620,
+    "drawBatches": 139,
+    "nativeClips": [
+      "Idle",
+      "Walk",
+      "TurnLeft",
+      "TurnRight",
+      "SlashRight",
+      "SlashLeft",
+      "SlashCombo",
+      "OverheadStrike",
+      "CannonAim",
+      "CannonFire",
+      "JumpPrepare",
+      "Takeoff",
+      "Hover",
+      "ForwardFlight",
+      "Landing",
+      "HitRecovery"
+    ],
+    "helperSources": [
+      {
+        "batch": "ground",
+        "programRef": "p_f393b2223363",
+        "assetId": "a_75d902a20b5144af8fdc5663e47f2b42",
+        "revisionId": "r_c41a3e5109984dffa3b66646186000cf",
+        "profile": "runtime",
+        "sourceGlbSha256": "4fcea34a89b076171089ac97b2010ccba6887d8f784f5ff678c68d8d2b29d82b",
+        "metadata": {
+          "uri": "pilot-ground-runtime.kiln-metadata.json",
+          "sha256": "sha256:8a535a1ae6767a0e1767a5f28240e5946803189d0ba2e8f8b54e3a4ba2e987f2"
+        },
+        "clips": [
+          "PilotActivation",
+          "PilotWalk",
+          "PilotTurnLeft",
+          "PilotTurnRight",
+          "PilotStop"
+        ]
+      },
+      {
+        "batch": "flight",
+        "programRef": "p_7c7ac1c82a55",
+        "assetId": "a_e3e4f113f61f451cafaf0855be6c813a",
+        "revisionId": "r_5ce3378340374d0ea12e83a7cea94423",
+        "profile": "runtime",
+        "sourceGlbSha256": "c38fbb636e1a4af1e671c2b0cb5540bfc4dd4ed0c298c724f689eb5f257c8f0a",
+        "metadata": {
+          "uri": "pilot-flight-runtime.kiln-metadata.json",
+          "sha256": "sha256:cc29c9c240919a8beac74048ceb72e0cf68e3d6a0065e31d89c13cce66f1bf17"
+        },
+        "clips": [
+          "PilotCruise",
+          "PilotBankLeft",
+          "PilotBankRight",
+          "PilotBrake"
+        ]
+      }
+    ]
+  },
+  "environment": {
+    "path": "assets/environment.glb",
+    "programRef": "p_6f8a05f2f517",
+    "assetId": "a_e348aa8d82c14985805662d29868fd5b",
+    "revisionId": "r_867a905770e14aacaab8c55866a67d45",
+    "profile": "runtime",
+    "sourceSha256": "443927ee75c95420ca098dcf75a8496d513c04d6ea009f58fcffcf10f11b8b22",
+    "sha256": "cc7781e9fadf2a35472a42982d11f11413c11ca749b3b6348837dc1b9c94276c",
+    "bytes": 2507808,
+    "gzipBytes": 565924,
+    "triangles": 37148,
+    "drawBatches": 62,
+    "sourceBundle": "downloads/coastal-proving-ground-supported-source.zip"
+  },
+  "note": "Kiln-authored geometry and mechanical clips, with traceable static mesh batching at build time. Original download is unchanged. Full scene acceptance remains pending."
+}

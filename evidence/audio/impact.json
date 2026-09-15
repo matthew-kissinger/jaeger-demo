@@ -1,0 +1,18 @@
+{
+  "id": "impact",
+  "path": "audio/impact.mp3",
+  "provider": "ElevenLabs",
+  "request": {
+    "text": "One powerful impact against a thick intact metal training shield: immediate deep resonant clang, small bright sparks and a short low ringing decay. The shield stays intact, no breaking debris. Clean single game sound effect, no music or voice.",
+    "duration_seconds": 1.7,
+    "loop": false,
+    "prompt_influence": 0.4,
+    "model_id": "eleven_text_to_sound_v2"
+  },
+  "format": "mp3_44100_128",
+  "bytes": 28047,
+  "sha256": "028d9154a4745591bca848bdf88037194fcc60fcc06e637c9caf8e7c4e774302",
+  "characterCost": "9",
+  "requestId": null,
+  "review": "pending audition and in-scene mix"
+}

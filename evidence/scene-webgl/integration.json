@@ -1,0 +1,56 @@
+{
+  "ready": true,
+  "phase": "scene-development",
+  "state": {
+    "state": "idle",
+    "position": [
+      -90.73239177561122,
+      0,
+      -46.27441557890069
+    ],
+    "scale": 9.758049617364895,
+    "clip": "Idle",
+    "introTime": 12,
+    "paused": false,
+    "ik": {
+      "maxCorrection": 7.68867091929769,
+      "maxReachError": 0.18932767128397632,
+      "worstReach": {
+        "state": "walk",
+        "time": 1.425166788068711,
+        "side": "R",
+        "error": 0.18932767128397632
+      }
+    }
+  },
+  "stats": {
+    "backend": "WebGL2",
+    "calls": 382,
+    "triangles": 224401,
+    "fps": 132.3991835383682,
+    "p95": 8.099999999627471,
+    "p99": 8.399999998509884,
+    "memory": {
+      "attributes": 689,
+      "attributesSize": 6071980,
+      "geometries": 205,
+      "indexAttributes": 204,
+      "indexAttributesSize": 1355892,
+      "indirectStorageAttributes": 0,
+      "indirectStorageAttributesSize": 0,
+      "programs": 22,
+      "programsSize": 215560,
+      "readbackBuffers": 0,
+      "readbackBuffersSize": 0,
+      "renderTargets": 3,
+      "storageAttributes": 0,
+      "storageAttributesSize": 0,
+      "textures": 21,
+      "texturesSize": 60072404,
+      "uniformBuffers": 412,
+      "uniformBuffersSize": 122976,
+      "total": 67838812
+    }
+  },
+  "errors": []
+}

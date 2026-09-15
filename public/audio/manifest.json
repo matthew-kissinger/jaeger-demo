@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "cues": [
+    {
+      "id": "coast",
+      "path": "audio/coast.mp3",
+      "provider": "ElevenLabs",
+      "request": {
+        "text": "A quiet industrial sea harbor at dawn, steady soft ocean surf against a concrete seawall and broad cold coastal wind. Distant low ventilation rumble. Seamless ambient loop, understated, no music, no voices, no birds, no abrupt impacts.",
+        "duration_seconds": 16,
+        "loop": true,
+        "prompt_influence": 0.4,
+        "model_id": "eleven_text_to_sound_v2"
+      },
+      "format": "mp3_44100_128",
+      "bytes": 257088,
+      "sha256": "ee859b3b939d5085ea931bbeb4ff640ec3d85fac105fbe34ea437d23f94d00c3",
+      "characterCost": "88",
+      "requestId": null,
+      "review": "pending audition and in-scene mix"
+    },
+    {
+      "id": "reactor",
+      "path": "audio/reactor.mp3",
+      "provider": "ElevenLabs",
+      "request": {
+        "text": "Inside a gigantic mechanical guardian, deep restrained reactor idling hum, layered smooth turbine rotation and delicate electrical resonance. Stable seamless background loop, cinematic industrial realism, no melody, no voices, no beats.",
+        "duration_seconds": 8,
+        "loop": true,
+        "prompt_influence": 0.4,
+        "model_id": "eleven_text_to_sound_v2"
+      },
+      "format": "mp3_44100_128",
+      "bytes": 129193,
+      "sha256": "f7e2cec8f534d73ca7cc32b370a7dddb8f48b0cc01b1e5c3b880345fcb3da833",
+      "characterCost": "44",
+      "requestId": null,
+      "review": "pending audition and in-scene mix"
+    },
+    {
+      "id": "startup",
+      "path": "audio/startup.mp3",
+      "provider": "ElevenLabs",
+      "request": {
+        "text": "An eighty meter industrial robot powering on. Massive low electric turbine spins up, two solid relay clunks, rising smooth resonant servo tone settling into a stable low hum. Detailed mechanical sound effect, controlled bass, no music or voices.",
+        "duration_seconds": 4,
+        "loop": false,
+        "prompt_influence": 0.4,
+        "model_id": "eleven_text_to_sound_v2"
+      },
+      "format": "mp3_44100_128",
+      "bytes": 65245,
+      "sha256": "9af344651653237e79827ef5c95be2806c4c3c7443676cf937b64b0e173ca32a",
+      "characterCost": "22",
+      "requestId": null,
+      "review": "pending audition and in-scene mix"
+    },
+    {
+      "id": "release",
+      "path": "audio/release.mp3",
+      "provider": "ElevenLabs",
+      "request": {
+        "text": "A massive maintenance cradle releases a giant robot: a heavy locking latch disengages with one deep metal clunk, then powerful hydraulic pistons retract with a short pressurized air hiss. Close detailed industrial sound, no alarm, no music, no voices.",
+        "duration_seconds": 3,
+        "loop": false,
+        "prompt_influence": 0.4,
+        "model_id": "eleven_text_to_sound_v2"
+      },
+      "format": "mp3_44100_128",
+      "bytes": 48945,
+      "sha256": "0979ab89528c5cafcc9e92d0c3a7e1eb8453accc5ade3171b16c322efabecb1c",
+      "characterCost": "16",
+      "requestId": null,
+      "review": "pending audition and in-scene mix"
+    },
+    {
+      "id": "footstep",
+      "path": "audio/footstep.mp3",
+      "provider": "ElevenLabs",
+      "request": {
+        "text": "One single enormous armored robot foot plants on a concrete dock. Immediate weighty bass impact, metal suspension compresses and rattles briefly, short concrete grit tail. One impact at the very start, tight controlled transient, no explosion, no music or voices.",
+        "duration_seconds": 1.8,
+        "loop": false,
+        "prompt_influence": 0.4,
+        "model_id": "eleven_text_to_sound_v2"
+      },
+      "format": "mp3_44100_128",
+      "bytes": 29301,
+      "sha256": "04ab29795dc99d4fba3e2351002efe1a692cb9fee84a04d4b978439c2bde3a4c",
+      "characterCost": "10",
+      "requestId": null,
+      "review": "pending audition and in-scene mix"
+    },
+    {
+      "id": "servo",
+      "path": "audio/servo.mp3",
+      "provider": "ElevenLabs",
+      "request": {
+        "text": "Smooth massive industrial hydraulic joint moving under load. Subdued layered electric servo whine with low machinery rumble, seamless loop with no distinct impacts. Close mechanical sound, no music or voices.",
+        "duration_seconds": 2.4,
+        "loop": true,
+        "prompt_influence": 0.4,
+        "model_id": "eleven_text_to_sound_v2"
+      },
+      "format": "mp3_44100_128",
+      "bytes": 41839,
+      "sha256": "0328e9b79016ee98b2b517465fc8707a7610a67316d0d3e44d4aa896b0841e72",
+      "characterCost": "13",
+      "requestId": null,
+      "review": "pending audition and in-scene mix"
+    },
+    {
+      "id": "cannon",
+      "path": "audio/cannon.mp3",
+      "provider": "ElevenLabs",
+      "request": {
+        "text": "One giant electromagnetic shoulder cannon fires a concentrated energy bolt. Immediate sharp electrical crack and punchy deep mechanical report, short sizzling ionized tail, heavy but clean cinematic science fiction weapon. Single shot starts immediately, no music, no voice, no debris explosion.",
+        "duration_seconds": 2.2,
+        "loop": false,
+        "prompt_influence": 0.4,
+        "model_id": "eleven_text_to_sound_v2"
+      },
+      "format": "mp3_44100_128",
+      "bytes": 36406,
+      "sha256": "246ec6d634418cc8754b735acf4caa39556ab340e0b8e63e0c05eeaa1d2b86ac",
+      "characterCost": "12",
+      "requestId": null,
+      "review": "pending audition and in-scene mix"
+    },
+    {
+      "id": "blade",
+      "path": "audio/blade.mp3",
+      "provider": "ElevenLabs",
+      "request": {
+        "text": "One immense sharpened steel robot blade slashes through air: a fast heavy metallic swish with a bright cutting edge and brief resonant metal tail. Single swift attack begins immediately. Dry detailed cinematic foley, no voices or music.",
+        "duration_seconds": 1.2,
+        "loop": false,
+        "prompt_influence": 0.4,
+        "model_id": "eleven_text_to_sound_v2"
+      },
+      "format": "mp3_44100_128",
+      "bytes": 20106,
+      "sha256": "ea6af664017f207d460f61f00ed465722aace93a9cbaaf65450e06ce16c9569e",
+      "characterCost": "7",
+      "requestId": null,
+      "review": "pending audition and in-scene mix"
+    },
+    {
+      "id": "impact",
+      "path": "audio/impact.mp3",
+      "provider": "ElevenLabs",
+      "request": {
+        "text": "One powerful impact against a thick intact metal training shield: immediate deep resonant clang, small bright sparks and a short low ringing decay. The shield stays intact, no breaking debris. Clean single game sound effect, no music or voice.",
+        "duration_seconds": 1.7,
+        "loop": false,
+        "prompt_influence": 0.4,
+        "model_id": "eleven_text_to_sound_v2"
+      },
+      "format": "mp3_44100_128",
+      "bytes": 28047,
+      "sha256": "028d9154a4745591bca848bdf88037194fcc60fcc06e637c9caf8e7c4e774302",
+      "characterCost": "9",
+      "requestId": null,
+      "review": "pending audition and in-scene mix"
+    },
+    {
+      "id": "thruster-start",
+      "path": "audio/thruster-start.mp3",
+      "provider": "ElevenLabs",
+      "request": {
+        "text": "Twin gigantic plasma lift thrusters ignite: quick hydraulic ignition click, deep clean whoomp and rapidly rising powerful airy jet roar. Controlled cinematic low end, single startup, no music or voices.",
+        "duration_seconds": 2,
+        "loop": false,
+        "prompt_influence": 0.4,
+        "model_id": "eleven_text_to_sound_v2"
+      },
+      "format": "mp3_44100_128",
+      "bytes": 33062,
+      "sha256": "f9e2b43e0c9f6c66e04e7adfd4cb41a34ceec5194fb1648daeac7ab2cb5480a0",
+      "characterCost": "11",
+      "requestId": null,
+      "review": "pending audition and in-scene mix"
+    },
+    {
+      "id": "thruster",
+      "path": "audio/thruster.mp3",
+      "provider": "ElevenLabs",
+      "request": {
+        "text": "Steady twin plasma lift thrusters holding a massive mech in a hover. Smooth powerful low jet roar with bright airy edges and subtle electrical texture. Constant sustained seamless loop, no pulsing, no music, no voices.",
+        "duration_seconds": 6,
+        "loop": true,
+        "prompt_influence": 0.4,
+        "model_id": "eleven_text_to_sound_v2"
+      },
+      "format": "mp3_44100_128",
+      "bytes": 97010,
+      "sha256": "52d4f2656b6972c244791387a35c588b3822561b79c224ba706eb37e94ef86a3",
+      "characterCost": "33",
+      "requestId": null,
+      "review": "pending audition and in-scene mix"
+    },
+    {
+      "id": "landing",
+      "path": "audio/landing.mp3",
+      "provider": "ElevenLabs",
+      "request": {
+        "text": "An enormous armored robot lands firmly on a reinforced concrete deck. Immediate deep two-foot impact, heavy hydraulic suspension absorbs the weight, short air pressure release, fading metallic resonance. Intact concrete, no destruction, no music, no voices.",
+        "duration_seconds": 2.8,
+        "loop": false,
+        "prompt_influence": 0.4,
+        "model_id": "eleven_text_to_sound_v2"
+      },
+      "format": "mp3_44100_128",
+      "bytes": 45183,
+      "sha256": "874c21a97614639d40bfa25f679351aaa3d8200b8ae903bf6a213037125fdd0e",
+      "characterCost": "15",
+      "requestId": null,
+      "review": "pending audition and in-scene mix"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "thruster",
+  "path": "audio/thruster.mp3",
+  "provider": "ElevenLabs",
+  "request": {
+    "text": "Steady twin plasma lift thrusters holding a massive mech in a hover. Smooth powerful low jet roar with bright airy edges and subtle electrical texture. Constant sustained seamless loop, no pulsing, no music, no voices.",
+    "duration_seconds": 6,
+    "loop": true,
+    "prompt_influence": 0.4,
+    "model_id": "eleven_text_to_sound_v2"
+  },
+  "format": "mp3_44100_128",
+  "bytes": 97010,
+  "sha256": "52d4f2656b6972c244791387a35c588b3822561b79c224ba706eb37e94ef86a3",
+  "characterCost": "33",
+  "requestId": null,
+  "review": "pending audition and in-scene mix"
+}

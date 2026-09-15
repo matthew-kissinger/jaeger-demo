@@ -1,0 +1,18 @@
+{
+  "id": "reactor",
+  "path": "audio/reactor.mp3",
+  "provider": "ElevenLabs",
+  "request": {
+    "text": "Inside a gigantic mechanical guardian, deep restrained reactor idling hum, layered smooth turbine rotation and delicate electrical resonance. Stable seamless background loop, cinematic industrial realism, no melody, no voices, no beats.",
+    "duration_seconds": 8,
+    "loop": true,
+    "prompt_influence": 0.4,
+    "model_id": "eleven_text_to_sound_v2"
+  },
+  "format": "mp3_44100_128",
+  "bytes": 129193,
+  "sha256": "f7e2cec8f534d73ca7cc32b370a7dddb8f48b0cc01b1e5c3b880345fcb3da833",
+  "characterCost": "44",
+  "requestId": null,
+  "review": "pending audition and in-scene mix"
+}

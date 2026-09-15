@@ -1,0 +1,4 @@
+[
+ {"name":"kiln_render","arguments":{"programRef":"p_6f8a05f2f517","capture":{"version":"kiln.capture.v1","size":768,"cols":1,"shots":[{"name":"Cradle fixed carriage guides","subject":{"name":"Joint_Cradle"},"visibility":"isolate","camera":{"type":"orbit","azimuthDeg":35,"elevationDeg":9,"padding":1.1}}]}},"stem":"cradle-supported"},
+ {"name":"kiln_screenshot_animation","arguments":{"programRef":"p_6f8a05f2f517","clip":"CradleRelease","frameTimes":[0,0.35,0.5],"shot":{"subject":{"name":"Joint_Cradle"},"visibility":"isolate","camera":{"type":"orbit","azimuthDeg":35,"elevationDeg":9,"padding":1.1}}},"stem":"cradle-supported-release"}
+]
