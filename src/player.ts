@@ -108,13 +108,14 @@ export class JaegerPlayer {
       if (previous < 4.2 && this.introTime >= 4.2) this.onEvent('release');
       if (previous < tWalk && this.introTime >= tWalk) {
         this.play('PilotWalk', true, 0.25);
+        this.action.time = 0.72;
         this.action.timeScale = 0.65;
       }
       for (const [stepTime, side] of [
-        [tWalk + 1.2 / 0.65, 'L'],
-        [tWalk + 2.4 / 0.65, 'R'],
-        [tWalk + 3.6 / 0.65, 'L'],
-        [tWalk + 4.8 / 0.65, 'R'],
+        [tWalk + (1.2 - 0.72) / 0.65, 'L'],
+        [tWalk + (2.4 - 0.72) / 0.65, 'R'],
+        [tWalk + (3.6 - 0.72) / 0.65, 'L'],
+        [tWalk + (4.8 - 0.72) / 0.65, 'R'],
       ] as const) {
         if (previous < stepTime && this.introTime >= stepTime) this.onEvent('footstep', side);
       }
