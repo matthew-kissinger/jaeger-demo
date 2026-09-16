@@ -18,9 +18,21 @@ export class PilotInput {
         this.pitch = Math.max(-0.75, Math.min(1.08, this.pitch - event.movementY * 0.0022));
       }
     });
+    canvas.addEventListener('contextmenu', event => event.preventDefault());
     let initialPinchDist = 0, initialZoom = 126;
     canvas.addEventListener('pointerdown', event => {
       if (event.button === 1) { event.preventDefault(); this.shoulderSwap = !this.shoulderSwap; return; }
+      if (event.button === 2 && event.pointerType === 'mouse') {
+        event.preventDefault();
+        this.onAction('cannon');
+        return;
+      }
+      if (event.button === 0 && event.pointerType === 'mouse') {
+        if (this.isLocked) {
+          this.onAction('slash');
+          return;
+        }
+      }
       if (event.button !== 0 && event.pointerType === 'mouse') return; canvas.focus();
       if (!this.isLocked) {
         canvas.setPointerCapture(event.pointerId);
@@ -62,11 +74,32 @@ export class PilotInput {
       if ((event.target as HTMLElement).matches('input,select,textarea') || event.metaKey || event.ctrlKey || event.altKey) return;
       if (['Space','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(event.code)) event.preventDefault();
       this.keys.add(event.code); if (event.repeat) return;
-      const actions: Record<string, string> = { KeyQ: 'slash', KeyE: 'cannon', Space: 'boost', KeyR: 'reset', Escape: 'menu', KeyB: 'brake' };
-      if (event.code === 'Space') this.boost = true;
+      const actions: Record<string, string> = {
+        KeyQ: 'slash',
+        KeyE: 'cannon',
+        KeyF: 'overhead',
+        KeyX: 'overhead',
+        KeyC: 'combo',
+        KeyV: 'swap',
+        ShiftLeft: 'boost',
+        ShiftRight: 'boost',
+        Space: 'boost',
+        KeyR: 'reset',
+        Escape: 'menu',
+        KeyB: 'brake'
+      };
+      if (event.code === 'Space' || event.code.startsWith('Shift')) this.boost = true;
+      if (event.code === 'KeyV') { this.shoulderSwap = !this.shoulderSwap; return; }
       if (actions[event.code]) this.onAction(actions[event.code]);
     });
-    window.addEventListener('keyup', event => { this.keys.delete(event.code); if (event.code === 'Space') this.boost = false; });
+    window.addEventListener('keyup', event => {
+      this.keys.delete(event.code);
+      if (event.code === 'Space' || event.code.startsWith('Shift')) {
+        if (!this.keys.has('Space') && !this.keys.has('ShiftLeft') && !this.keys.has('ShiftRight')) {
+          this.boost = false;
+        }
+      }
+    });
     window.addEventListener('blur', () => this.clear());
     window.addEventListener('orientationchange', () => this.clear());
     const pad = document.querySelector<HTMLElement>('#joystick')!, knob = pad.firstElementChild as HTMLElement;
@@ -80,8 +113,18 @@ export class PilotInput {
     pad.addEventListener('pointerdown', event => { pointer = event.pointerId; pad.setPointerCapture(pointer); move(event); });
     pad.addEventListener('pointermove', move);
     for (const name of ['pointerup','pointercancel','lostpointercapture'] as const) pad.addEventListener(name, () => { pointer = -1; this.forward = this.right = 0; knob.style.transform = ''; });
+    let lastSlashTime = 0;
     document.querySelectorAll<HTMLButtonElement>('[data-action]').forEach(button => button.addEventListener('click', () => {
       const action = button.dataset.action!;
+      if (action === 'slash') {
+        const now = performance.now();
+        if (now - lastSlashTime < 320) {
+          lastSlashTime = 0;
+          this.onAction('combo');
+          return;
+        }
+        lastSlashTime = now;
+      }
       if (action === 'toggle-boost') { this.boost = !this.boost; if (this.boost) this.onAction('boost'); }
       else this.onAction(action);
     }));

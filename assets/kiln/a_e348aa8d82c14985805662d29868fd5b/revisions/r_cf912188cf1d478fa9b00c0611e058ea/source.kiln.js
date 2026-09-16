@@ -2,10 +2,10 @@
 // All solids, terrain and cradle mechanical tracks are authored here.
 const meta = { name: 'Coastal Proving Ground', category: 'environment', role: 'ground' };
 const SITE = {
-  version: 1, seed: 203, units: 'metres', deck: { min: [-240, -6, -200], max: [1200, 0, 200] },
-  pilotBounds: { min: [-145, 0, -180], max: [1150, 58, 180] },
-  flightBounds: { min: [-700, 0, -500], max: [1500, 200, 500] },
-  dock: [-155, 0, 0], startSourceDisplacement: [6.4, 0, 0], cradleClip: 'CradleRelease',
+  version: 1, seed: 203, units: 'metres', deck: { min: [-240, -6, -200], max: [720, 0, 200] },
+  pilotBounds: { min: [-145, 0, -180], max: [680, 58, 180] },
+  flightBounds: { min: [-700, 0, -500], max: [900, 200, 500] },
+  dock: [-155, 0, 0], startSourceDisplacement: [52, 0, 0], cradleClip: 'CradleRelease',
   cradleEvents: [{ time: 0.8, name: 'activate' }, { time: 3, name: 'brace-release' }, { time: 4.2, name: 'connector-release' }, { time: 6, name: 'exit-clear' }],
   targets: [
     { id: 'Target01', position: [180, 0, -75], center: [180, 56, -75], radius: 13, height: 69, halfDepth: 3.85, kind: 'blade' },

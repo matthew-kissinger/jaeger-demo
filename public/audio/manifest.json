@@ -78,18 +78,18 @@
       "path": "audio/footstep.mp3",
       "provider": "ElevenLabs",
       "request": {
-        "text": "One single enormous armored robot foot plants on a concrete dock. Immediate weighty bass impact, metal suspension compresses and rattles briefly, short concrete grit tail. One impact at the very start, tight controlled transient, no explosion, no music or voices.",
-        "duration_seconds": 1.8,
+        "text": "One colossal eighty-metre armored mech foot slams onto a thick reinforced concrete dock. Overwhelming deep bass ground impact thud that shakes the earth, heavy sub-bass rumble, distant structural groan, very brief gritty concrete dust tail. Massive weight, seismic scale. One impact right at the start, deep controlled transient, no metallic clink, no explosion, no music or voices.",
+        "duration_seconds": 2.0,
         "loop": false,
-        "prompt_influence": 0.4,
+        "prompt_influence": 0.5,
         "model_id": "eleven_text_to_sound_v2"
       },
       "format": "mp3_44100_128",
-      "bytes": 29301,
-      "sha256": "04ab29795dc99d4fba3e2351002efe1a692cb9fee84a04d4b978439c2bde3a4c",
+      "bytes": 33062,
+      "sha256": "41a87fecb13c91fac4a80ce24fd85f0a74fccd1712bafc1f731d6e53779088d1",
       "characterCost": "10",
       "requestId": null,
-      "review": "pending audition and in-scene mix"
+      "review": "pending regeneration with heavier bass prompt"
     },
     {
       "id": "servo",

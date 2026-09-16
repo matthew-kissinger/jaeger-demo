@@ -38,7 +38,8 @@ export class Combat {
       this.colliders.push({shape:'box',min:[target.position[0]-2,2,target.position[2]-2.5],max:[target.position[0]+2,target.center[1],target.position[2]+2.5],material:config.targetMaterial});
       this.colliders.push({shape:'box',min:[target.position[0]-11,0,target.position[2]-11],max:[target.position[0]+11,3,target.position[2]+11],material:'concrete'});
     }
-    this.colliders.push({shape:'box',min:[-240,-6,-180],max:[240,0,180],material:'concrete'});
+    const deckMin = site.deck?.min ?? [-240, -6, -200], deckMax = site.deck?.max ?? [720, 0, 200];
+    this.colliders.push({shape:'box',min:deckMin,max:deckMax,material:'concrete'});
   }
   reset() { this.actionId=-1; this.previous.clear(); this.struck.clear(); this.cooldown.clear(); this.shots.length=this.hits.length=0; this.time=0; }
   private point(name: string) { return this.sockets.get(name)!.getWorldPosition(new THREE.Vector3()); }
@@ -61,7 +62,7 @@ export class Combat {
   update(frame: PoseFrame, dt: number) {
     this.time+=dt;
     if(frame.actionId!==this.actionId) { this.actionId=frame.actionId; this.previous.clear(); this.struck.clear(); }
-    if(frame.state==='fire' && frame.clip==='CannonFire') for(const event of this.config.weapons.cannonEvents) {
+    if((frame.state==='fire' || frame.state==='air-fire') && frame.clip==='CannonFire') for(const event of this.config.weapons.cannonEvents) {
       const key=`cannon-${event.side}`;
       if(frame.previousTime<event.time-1e-8 && frame.time>=event.time-1e-8 && !this.struck.has(key)) {
         this.struck.add(key); const shot=this.aim(event.side); this.onShot(shot);
@@ -69,7 +70,7 @@ export class Combat {
         if(shot.hit) this.impact(shot.hit,key,frame.actionId);
       }
     }
-    const windows=frame.state==='attack'?this.config.weapons.bladeWindows[frame.clip]??[]:[];
+    const windows=(frame.state==='attack' || frame.state==='air-attack')?this.config.weapons.bladeWindows[frame.clip]??[]:[];
     for(const side of ['R','L'] as const) {
       const current={base:this.point('BladeSocket_'+side),tip:this.point('BladeTipSocket_'+side)},previous=this.previous.get(side)??current;
       for(const [index,window] of windows.entries()) {
