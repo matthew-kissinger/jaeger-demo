@@ -28,7 +28,7 @@ const previousPhysicsPos = new THREE.Vector3(), currentPhysicsPos = new THREE.Ve
 let previousPhysicsYaw = 0, currentPhysicsYaw = 0, renderYaw = 0;
 const times: number[] = [], viewTarget = new THREE.Vector3(), viewPosition = new THREE.Vector3(), lastLook = new THREE.Vector3(1,0,0);
 let messageUntil = 0;
-let shoulderOffset = 16, cameraFocusHeight = 44;
+let shoulderOffset = 34, cameraFocusHeight = 50;
 function toast(message: string) { $('notice').textContent = message; messageUntil = time + 3; }
 function togglePause(force?: boolean) { paused = force ?? !paused; player.paused = paused; input.clear(); audio.pause(paused); $('menu').hidden = !paused; $('pause').textContent = paused ? 'Resume' : 'Menu'; }
 async function begin(skip = false) {
@@ -142,7 +142,15 @@ async function start() {
   }
   qa.phase = 'assets'; $('load-status').textContent = 'Loading Kiln assets and sound';
   const loader = new GLTFLoader();
-  const [heroGltf, sceneGltf, siteData, interaction] = await Promise.all([loader.loadAsync(import.meta.env.BASE_URL + 'assets/jaeger-pilot.glb'), loader.loadAsync(import.meta.env.BASE_URL + 'assets/environment.glb'), fetch(import.meta.env.BASE_URL + 'assets/site.json').then(r=>r.json()), fetch(import.meta.env.BASE_URL + 'assets/interaction.json').then(r=>r.json() as Promise<Interaction>), audio.load()]);
+  const [heroGltf, sceneGltf, siteData, interaction] = await Promise.all([
+    loader.loadAsync(import.meta.env.BASE_URL + 'assets/jaeger-pilot.glb'),
+    loader.loadAsync(import.meta.env.BASE_URL + 'assets/environment.glb'),
+    fetch(import.meta.env.BASE_URL + 'assets/site.json').then(r=>r.json()),
+    fetch(import.meta.env.BASE_URL + 'assets/interaction.json').then(r=>r.json() as Promise<Interaction>),
+    audio.load().catch(err => {
+      console.warn('Audio system load warning (running in soundless mode):', err);
+    })
+  ]);
   site = siteData; environment = sceneGltf.scene; scene.add(environment); player = new JaegerPlayer(heroGltf.scene, heroGltf.animations, input, site); scene.add(player.wrapper); player.onEvent = event;
   combat = new Combat(player.model, site, interaction); player.onPose = (frame, dt) => combat.update(frame, dt);
   combat.onShot = shot => {
@@ -252,6 +260,8 @@ async function start() {
   camera.position.set(-53, 36, 109); camera.lookAt(-158, 43, 0); qa.phase = 'warming'; $('load-status').textContent = 'Warming lighting, water and effects';
   await renderer.compileAsync(scene, camera); await renderer.renderAsync(scene, camera);
   ready = qa.ready = true; qa.phase = 'scene-development'; $('loading').hidden = true; $('welcome').hidden = false;
+  if ($('mute')) $('mute').textContent = audio.muted ? 'Sound off' : 'Sound on';
+  window.addEventListener('pointerdown', () => { void audio.unlock(); }, { once: true, passive: true });
   if (params.has('autostart')) begin(params.get('autostart') === 'pilot');
   previous = performance.now(); renderer.setAnimationLoop(frame);
 }
@@ -291,25 +301,25 @@ function frame() {
       const t = player.introTime;
       if (t < 3) { viewPosition.set(-111 + t * 2, 3 + t * 3, 56 - t * 2); viewTarget.set(-155, 35 + t * 5, 0); }
       else if (t < 6) { const u = ease((t-3)/3); viewPosition.set(-76, 60 + u*9, 90); viewTarget.set(-160, 49, 0); }
-      else { const u = ease((t - 6) / 10), offset = new THREE.Vector3(Math.sin(1) * 14 * u, 0, Math.cos(1) * 14 * u); viewTarget.copy(pos).add(new THREE.Vector3(0, 42, 0)).add(offset); viewPosition.set(pos.x - 36 * u + 60 * (1 - u), 68 - u * 4, 96 * (1 - u) + 106 * u).add(offset); input.yaw = -0.92; input.pitch = -0.16; shoulderOffset = 16; cameraFocusHeight = 44; }
+      else { const u = ease((t - 6) / 10), offset = new THREE.Vector3(Math.sin(1) * 14 * u, 0, Math.cos(1) * 14 * u); viewTarget.copy(pos).add(new THREE.Vector3(0, 42, 0)).add(offset); viewPosition.set(pos.x - 36 * u + 60 * (1 - u), 68 - u * 4, 96 * (1 - u) + 106 * u).add(offset); input.yaw = -0.92; input.pitch = -0.16; shoulderOffset = 34; cameraFocusHeight = 50; }
       camera.position.lerp(viewPosition, 1 - Math.exp(-delta * 4)); camera.lookAt(viewTarget);
     } else if (started) {
-      const weaponView = ['aim-turn','aim','fire'].includes(player.state),
-            flight = ['takeoff','hover','cruise','brake','descent','air-fire','air-attack'].includes(player.state),
+      const weaponView = ['aim-turn','aim','fire','air-aim','air-fire'].includes(player.state),
+            flight = ['takeoff','hover','cruise','brake','descent','air-aim','air-fire','air-attack'].includes(player.state),
             blend = 1 - Math.exp(-delta * 5);
       const sideSign = input.shoulderSwap ? -1 : 1;
-      const targetOffset = player.inspector ? 0 : weaponView ? 36 * sideSign : 16 * sideSign;
+      const targetOffset = player.inspector ? 0 : weaponView ? 42 * sideSign : flight ? 36 * sideSign : 34 * sideSign;
       shoulderOffset = THREE.MathUtils.lerp(shoulderOffset, targetOffset, blend);
-      cameraFocusHeight = THREE.MathUtils.lerp(cameraFocusHeight, weaponView ? 58 : 44, blend);
+      cameraFocusHeight = THREE.MathUtils.lerp(cameraFocusHeight, weaponView ? 58 : flight ? 54 : 50, blend);
       viewTarget.copy(pos).add(new THREE.Vector3(-Math.sin(input.yaw)*shoulderOffset, cameraFocusHeight, Math.cos(input.yaw)*shoulderOffset));
       const look = new THREE.Vector3(Math.cos(input.yaw)*Math.cos(input.pitch), Math.sin(input.pitch), Math.sin(input.yaw)*Math.cos(input.pitch));
       lastLook.copy(look);
-      const targetZoom = input.zoom - (weaponView ? 20 : 0);
+      const targetZoom = input.zoom + (flight ? 16 : 0) - (weaponView ? 8 : 0);
       viewPosition.copy(viewTarget).addScaledVector(look, -targetZoom);
       viewPosition.y = Math.max(4.0, viewPosition.y);
       camera.position.lerp(viewPosition, 1 - Math.exp(-delta * 6));
       camera.lookAt(viewTarget);
-      const targetFov = weaponView ? 42 : flight ? 54 : 48;
+      const targetFov = weaponView ? 44 : flight ? 54 : 48;
       camera.fov = THREE.MathUtils.lerp(camera.fov, targetFov, 1 - Math.exp(-delta * 6));
       camera.updateProjectionMatrix();
     }
@@ -322,9 +332,15 @@ function frame() {
       cameraShake.apply(camera);
     }
     for (const target of springTargets.values()) target.update(delta);
-    const aiming = started && !player.inspector && ['aim-turn','aim','fire','air-fire'].includes(player.state);
+    const aiming = started && !player.inspector && ['aim-turn','aim','fire','air-aim','air-fire'].includes(player.state);
     aimLabel.hidden = !aiming;
-    aimLabel.textContent = player.state === 'aim-turn' ? 'ALIGNING TO CAMERA HEADING' : player.state === 'air-fire' ? 'AERIAL ARTILLERY · CONVERGED' : 'CANNON TRACE · CONVERGED AIM';
+    aimLabel.textContent = player.state === 'aim-turn'
+      ? 'ALIGNING TO CAMERA HEADING'
+      : (player.state === 'air-aim' || player.state === 'aim')
+      ? 'AERIAL ARTILLERY · LOCKING TARGET'
+      : player.state === 'air-fire'
+      ? 'AERIAL ARTILLERY · CONVERGED'
+      : 'CANNON TRACE · CONVERGED AIM';
     if (aiming && combat) {
       const aimOrigin = camera.position.clone();
       const aimDir = lastLook.clone().normalize();
@@ -345,7 +361,7 @@ function frame() {
       marker.setAttribute('aria-label',`${side==='R'?'Right':'Left'} cannon ${shot.hit?.targetId?'target in line':'trajectory'}`);
     }
     weather.update(time); effects.update(delta, camera);
-    const flight = ['takeoff','hover','cruise','brake','descent','air-fire','air-attack'].includes(player.state);
+    const flight = ['takeoff','hover','cruise','brake','descent','air-aim','air-fire','air-attack'].includes(player.state);
     if (flight) {
       const thrustDir = new THREE.Vector3(-1.0, -0.65, 0).applyAxisAngle(new THREE.Vector3(0, 1, 0), -player.yaw).normalize();
       const boostScale = player.state === 'cruise' ? 1.25 : 1.0;
@@ -369,7 +385,7 @@ function frame() {
     const stats = qa.stats(); $('state').textContent = player.inspector ? 'ANIMATION INSPECTION' : player.state === 'intro' ? 'RELEASE SEQUENCE' : player.state.toUpperCase();
     $('altitude').textContent = `${player.wrapper.position.y.toFixed(0)} M`; $('backend').textContent = `${stats.backend} · ${stats.fps.toFixed(0)} FPS`; $('stats').textContent = `${stats.calls} draw calls / ${Math.round(stats.triangles).toLocaleString()} triangles\np95 ${stats.p95.toFixed(1)} ms · p99 ${stats.p99.toFixed(1)} ms`;
     const btnOverhead = document.querySelector<HTMLButtonElement>('#btn-overhead');
-    const isAirborne = ['takeoff','hover','cruise','brake','descent','air-fire','air-attack'].includes(player.state);
+    const isAirborne = ['takeoff','hover','cruise','brake','descent','air-aim','air-fire','air-attack'].includes(player.state);
     if (btnOverhead) btnOverhead.textContent = isAirborne ? 'Slam' : 'Overhead';
     $('btn-boost')?.replaceChildren(document.createTextNode(input.boost ? 'Land' : 'Boost'));
     if (time > messageUntil) $('notice').textContent = '';

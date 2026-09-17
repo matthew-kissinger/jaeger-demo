@@ -61,7 +61,8 @@ export class JaegerPlayer {
       if (['prepare','takeoff','descent','landing'].includes(this.state)) { this.onEvent('ground-required'); return; }
       if (['hover','cruise','brake'].includes(this.state)) {
         if (command === 'cannon') {
-          this.enter('air-fire', 'CannonFire', false, 0.08);
+          this.onEvent('servo');
+          this.enter('air-aim', 'CannonAim', false, 0.15);
           return;
         }
         if (['slash','combo','overhead'].includes(command)) {
@@ -79,7 +80,12 @@ export class JaegerPlayer {
       if (['walk','turn','stop'].includes(this.state)) { this.pending = command; if(this.state !== 'stop') this.enter('stop','PilotStop'); return; }
       if (!['idle','walk','turn','stop'].includes(this.state)) { this.pending = command; return; }
       this.velocity.set(0, 0, 0);
-      if (command === 'cannon') { const error = angleDelta(this.yaw, this.input.yaw); if (Math.abs(error) > 0.12) this.enter('aim-turn', error > 0 ? 'PilotTurnRight' : 'PilotTurnLeft', true); else this.enter('aim', 'CannonAim'); }
+      if (command === 'cannon') {
+        this.onEvent('servo');
+        const error = angleDelta(this.yaw, this.input.yaw);
+        if (Math.abs(error) > 0.12) this.enter('aim-turn', error > 0 ? 'PilotTurnRight' : 'PilotTurnLeft', true);
+        else this.enter('aim', 'CannonAim');
+      }
       else { const clip = command === 'slash' ? (this.alt = !this.alt) ? 'SlashRight' : 'SlashLeft' : command === 'combo' ? 'SlashCombo' : command === 'overhead' ? 'OverheadStrike' : 'HitRecovery'; this.enter('attack', clip); }
     }
   }
@@ -162,7 +168,7 @@ export class JaegerPlayer {
       return;
     }
     const input = this.input.movement(), moving = Math.hypot(input.forward, input.right) > 0.12 && !this.pending;
-    const airborne = ['hover','cruise','brake','descent','landing','takeoff','air-fire','air-attack'].includes(this.state);
+    const airborne = ['hover','cruise','brake','descent','landing','takeoff','air-aim','air-fire','air-attack'].includes(this.state);
     const intent = cameraTravel(input.forward, input.right, this.input.yaw, this.input.pitch, airborne);
     if (['idle','walk','turn','stop'].includes(this.state)) {
       if (moving) {
@@ -170,11 +176,13 @@ export class JaegerPlayer {
         this.yaw = turnToward(this.yaw, desired, dt * (this.state === 'walk' ? 0.85 : 1.0));
         if (Math.abs(error) > 0.25) { this.velocity.multiplyScalar(Math.exp(-dt * 9)); if (this.state !== 'turn') this.enter('turn', error > 0 ? 'PilotTurnRight' : 'PilotTurnLeft', true); }
         else {
-          const speed = 2.8 * this.scale * Math.min(1, Math.hypot(input.forward, input.right));
+          const walkStrideSpeed = 1.25 * this.scale;
+          const walkSpeed = walkStrideSpeed * 1.15;
+          const speed = walkSpeed * Math.min(1, Math.hypot(input.forward, input.right));
           const target = new THREE.Vector3(Math.cos(this.yaw) * speed, 0, Math.sin(this.yaw) * speed);
           this.velocity.lerp(target, 1 - Math.exp(-dt * 3.5));
           if (this.state !== 'walk') { this.enter('walk', 'PilotWalk', true); this.action.time = 0.72; this.lastStepPhase = 0.3; }
-          this.action.timeScale = (this.velocity.length() / (2.8 * this.scale)) * 1.15;
+          this.action.timeScale = this.velocity.length() / walkStrideSpeed;
         }
       } else {
         this.velocity.multiplyScalar(Math.exp(-dt * 7));
@@ -184,6 +192,10 @@ export class JaegerPlayer {
       if (this.pending && this.state === 'idle') { const pending = this.pending; this.pending = ''; this.command(pending); }
     } else if (this.state === 'attack') {
       if (this.elapsed >= this.action.getClip().duration) this.enter('idle', 'Idle', true);
+    } else if (this.state === 'air-aim') {
+      this.yaw = turnToward(this.yaw, this.input.yaw, dt * 3.2);
+      this.velocity.lerp(new THREE.Vector3(), 1 - Math.exp(-dt * 3.0));
+      if (this.elapsed >= 0.85) this.enter('air-fire', 'CannonFire', false, 0.08);
     } else if (this.state === 'air-fire') {
       this.yaw = turnToward(this.yaw, this.input.yaw, dt * 2.2);
       this.velocity.lerp(new THREE.Vector3(), 1 - Math.exp(-dt * 2.0));
@@ -274,7 +286,7 @@ export class JaegerPlayer {
     const bounds = airborne && this.site.flightBounds ? this.site.flightBounds : this.site.pilotBounds;
     this.wrapper.position.x = clamp(next.x, bounds.min[0], bounds.max[0]);
     this.wrapper.position.z = clamp(next.z, bounds.min[2], bounds.max[2]);
-    if (['hover','cruise','brake','air-fire'].includes(this.state)) this.wrapper.position.y = clamp(next.y, 2 * this.scale, bounds.max[1]);
+    if (['hover','cruise','brake','air-aim','air-fire'].includes(this.state)) this.wrapper.position.y = clamp(next.y, 2 * this.scale, bounds.max[1]);
     if (this.state === 'air-attack') this.wrapper.position.y = clamp(next.y, 0, bounds.max[1]);
     this.wrapper.rotation.y = -this.yaw;
     const previousTime = this.action.time;
@@ -282,7 +294,14 @@ export class JaegerPlayer {
     this.ik.update(this.state, this.action.time, this.elapsed);
     this.wrapper.updateMatrixWorld(true);
     this.onPose({ actionId: this.actionSerial, state: this.state, clip: this.currentClip, previousTime, time: this.action.time }, dt);
-    if (this.state === 'walk') { const phase = this.action.time / 2.4; if (phase < this.lastStepPhase || (this.lastStepPhase < 0.5 && phase >= 0.5)) this.onEvent('footstep'); this.lastStepPhase = phase; }
+    if (this.state === 'walk') {
+      const phase = this.action.time / 2.4;
+      if (phase < this.lastStepPhase || (this.lastStepPhase < 0.5 && phase >= 0.5)) {
+        const side = (this.lastStepPhase < 0.5 && phase >= 0.5) ? 'L' : 'R';
+        this.onEvent('footstep', side);
+      }
+      this.lastStepPhase = phase;
+    }
     this.faded = this.faded.filter(item => { if (item.until <= this.total && item.action !== this.action) { item.action.stop(); return false; } return true; });
   }
 }

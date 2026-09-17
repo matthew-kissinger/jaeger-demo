@@ -3,65 +3,65 @@
     "name": "straight",
     "state": "idle",
     "position": [
-      -76.20238961558607,
+      -38.44416744589898,
       0,
       0
     ],
     "maxReachError": 0,
     "worstReach": null,
-    "maxCorrection": 3.61346481310123,
-    "maxContactError": 1.707613964003266e-13
+    "maxCorrection": 9.418615511298054,
+    "maxContactError": 0.000002882170664366966
   },
   {
     "name": "turn-90",
     "state": "idle",
     "position": [
-      -123.2961626110919,
+      -92.12188604481527,
       0,
-      31.27234643606641
+      35.3691319350409
     ],
     "maxReachError": 0,
     "worstReach": null,
-    "maxCorrection": 3.8722089308036645,
-    "maxContactError": 1.7567980548676294e-13
+    "maxCorrection": 6.300842871591867,
+    "maxContactError": 0.000445027477095757
   },
   {
     "name": "turn-180",
     "state": "idle",
     "position": [
-      -145,
+      -119.96819957387021,
       0,
-      0.4955427996784555
+      0.44173195476809113
     ],
     "maxReachError": 0,
     "worstReach": null,
-    "maxCorrection": 6.617164880455148,
-    "maxContactError": 1.7567980548676294e-13
+    "maxCorrection": 8.100523395717108,
+    "maxContactError": 0.0004605955763175345
   },
   {
     "name": "handoff-heading",
     "state": "idle",
     "position": [
-      -115.76916229059682,
+      -83.76882635864246,
       0,
-      -11.483930341287316
+      -12.802965313191958
     ],
     "maxReachError": 0,
     "worstReach": null,
-    "maxCorrection": 3.8721642726278045,
-    "maxContactError": 1.8089209587090192e-13
+    "maxCorrection": 3.764561806876521,
+    "maxContactError": 1.7695938091452877e-13
   },
   {
     "name": "short-step",
     "state": "idle",
     "position": [
-      -121.06150809659412,
+      -89.64335510791543,
       0,
       0
     ],
     "maxReachError": 0,
     "worstReach": null,
-    "maxCorrection": 4.123276045929745,
-    "maxContactError": 1.9902332469576888e-13
+    "maxCorrection": 3.733082405308802,
+    "maxContactError": 1.848777036351761e-13
   }
 ]

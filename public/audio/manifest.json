@@ -12,9 +12,9 @@
         "prompt_influence": 0.4,
         "model_id": "eleven_text_to_sound_v2"
       },
-      "format": "mp3_44100_128",
-      "bytes": 257088,
-      "sha256": "ee859b3b939d5085ea931bbeb4ff640ec3d85fac105fbe34ea437d23f94d00c3",
+      "format": "mp3_44100_96_stereo",
+      "bytes": 192827,
+      "sha256": "8a1b1c09544afe5e8f04aaf1dfae212d9d5ab0bac721fe517fcc8da3c5abd30c",
       "characterCost": "88",
       "requestId": null,
       "review": "pending audition and in-scene mix"
@@ -30,9 +30,9 @@
         "prompt_influence": 0.4,
         "model_id": "eleven_text_to_sound_v2"
       },
-      "format": "mp3_44100_128",
-      "bytes": 129193,
-      "sha256": "f7e2cec8f534d73ca7cc32b370a7dddb8f48b0cc01b1e5c3b880345fcb3da833",
+      "format": "mp3_44100_96_stereo",
+      "bytes": 96906,
+      "sha256": "36738086946ac570de06e8ebc42691772e040afc9108a00c77c9404d57f23773",
       "characterCost": "44",
       "requestId": null,
       "review": "pending audition and in-scene mix"
@@ -48,9 +48,9 @@
         "prompt_influence": 0.4,
         "model_id": "eleven_text_to_sound_v2"
       },
-      "format": "mp3_44100_128",
-      "bytes": 65245,
-      "sha256": "9af344651653237e79827ef5c95be2806c4c3c7443676cf937b64b0e173ca32a",
+      "format": "mp3_44100_96_mono",
+      "bytes": 41735,
+      "sha256": "01056d35e29ae98fb14b668c8940d9167eaf7959ac6a8a9262dd47a1954f5b8e",
       "characterCost": "22",
       "requestId": null,
       "review": "pending audition and in-scene mix"
@@ -66,9 +66,9 @@
         "prompt_influence": 0.4,
         "model_id": "eleven_text_to_sound_v2"
       },
-      "format": "mp3_44100_128",
-      "bytes": 48945,
-      "sha256": "0979ab89528c5cafcc9e92d0c3a7e1eb8453accc5ade3171b16c322efabecb1c",
+      "format": "mp3_44100_96_mono",
+      "bytes": 34525,
+      "sha256": "7160d461a58c3f58518137bc8adb7245be47dae63ffdd2d01551a3660896de38",
       "characterCost": "16",
       "requestId": null,
       "review": "pending audition and in-scene mix"
@@ -79,14 +79,14 @@
       "provider": "ElevenLabs",
       "request": {
         "text": "One colossal eighty-metre armored mech foot slams onto a thick reinforced concrete dock. Overwhelming deep bass ground impact thud that shakes the earth, heavy sub-bass rumble, distant structural groan, very brief gritty concrete dust tail. Massive weight, seismic scale. One impact right at the start, deep controlled transient, no metallic clink, no explosion, no music or voices.",
-        "duration_seconds": 2.0,
+        "duration_seconds": 2,
         "loop": false,
         "prompt_influence": 0.5,
         "model_id": "eleven_text_to_sound_v2"
       },
-      "format": "mp3_44100_128",
-      "bytes": 33062,
-      "sha256": "41a87fecb13c91fac4a80ce24fd85f0a74fccd1712bafc1f731d6e53779088d1",
+      "format": "mp3_44100_96_mono",
+      "bytes": 19479,
+      "sha256": "baeb43c0ef3bbd34e2525297fb4242c687d8161f33b512ca2129a017df2af3c1",
       "characterCost": "10",
       "requestId": null,
       "review": "pending regeneration with heavier bass prompt"
@@ -102,9 +102,9 @@
         "prompt_influence": 0.4,
         "model_id": "eleven_text_to_sound_v2"
       },
-      "format": "mp3_44100_128",
-      "bytes": 41839,
-      "sha256": "0328e9b79016ee98b2b517465fc8707a7610a67316d0d3e44d4aa896b0841e72",
+      "format": "mp3_44100_96_mono",
+      "bytes": 31390,
+      "sha256": "74fd9fb001ea829db18fb6e0160acdc3941bdb2de988c87134e576d4826e5c00",
       "characterCost": "13",
       "requestId": null,
       "review": "pending audition and in-scene mix"
@@ -120,9 +120,9 @@
         "prompt_influence": 0.4,
         "model_id": "eleven_text_to_sound_v2"
       },
-      "format": "mp3_44100_128",
-      "bytes": 36406,
-      "sha256": "246ec6d634418cc8754b735acf4caa39556ab340e0b8e63e0c05eeaa1d2b86ac",
+      "format": "mp3_44100_96_mono",
+      "bytes": 16971,
+      "sha256": "a85369bcb34ae5e3fa17816e49e3afda4347214373fd7226fa54ce6d1d946818",
       "characterCost": "12",
       "requestId": null,
       "review": "pending audition and in-scene mix"
@@ -138,9 +138,9 @@
         "prompt_influence": 0.4,
         "model_id": "eleven_text_to_sound_v2"
       },
-      "format": "mp3_44100_128",
-      "bytes": 20106,
-      "sha256": "ea6af664017f207d460f61f00ed465722aace93a9cbaaf65450e06ce16c9569e",
+      "format": "mp3_44100_96_mono",
+      "bytes": 11015,
+      "sha256": "111abecbebc47931f22d3fbb0b91e0a24c34e1bf40d186985b89ff24f3ee5715",
       "characterCost": "7",
       "requestId": null,
       "review": "pending audition and in-scene mix"
@@ -156,9 +156,9 @@
         "prompt_influence": 0.4,
         "model_id": "eleven_text_to_sound_v2"
       },
-      "format": "mp3_44100_128",
-      "bytes": 28047,
-      "sha256": "028d9154a4745591bca848bdf88037194fcc60fcc06e637c9caf8e7c4e774302",
+      "format": "mp3_44100_96_mono",
+      "bytes": 12269,
+      "sha256": "56beec4fe5cada4afa4adbc251ef5199abc0be884f7a9c73ed17f6c02433670f",
       "characterCost": "9",
       "requestId": null,
       "review": "pending audition and in-scene mix"
@@ -174,9 +174,9 @@
         "prompt_influence": 0.4,
         "model_id": "eleven_text_to_sound_v2"
       },
-      "format": "mp3_44100_128",
-      "bytes": 33062,
-      "sha256": "f9e2b43e0c9f6c66e04e7adfd4cb41a34ceec5194fb1648daeac7ab2cb5480a0",
+      "format": "mp3_44100_96_mono",
+      "bytes": 22927,
+      "sha256": "82ea67e50e811b24e341da42feed4843fbde9310f9704e14361d01c6601ed8ca",
       "characterCost": "11",
       "requestId": null,
       "review": "pending audition and in-scene mix"
@@ -192,9 +192,9 @@
         "prompt_influence": 0.4,
         "model_id": "eleven_text_to_sound_v2"
       },
-      "format": "mp3_44100_128",
-      "bytes": 97010,
-      "sha256": "52d4f2656b6972c244791387a35c588b3822561b79c224ba706eb37e94ef86a3",
+      "format": "mp3_44100_96_stereo",
+      "bytes": 72768,
+      "sha256": "c686f58c8c3243c6a71946577d18544c07dc37f329f68707dc0c938307835d0f",
       "characterCost": "33",
       "requestId": null,
       "review": "pending audition and in-scene mix"
@@ -210,9 +210,9 @@
         "prompt_influence": 0.4,
         "model_id": "eleven_text_to_sound_v2"
       },
-      "format": "mp3_44100_128",
-      "bytes": 45183,
-      "sha256": "874c21a97614639d40bfa25f679351aaa3d8200b8ae903bf6a213037125fdd0e",
+      "format": "mp3_44100_96_mono",
+      "bytes": 21673,
+      "sha256": "89f143d30531d562cc146712a02206481a0906ee4ec6475c83b95c9fce7451c0",
       "characterCost": "15",
       "requestId": null,
       "review": "pending audition and in-scene mix"
